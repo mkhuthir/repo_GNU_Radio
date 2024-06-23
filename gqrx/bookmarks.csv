@@ -45,6 +45,8 @@ HAM70cm             ; #729fcf
 HAM80m              ; #729fcf
 IRNSS               ; #a08c14
 ISM                 ; #edd400
+ISM_315             ; #ff5500
+ISM_433             ; #ff007f
 LF                  ; #8ae234
 MW                  ; #0056e6
 Marine              ; #c07010
@@ -2184,10 +2186,11 @@ Wi-Fi-2.4G          ; #c0c0c0
    163275000; WX10                     ; Narrow FM           ;      25000; NOAA
    219000000; S                        ; Narrow FM           ;      10000; HAM1.25m
    225000000; E                        ; Narrow FM           ;      10000; HAM1.25m
-   315000000; ISM 315.000 MHz          ; Demod Off           ;      50000; ISM
-   336013000; ISM 336.013 MHz          ; Demod Off           ;      50000; ISM
-   336330000; ISM 336.330 MHz          ; Demod Off           ;      50000; ISM
-   337226000; ISM 337.226 MHz          ; Demod Off           ;      50000; ISM
+   315000000; ISM 315.000 MHz          ; Demod Off           ;      50000; ISM_315
+   315100000; key_315.1                ; Demod Off           ;      25000; ISM_315
+   336013000; ISM 336.013 MHz          ; Demod Off           ;      50000; ISM_315
+   336330000; ISM 336.330 MHz          ; Demod Off           ;      50000; ISM_315
+   337226000; ISM 337.226 MHz          ; Demod Off           ;      50000; ISM_315
    380000000; 3200 (S)                 ; Narrow FM           ;      25000; Tetra
    380200000; 3208                     ; Narrow FM           ;      25000; Tetra
    390000000; 3600                     ; Narrow FM           ;      25000; Tetra
@@ -3012,16 +3015,15 @@ Wi-Fi-2.4G          ; #c0c0c0
    430707000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
    431550000; *                        ; Narrow FM           ;      10000; HAM70cm
    431727000; *                        ; Narrow FM           ;      10000; HAM70cm
-   433050000; S                        ; Demod Off           ;          0; ISM
-   433165000; *                        ; Demod Off           ;      50000; ISM
-   433335000; *                        ; Demod Off           ;      50000; ISM
-   433604000; *                        ; Demod Off           ;      50000; ISM
-   433915000; *                        ; Demod Off           ;      50000; ISM
-   433920000; *                        ; Demod Off           ;      50000; ISM
-   434000000; *                        ; Demod Off           ;      50000; ISM
-   434226000; *                        ; Demod Off           ;      50000; ISM
-   434538000; *                        ; Demod Off           ;      50000; ISM
-   434790000; E                        ; Demod Off           ;          0; ISM
+   433050000; S                        ; Demod Off           ;          0; ISM_433
+   433165000; *                        ; Demod Off           ;      50000; ISM_433
+   433335000; *                        ; Demod Off           ;      50000; ISM_433
+   433600000; rtl_433_600_250k         ; Demod Off           ;      50000; ISM_433
+   433920000; rtl_433_920_250k         ; Demod Off           ;     250000; ISM_433
+   434000000; *                        ; Demod Off           ;      50000; ISM_433
+   434226000; *                        ; Demod Off           ;      50000; ISM_433
+   434538000; *                        ; Demod Off           ;      50000; ISM_433
+   434790000; E                        ; Demod Off           ;          0; ISM_433
    434825000; *                        ; Narrow FM           ;      10000; HAM70cm
    435126400; *                        ; Narrow FM           ;      10000; HAM70cm
    435725000; *                        ; Narrow FM           ;      10000; HAM70cm
