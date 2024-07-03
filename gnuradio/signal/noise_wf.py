@@ -8,9 +8,9 @@
 # Title: Noise Waterfall
 # Author: Muthanna A. Alwahash
 # Copyright: 2021
-# GNU Radio version: 3.8.3.1
+# GNU Radio version: 3.10.1.1
 
-from distutils.version import StrictVersion
+from packaging.version import Version as StrictVersion
 
 if __name__ == '__main__':
     import ctypes
@@ -28,18 +28,21 @@ from gnuradio.filter import firdes
 import sip
 from gnuradio import analog
 from gnuradio import gr
+from gnuradio.fft import window
 import sys
 import signal
 from argparse import ArgumentParser
 from gnuradio.eng_arg import eng_float, intx
 from gnuradio import eng_notation
 
+
+
 from gnuradio import qtgui
 
 class noise_wf(gr.top_block, Qt.QWidget):
 
     def __init__(self):
-        gr.top_block.__init__(self, "Noise Waterfall")
+        gr.top_block.__init__(self, "Noise Waterfall", catch_exceptions=True)
         Qt.QWidget.__init__(self)
         self.setWindowTitle("Noise Waterfall")
         qtgui.util.check_set_qss()
@@ -84,11 +87,12 @@ class noise_wf(gr.top_block, Qt.QWidget):
         ##################################################
         self.qtgui_waterfall_sink_x_0 = qtgui.waterfall_sink_c(
             ftt_size, #size
-            firdes.WIN_HAMMING, #wintype
+            window.WIN_BLACKMAN_hARRIS, #wintype
             center_freq, #fc
             bandwidth, #bw
             '', #name
-            1 #number of inputs
+            1, #number of inputs
+            None # parent
         )
         self.qtgui_waterfall_sink_x_0.set_update_time(0.10)
         self.qtgui_waterfall_sink_x_0.enable_grid(True)
@@ -114,7 +118,8 @@ class noise_wf(gr.top_block, Qt.QWidget):
 
         self.qtgui_waterfall_sink_x_0.set_intensity_range(-140, 10)
 
-        self._qtgui_waterfall_sink_x_0_win = sip.wrapinstance(self.qtgui_waterfall_sink_x_0.pyqwidget(), Qt.QWidget)
+        self._qtgui_waterfall_sink_x_0_win = sip.wrapinstance(self.qtgui_waterfall_sink_x_0.qwidget(), Qt.QWidget)
+
         self.top_grid_layout.addWidget(self._qtgui_waterfall_sink_x_0_win, 1, 0, 1, 1)
         for r in range(1, 2):
             self.top_grid_layout.setRowStretch(r, 1)
@@ -122,11 +127,12 @@ class noise_wf(gr.top_block, Qt.QWidget):
             self.top_grid_layout.setColumnStretch(c, 1)
         self.qtgui_freq_sink_x_0 = qtgui.freq_sink_c(
             ftt_size, #size
-            firdes.WIN_BLACKMAN_hARRIS, #wintype
+            window.WIN_BLACKMAN_hARRIS, #wintype
             center_freq, #fc
             bandwidth, #bw
             '', #name
-            1
+            1,
+            None # parent
         )
         self.qtgui_freq_sink_x_0.set_update_time(0.10)
         self.qtgui_freq_sink_x_0.set_y_axis(-140, 10)
@@ -137,6 +143,7 @@ class noise_wf(gr.top_block, Qt.QWidget):
         self.qtgui_freq_sink_x_0.set_fft_average(1.0)
         self.qtgui_freq_sink_x_0.enable_axis_labels(True)
         self.qtgui_freq_sink_x_0.enable_control_panel(False)
+        self.qtgui_freq_sink_x_0.set_fft_window_normalized(False)
 
         self.qtgui_freq_sink_x_0.disable_legend()
 
@@ -159,7 +166,7 @@ class noise_wf(gr.top_block, Qt.QWidget):
             self.qtgui_freq_sink_x_0.set_line_color(i, colors[i])
             self.qtgui_freq_sink_x_0.set_line_alpha(i, alphas[i])
 
-        self._qtgui_freq_sink_x_0_win = sip.wrapinstance(self.qtgui_freq_sink_x_0.pyqwidget(), Qt.QWidget)
+        self._qtgui_freq_sink_x_0_win = sip.wrapinstance(self.qtgui_freq_sink_x_0.qwidget(), Qt.QWidget)
         self.top_grid_layout.addWidget(self._qtgui_freq_sink_x_0_win, 0, 0, 1, 1)
         for r in range(0, 1):
             self.top_grid_layout.setRowStretch(r, 1)
@@ -178,6 +185,9 @@ class noise_wf(gr.top_block, Qt.QWidget):
     def closeEvent(self, event):
         self.settings = Qt.QSettings("GNU Radio", "noise_wf")
         self.settings.setValue("geometry", self.saveGeometry())
+        self.stop()
+        self.wait()
+
         event.accept()
 
     def get_bandwidth(self):
@@ -225,7 +235,6 @@ class noise_wf(gr.top_block, Qt.QWidget):
 
 
 
-
 def main(top_block_cls=noise_wf, options=None):
 
     if StrictVersion("4.5.0") <= StrictVersion(Qt.qVersion()) < StrictVersion("5.0.0"):
@@ -240,6 +249,9 @@ def main(top_block_cls=noise_wf, options=None):
     tb.show()
 
     def sig_handler(sig=None, frame=None):
+        tb.stop()
+        tb.wait()
+
         Qt.QApplication.quit()
 
     signal.signal(signal.SIGINT, sig_handler)
@@ -249,11 +261,6 @@ def main(top_block_cls=noise_wf, options=None):
     timer.start(500)
     timer.timeout.connect(lambda: None)
 
-    def quitting():
-        tb.stop()
-        tb.wait()
-
-    qapp.aboutToQuit.connect(quitting)
     qapp.exec_()
 
 if __name__ == '__main__':
