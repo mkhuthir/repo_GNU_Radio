@@ -108,7 +108,6 @@ class noise_wf(gr.top_block, Qt.QWidget):
         ##################################################
         # Connections
         ##################################################
-        self.msg_connect((self.qtgui_sink_x_0, 'freq'), (self.qtgui_sink_x_0, 'freq'))
         self.connect((self.analog_sig_source_x_0, 0), (self.qtgui_sink_x_0, 0))
 
 
