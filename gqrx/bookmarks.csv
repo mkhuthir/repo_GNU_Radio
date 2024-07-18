@@ -3022,19 +3022,16 @@ Wi-Fi-2.4G          ; #c0c0c0
    430707000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
    431550000; *                        ; Narrow FM           ;      10000; HAM70cm
    431727000; *                        ; Narrow FM           ;      10000; HAM70cm
-   433050000; S                        ; Demod Off           ;          0; ISM_433
-   433165000; *                        ; Demod Off           ;      50000; ISM_433
-   433335000; *                        ; Demod Off           ;      50000; ISM_433
-   433600000; rtl_433_600_250k         ; Demod Off           ;      50000; ISM_433
-   433920000; rtl_433_920_250k         ; Demod Off           ;     250000; ISM_433
-   434000000; *                        ; Demod Off           ;      50000; ISM_433
-   434226000; *                        ; Demod Off           ;      50000; ISM_433
-   434538000; *                        ; Demod Off           ;      50000; ISM_433
-   434790000; E                        ; Demod Off           ;          0; ISM_433
+   433070000; *                        ; Demod Off           ;      25000; ISM_433
+   433420000; *                        ; Demod Off           ;      25000; ISM_433
+   433920000; *                        ; Demod Off           ;     250000; ISM_433
+   434420000; *                        ; Demod Off           ;      25000; ISM_433
+   434770000; *                        ; Demod Off           ;      25000; ISM_433
    434825000; *                        ; Narrow FM           ;      10000; HAM70cm
    435126400; *                        ; Narrow FM           ;      10000; HAM70cm
    435725000; *                        ; Narrow FM           ;      10000; HAM70cm
    436703000; Norbi                    ; Demod Off           ;       2000; SAT
+   438900000; *                        ; Demod Off           ;      25000; ISM_433
    450000000; E                        ; Narrow FM           ;      10000; HAM70cm
    470000000; S                        ; Demod Off           ;          0; DVB
    477896000; S                        ; Demod Off           ;          0; DVB
