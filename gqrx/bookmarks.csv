@@ -1,4 +1,5 @@
 # Tag name          ;  color
+*new*               ; #c0c0c0
 11m                 ; #ad7fa8
 120m                ; #73d216
 13m                 ; #204a87
@@ -3032,6 +3033,28 @@ Wi-Fi-2.4G          ; #c0c0c0
    435725000; *                        ; Narrow FM           ;      10000; HAM70cm
    436703000; Norbi                    ; Demod Off           ;       2000; SAT
    438900000; *                        ; Demod Off           ;      25000; ISM_433
+   439225000; V                        ; Narrow FM           ;      20000; Untagged
+   439825000; V                        ; Narrow FM           ;      20000; Untagged
+   440200000; *                        ; Narrow FM           ;      20000; Untagged
+   440275000; V                        ; Narrow FM           ;      20000; Untagged
+   440300000; V                        ; Narrow FM           ;      20000; Untagged
+   440325000; V                        ; Narrow FM           ;      20000; Untagged
+   440350000; V                        ; Narrow FM           ;      20000; Untagged
+   440375000; V                        ; Narrow FM           ;      20000; Untagged
+   440400000; V                        ; Narrow FM           ;      20000; Untagged
+   440425000; V                        ; Narrow FM           ;      20000; Untagged
+   440450000; V                        ; Narrow FM           ;      20000; Untagged
+   440475000; V                        ; Narrow FM           ;      20000; Untagged
+   440500000; V                        ; Narrow FM           ;      20000; Untagged
+   440525000; V                        ; Narrow FM           ;      20000; Untagged
+   440550000; V                        ; Narrow FM           ;      20000; Untagged
+   440575000; V                        ; Narrow FM           ;      20000; Untagged
+   440600000; V                        ; Narrow FM           ;      20000; Untagged
+   440625000; V                        ; Narrow FM           ;      20000; Untagged
+   440650000; V                        ; Narrow FM           ;      20000; Untagged
+   440675000; V                        ; Narrow FM           ;      20000; Untagged
+   440700000; V                        ; Narrow FM           ;      20000; *new*
+   440825000; V                        ; Narrow FM           ;      20000; Untagged
    450000000; E                        ; Narrow FM           ;      10000; HAM70cm
    470000000; S                        ; Demod Off           ;          0; DVB
    477896000; S                        ; Demod Off           ;          0; DVB
