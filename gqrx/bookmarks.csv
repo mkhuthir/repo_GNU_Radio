@@ -1,5 +1,4 @@
 # Tag name          ;  color
-*new*               ; #c0c0c0
 11m                 ; #ad7fa8
 120m                ; #73d216
 13m                 ; #204a87
@@ -2193,46 +2192,46 @@ Wi-Fi-2.4G          ; #c0c0c0
    162525000; WX7                      ; Narrow FM           ;      25000; NOAA
    162550000; WX1                      ; Narrow FM           ;      25000; NOAA
    163275000; WX10                     ; Narrow FM           ;      25000; NOAA
-174928000; DAB 5A; Demod Off   ; 1712000; DAB
-176640000; DAB 5B; Demod Off   ; 1712000; DAB
-178352000; DAB 5C; Demod Off   ; 1712000; DAB
-180064000; DAB 5D; Demod Off   ; 1712000; DAB
-181936000; DAB 6A; Demod Off   ; 1712000; DAB
-183648000; DAB 6B; Demod Off   ; 1712000; DAB
-185360000; DAB 6C; Demod Off   ; 1712000; DAB
-187072000; DAB 6D; Demod Off   ; 1712000; DAB
-188928000; DAB 7A; Demod Off   ; 1712000; DAB
-190640000; DAB 7B; Demod Off   ; 1712000; DAB
-192352000; DAB 7C; Demod Off   ; 1712000; DAB
-194064000; DAB 7D; Demod Off   ; 1712000; DAB
-195936000; DAB 8A; Demod Off   ; 1712000; DAB
-197648000; DAB 8B; Demod Off   ; 1712000; DAB
-199360000; DAB 8C; Demod Off   ; 1712000; DAB
-201072000; DAB 8D; Demod Off   ; 1712000; DAB
-202928000; DAB 9A; Demod Off   ; 1712000; DAB
-204640000; DAB 9B; Demod Off   ; 1712000; DAB
-206352000; DAB 9C; Demod Off   ; 1712000; DAB
-208064000; DAB 9D; Demod Off   ; 1712000; DAB
-209936000; DAB 10A; Demod Off   ; 1712000; DAB
-211648000; DAB 10B; Demod Off   ; 1712000; DAB
-213360000; DAB 10C; Demod Off   ; 1712000; DAB
-215072000; DAB 10D; Demod Off   ; 1712000; DAB
-216928000; DAB 11A; Demod Off   ; 1712000; DAB
-218640000; DAB 11B; Demod Off   ; 1712000; DAB
-220352000; DAB 11C; Demod Off   ; 1712000; DAB
-222064000; DAB 11D; Demod Off   ; 1712000; DAB
-223936000; DAB 12A; Demod Off   ; 1712000; DAB
-225648000; DAB 12B; Demod Off   ; 1712000; DAB
-227360000; DAB 12C; Demod Off   ; 1712000; DAB
-229072000; DAB 12D; Demod Off   ; 1712000; DAB
-230784000; DAB 13A; Demod Off   ; 1712000; DAB
-232496000; DAB 13B; Demod Off   ; 1712000; DAB
-234208000; DAB 13C; Demod Off   ; 1712000; DAB
-235776000; DAB 13D; Demod Off   ; 1712000; DAB
-237488000; DAB 13E; Demod Off   ; 1712000; DAB
-239200000; DAB 13F; Demod Off   ; 1712000; DAB
+   174928000; DAB 5A                   ; Demod Off           ;    1712000; DAB
+   176640000; DAB 5B                   ; Demod Off           ;    1712000; DAB
+   178352000; DAB 5C                   ; Demod Off           ;    1712000; DAB
+   180064000; DAB 5D                   ; Demod Off           ;    1712000; DAB
+   181936000; DAB 6A                   ; Demod Off           ;    1712000; DAB
+   183648000; DAB 6B                   ; Demod Off           ;    1712000; DAB
+   185360000; DAB 6C                   ; Demod Off           ;    1712000; DAB
+   187072000; DAB 6D                   ; Demod Off           ;    1712000; DAB
+   188928000; DAB 7A                   ; Demod Off           ;    1712000; DAB
+   190640000; DAB 7B                   ; Demod Off           ;    1712000; DAB
+   192352000; DAB 7C                   ; Demod Off           ;    1712000; DAB
+   194064000; DAB 7D                   ; Demod Off           ;    1712000; DAB
+   195936000; DAB 8A                   ; Demod Off           ;    1712000; DAB
+   197648000; DAB 8B                   ; Demod Off           ;    1712000; DAB
+   199360000; DAB 8C                   ; Demod Off           ;    1712000; DAB
+   201072000; DAB 8D                   ; Demod Off           ;    1712000; DAB
+   202928000; DAB 9A                   ; Demod Off           ;    1712000; DAB
+   204640000; DAB 9B                   ; Demod Off           ;    1712000; DAB
+   206352000; DAB 9C                   ; Demod Off           ;    1712000; DAB
+   208064000; DAB 9D                   ; Demod Off           ;    1712000; DAB
+   209936000; DAB 10A                  ; Demod Off           ;    1712000; DAB
+   211648000; DAB 10B                  ; Demod Off           ;    1712000; DAB
+   213360000; DAB 10C                  ; Demod Off           ;    1712000; DAB
+   215072000; DAB 10D                  ; Demod Off           ;    1712000; DAB
+   216928000; DAB 11A                  ; Demod Off           ;    1712000; DAB
+   218640000; DAB 11B                  ; Demod Off           ;    1712000; DAB
    219000000; S                        ; Narrow FM           ;      10000; HAM1.25m
+   220352000; DAB 11C                  ; Demod Off           ;    1712000; DAB
+   222064000; DAB 11D                  ; Demod Off           ;    1712000; DAB
+   223936000; DAB 12A                  ; Demod Off           ;    1712000; DAB
    225000000; E                        ; Narrow FM           ;      10000; HAM1.25m
+   225648000; DAB 12B                  ; Demod Off           ;    1712000; DAB
+   227360000; DAB 12C                  ; Demod Off           ;    1712000; DAB
+   229072000; DAB 12D                  ; Demod Off           ;    1712000; DAB
+   230784000; DAB 13A                  ; Demod Off           ;    1712000; DAB
+   232496000; DAB 13B                  ; Demod Off           ;    1712000; DAB
+   234208000; DAB 13C                  ; Demod Off           ;    1712000; DAB
+   235776000; DAB 13D                  ; Demod Off           ;    1712000; DAB
+   237488000; DAB 13E                  ; Demod Off           ;    1712000; DAB
+   239200000; DAB 13F                  ; Demod Off           ;    1712000; DAB
    315000000; ISM 315.000 MHz          ; Demod Off           ;      50000; ISM_315
    315100000; key_315.1                ; Demod Off           ;      25000; ISM_315
    336013000; ISM 336.013 MHz          ; Demod Off           ;      50000; ISM_315
@@ -2641,6 +2640,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    399950000; 399                      ; Demod Off           ;      24000; Tetra
    399975000; 400                      ; Demod Off           ;      24000; Tetra
    400000000; E                        ; Demod Off           ;      24000; Tetra
+   400600000; V                        ; Narrow FM           ;      20000; Untagged
    420000000; S                        ; Demod Off           ;      24000; Tetra
    420000000; S                        ; Narrow FM           ;      10000; HAM70cm
    420025000; 2                        ; Demod Off           ;      24000; Tetra
@@ -3042,39 +3042,40 @@ Wi-Fi-2.4G          ; #c0c0c0
    429925000; 398                      ; Demod Off           ;      24000; Tetra
    429950000; 3999                     ; Narrow FM           ;      25000; Tetra
    429975000; 4000 (E)                 ; Narrow FM           ;      25000; Tetra
-   430000000; *                        ; Narrow FM           ;      10000; HAM70cm
-   430045000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430057000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430070000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430082000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430095000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430108000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430120000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430182100; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430294000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430326000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430338000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430345000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430445000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430495000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430570000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430657000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   430707000; *                        ; Narrow FM           ;      10000; WalkiTalki_UHF
-   431550000; *                        ; Narrow FM           ;      10000; HAM70cm
-   431727000; *                        ; Narrow FM           ;      10000; HAM70cm
-   433070000; *                        ; Demod Off           ;      25000; ISM_433
-   433420000; *                        ; Demod Off           ;      25000; ISM_433
-   433920000; *                        ; Demod Off           ;     250000; ISM_433
-   434420000; *                        ; Demod Off           ;      25000; ISM_433
-   434770000; *                        ; Demod Off           ;      25000; ISM_433
-   434825000; *                        ; Narrow FM           ;      10000; HAM70cm
-   435126400; *                        ; Narrow FM           ;      10000; HAM70cm
-   435725000; *                        ; Narrow FM           ;      10000; HAM70cm
+   430000000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430025000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430050000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430075000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430100000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430125000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430125000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430150000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430182100; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430300000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430325000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430350000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430425000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430445000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430450000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430550000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430650000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   430700000; V                        ; Narrow FM           ;      10000; WalkiTalki_UHF
+   431550000; V                        ; Narrow FM           ;      10000; HAM70cm
+   431727000; V                        ; Narrow FM           ;      10000; HAM70cm
+   433070000; V                        ; Demod Off           ;      25000; ISM_433
+   433420000; V                        ; Demod Off           ;      25000; ISM_433
+   433920000; V                        ; Demod Off           ;     250000; ISM_433
+   434420000; V                        ; Demod Off           ;      25000; ISM_433
+   434770000; V                        ; Demod Off           ;      25000; ISM_433
+   434825000; V                        ; Narrow FM           ;      10000; HAM70cm
+   435126400; V                        ; Narrow FM           ;      10000; HAM70cm
+   435725000; v                        ; Narrow FM           ;      10000; HAM70cm
    436703000; Norbi                    ; Demod Off           ;       2000; SAT
-   438900000; *                        ; Demod Off           ;      25000; ISM_433
+   438900000; V                        ; Demod Off           ;      25000; ISM_433
+   439150000; V                        ; Narrow FM           ;      20000; Untagged
    439225000; V                        ; Narrow FM           ;      20000; Untagged
    439825000; V                        ; Narrow FM           ;      20000; Untagged
-   440200000; *                        ; Narrow FM           ;      20000; Untagged
+   440200000; V                        ; Narrow FM           ;      20000; Untagged
    440275000; V                        ; Narrow FM           ;      20000; Untagged
    440300000; V                        ; Narrow FM           ;      20000; Untagged
    440325000; V                        ; Narrow FM           ;      20000; Untagged
@@ -3092,8 +3093,20 @@ Wi-Fi-2.4G          ; #c0c0c0
    440625000; V                        ; Narrow FM           ;      20000; Untagged
    440650000; V                        ; Narrow FM           ;      20000; Untagged
    440675000; V                        ; Narrow FM           ;      20000; Untagged
-   440700000; V                        ; Narrow FM           ;      20000; *new*
+   440700000; V                        ; Narrow FM           ;      20000; Untagged
+   440725000; V                        ; Narrow FM           ;      20000; Untagged
    440825000; V                        ; Narrow FM           ;      20000; Untagged
+   440850000; V                        ; Narrow FM           ;      20000; Untagged
+   441225000; V                        ; Narrow FM           ;      20000; Untagged
+   441550000; V                        ; Narrow FM           ;      20000; Untagged
+   441725000; V                        ; Narrow FM           ;      20000; Untagged
+   442225000; V                        ; Narrow FM           ;      20000; Untagged
+   443550000; V                        ; Narrow FM           ;      20000; Untagged
+   444725000; V                        ; Narrow FM           ;      20000; Untagged
+   445625000; V                        ; Narrow FM           ;      20000; Untagged
+   446725000; V                        ; Narrow FM           ;      20000; Untagged
+   447120000; V                        ; Narrow FM           ;      20000; Untagged
+   448675000; V                        ; Narrow FM           ;      20000; Untagged
    450000000; E                        ; Narrow FM           ;      10000; HAM70cm
    470000000; S                        ; Demod Off           ;          0; DVB
    477896000; S                        ; Demod Off           ;          0; DVB
