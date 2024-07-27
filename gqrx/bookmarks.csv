@@ -949,13 +949,13 @@ Wi-Fi-2.4G          ; #c0c0c0
    112150000; 84                       ; Narrow FM           ;      50000; Airband
    112200000; 85                       ; Narrow FM           ;      50000; Airband
    112250000; 86                       ; Narrow FM           ;      50000; Airband
-   112300000; 87                       ; Narrow FM           ;      50000; Airband
+   112300000; 87 SHJ VOR               ; Narrow FM           ;      50000; Airband
    112350000; 88                       ; Narrow FM           ;      50000; Airband
    112400000; 89                       ; Narrow FM           ;      50000; Airband
    112450000; 90                       ; Narrow FM           ;      50000; Airband
    112500000; 91                       ; Narrow FM           ;      50000; Airband
    112550000; 92                       ; Narrow FM           ;      50000; Airband
-   112600000; 93                       ; Narrow FM           ;      50000; Airband
+   112600000; 93 Ain VOR               ; Narrow FM           ;      50000; Airband
    112650000; 94                       ; Narrow FM           ;      50000; Airband
    112700000; 95                       ; Narrow FM           ;      50000; Airband
    112750000; 96                       ; Narrow FM           ;      50000; Airband
@@ -983,7 +983,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    113850000; 118                      ; Narrow FM           ;      50000; Airband
    113900000; 119                      ; Narrow FM           ;      50000; Airband
    113950000; 120                      ; Narrow FM           ;      50000; Airband
-   114000000; 121                      ; Narrow FM           ;      50000; Airband
+   114000000; 121 Bateen VOR-DME       ; Narrow FM           ;      50000; Airband
    114050000; 122                      ; Narrow FM           ;      50000; Airband
    114100000; 123                      ; Narrow FM           ;      50000; Airband
    114150000; 124                      ; Narrow FM           ;      50000; Airband
@@ -997,11 +997,11 @@ Wi-Fi-2.4G          ; #c0c0c0
    114550000; 132                      ; Narrow FM           ;      50000; Airband
    114600000; 133                      ; Narrow FM           ;      50000; Airband
    114650000; 134                      ; Narrow FM           ;      50000; Airband
-   114700000; 135                      ; Narrow FM           ;      50000; Airband
+   114700000; 135 Fujairah VOR-DME     ; Narrow FM           ;      50000; Airband
    114750000; 136                      ; Narrow FM           ;      50000; Airband
    114800000; 137                      ; Narrow FM           ;      50000; Airband
    114850000; 138                      ; Narrow FM           ;      50000; Airband
-   114900000; 139                      ; Narrow FM           ;      50000; Airband
+   114900000; 139 Al Dhafra VORTAC     ; Narrow FM           ;      50000; Airband
    114950000; 140                      ; Narrow FM           ;      50000; Airband
    115000000; 141                      ; Narrow FM           ;      50000; Airband
    115050000; 142                      ; Narrow FM           ;      50000; Airband
@@ -1017,7 +1017,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    115550000; 152                      ; Narrow FM           ;      50000; Airband
    115600000; 153                      ; Narrow FM           ;      50000; Airband
    115650000; 154                      ; Narrow FM           ;      50000; Airband
-   115700000; 155                      ; Narrow FM           ;      50000; Airband
+   115700000; 155 DXB VOR              ; Narrow FM           ;      50000; Airband
    115750000; 156                      ; Narrow FM           ;      50000; Airband
    115800000; 157                      ; Narrow FM           ;      50000; Airband
    115850000; 158                      ; Narrow FM           ;      50000; Airband
