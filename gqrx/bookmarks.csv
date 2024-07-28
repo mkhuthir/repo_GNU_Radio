@@ -54,7 +54,8 @@ Marine              ; #c07010
 Marker              ; #c0c0c0
 NDB                 ; #c0c0c0
 NOAA                ; #cc0000
-PMR446              ; #ff5500
+PMR446              ; #ffffff
+PMR446_D            ; #ffff00
 RC                  ; #729fcf
 RC-VTX              ; #729fcf
 SAT                 ; #73d216
@@ -3699,24 +3700,53 @@ Wi-Fi-2.4G          ; #c0c0c0
    445950000; V                        ; Narrow FM           ;      20000; UHF_Radio
    445975000; V                        ; Narrow FM           ;      20000; UHF_Radio
    446000625; 1A                       ; Narrow FM           ;      12500; PMR446
-   446003125; 1D                       ; Demod Off           ;       6250; PMR446
-   446009375; 2D                       ; Demod Off           ;       6250; PMR446
+   446003125; 1D                       ; Demod Off           ;       6250; PMR446_D
+   446009375; 2D                       ; Demod Off           ;       6250; PMR446_D
+   446015625; 3D                       ; Demod Off           ;       6250; PMR446_D
    446018750; 2A                       ; Narrow FM           ;      12500; PMR446
+   446021875; 4D                       ; Demod Off           ;       6250; PMR446_D
+   446028125; 5D                       ; Demod Off           ;       6250; PMR446_D
    446031250; 3A                       ; Narrow FM           ;      12500; PMR446
+   446034375; 6D                       ; Demod Off           ;       6250; PMR446_D
+   446040625; 7D                       ; Demod Off           ;       6250; PMR446_D
    446043750; 4A                       ; Narrow FM           ;      12500; PMR446
+   446046875; 8D                       ; Demod Off           ;       6250; PMR446_D
+   446053125; 9D                       ; Demod Off           ;       6250; PMR446_D
    446056250; 5A                       ; Narrow FM           ;      12500; PMR446
+   446059375; 10D                      ; Demod Off           ;       6250; PMR446_D
+   446065625; 11D                      ; Demod Off           ;       6250; PMR446_D
    446068750; 6A                       ; Narrow FM           ;      12500; PMR446
+   446071875; 12D                      ; Demod Off           ;       6250; PMR446_D
+   446078125; 13D                      ; Demod Off           ;       6250; PMR446_D
    446081250; 7A                       ; Narrow FM           ;      12500; PMR446
+   446084375; 14D                      ; Demod Off           ;       6250; PMR446_D
+   446090625; 15D                      ; Demod Off           ;       6250; PMR446_D
    446093750; 8A                       ; Narrow FM           ;      12500; PMR446
-   446096875; 16D                      ; Demod Off           ;       6250; PMR446
+   446096875; 16D                      ; Demod Off           ;       6250; PMR446_D
+   446103125; 17D                      ; Demod Off           ;       6250; PMR446_D
    446106250; 9A                       ; Narrow FM           ;      12500; PMR446
+   446109375; 18D                      ; Demod Off           ;       6250; PMR446_D
+   446115625; 19D                      ; Demod Off           ;       6250; PMR446_D
    446118750; 10A                      ; Narrow FM           ;      12500; PMR446
+   446121875; 20D                      ; Demod Off           ;       6250; PMR446_D
+   446128125; 21D                      ; Demod Off           ;       6250; PMR446_D
    446131250; 11A                      ; Narrow FM           ;      12500; PMR446
+   446134375; 22D                      ; Demod Off           ;       6250; PMR446_D
+   446140625; 23D                      ; Demod Off           ;       6250; PMR446_D
    446143750; 12A                      ; Narrow FM           ;      12500; PMR446
+   446146875; 24D                      ; Demod Off           ;       6250; PMR446_D
+   446153125; 25D                      ; Demod Off           ;       6250; PMR446_D
    446156250; 13A                      ; Narrow FM           ;      12500; PMR446
+   446159375; 26D                      ; Demod Off           ;       6250; PMR446_D
+   446165625; 27D                      ; Demod Off           ;       6250; PMR446_D
    446168750; 14A                      ; Narrow FM           ;      12500; PMR446
+   446171875; 28D                      ; Demod Off           ;       6250; PMR446_D
+   446178125; 29D                      ; Demod Off           ;       6250; PMR446_D
    446181250; 15A                      ; Narrow FM           ;      12500; PMR446
+   446184373; 30D                      ; Demod Off           ;       6250; PMR446_D
+   446190625; 31D                      ; Demod Off           ;       6250; PMR446_D
    446193750; 16A                      ; Narrow FM           ;      12500; PMR446
+   446196875; 32D                      ; Demod Off           ;       6250; PMR446_D
    446200000; V                        ; Narrow FM           ;      20000; UHF_Radio
    446225000; V                        ; Narrow FM           ;      20000; UHF_Radio
    446250000; V                        ; Narrow FM           ;      20000; UHF_Radio
