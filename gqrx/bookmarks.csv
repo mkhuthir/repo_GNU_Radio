@@ -52,7 +52,9 @@ LF                  ; #8ae234
 MW                  ; #0056e6
 Marine              ; #c07010
 Marker              ; #c0c0c0
+NDB                 ; #c0c0c0
 NOAA                ; #cc0000
+PMR446              ; #ff5500
 RC                  ; #729fcf
 RC-VTX              ; #729fcf
 SAT                 ; #73d216
@@ -60,10 +62,10 @@ SLF                 ; #8f5902
 Tetra               ; #14a08c
 UHF_Radio           ; #8ae234
 ULF                 ; #3465a4
-Untagged            ; #888a85
+VHF_Radio           ; #8ae234
 VLF                 ; #c0c0c0
+VOR_ILS             ; #ce5cff
 WWV Time            ; #4e9a06
-WalkiTalki_VHF      ; #8ae234
 Wi-Fi-2.4G          ; #c0c0c0
 
 # Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
@@ -83,7 +85,7 @@ Wi-Fi-2.4G          ; #c0c0c0
        67800; *                        ; AM                  ;       1000; LF
       135700; S                        ; Narrow FM           ;          0; HAM2200m
       137800; E                        ; Narrow FM           ;          0; HAM2200m
-      300000; E                        ; AM                  ;          0; LF
+      300000; Sirri Island NDB         ; USB                 ;       9000; NDB
       472000; S                        ; Narrow FM           ;          0; HAM630m
       479000; E                        ; Narrow FM           ;          0; HAM630m
       500000; *                        ; Narrow FM           ;      10000; CW
@@ -862,206 +864,206 @@ Wi-Fi-2.4G          ; #c0c0c0
    107600000; ClubFM                   ; WFM (stereo)        ;     200000; FM
    107700000; *                        ; WFM (stereo)        ;     200000; FM
    107800000; AJM Al Rabia FM          ; WFM (stereo)        ;     200000; FM
-   108000000; 1                        ; Narrow FM           ;      50000; Airband
-   108050000; 2                        ; Narrow FM           ;      50000; Airband
-   108100000; 3                        ; Narrow FM           ;      50000; Airband
-   108150000; 4                        ; Narrow FM           ;      50000; Airband
-   108200000; 5                        ; Narrow FM           ;      50000; Airband
-   108250000; 6                        ; Narrow FM           ;      50000; Airband
-   108300000; 7                        ; Narrow FM           ;      50000; Airband
-   108350000; 8                        ; Narrow FM           ;      50000; Airband
-   108400000; 9                        ; Narrow FM           ;      50000; Airband
-   108450000; 10                       ; Narrow FM           ;      50000; Airband
-   108500000; 11                       ; Narrow FM           ;      50000; Airband
-   108550000; 12                       ; Narrow FM           ;      50000; Airband
-   108600000; 13                       ; Narrow FM           ;      50000; Airband
-   108650000; 14                       ; Narrow FM           ;      50000; Airband
-   108700000; 15                       ; Narrow FM           ;      50000; Airband
-   108750000; 16                       ; Narrow FM           ;      50000; Airband
-   108800000; 17                       ; Narrow FM           ;      50000; Airband
-   108850000; 18                       ; Narrow FM           ;      50000; Airband
-   108900000; 19                       ; Narrow FM           ;      50000; Airband
-   108950000; 20                       ; Narrow FM           ;      50000; Airband
-   109000000; 21                       ; Narrow FM           ;      50000; Airband
-   109050000; 22                       ; Narrow FM           ;      50000; Airband
-   109100000; 23                       ; Narrow FM           ;      50000; Airband
-   109150000; 24                       ; Narrow FM           ;      50000; Airband
-   109200000; 25                       ; Narrow FM           ;      50000; Airband
-   109250000; 26                       ; Narrow FM           ;      50000; Airband
-   109300000; 27                       ; Narrow FM           ;      50000; Airband
-   109350000; 28                       ; Narrow FM           ;      50000; Airband
-   109400000; 29                       ; Narrow FM           ;      50000; Airband
-   109450000; 30                       ; Narrow FM           ;      50000; Airband
-   109500000; 31                       ; Narrow FM           ;      50000; Airband
-   109550000; 32                       ; Narrow FM           ;      50000; Airband
-   109600000; 33                       ; Narrow FM           ;      50000; Airband
-   109650000; 34                       ; Narrow FM           ;      50000; Airband
-   109700000; 35                       ; Narrow FM           ;      50000; Airband
-   109750000; 36                       ; Narrow FM           ;      50000; Airband
-   109800000; 37                       ; Narrow FM           ;      50000; Airband
-   109850000; 38                       ; Narrow FM           ;      50000; Airband
-   109900000; 39                       ; Narrow FM           ;      50000; Airband
-   109950000; 40                       ; Narrow FM           ;      50000; Airband
-   110000000; 41                       ; Narrow FM           ;      50000; Airband
-   110050000; 42                       ; Narrow FM           ;      50000; Airband
-   110100000; 43                       ; Narrow FM           ;      50000; Airband
-   110150000; 44                       ; Narrow FM           ;      50000; Airband
-   110200000; 45                       ; Narrow FM           ;      50000; Airband
-   110250000; 46                       ; Narrow FM           ;      50000; Airband
-   110300000; 47                       ; Narrow FM           ;      50000; Airband
-   110350000; 48                       ; Narrow FM           ;      50000; Airband
-   110400000; 49                       ; Narrow FM           ;      50000; Airband
-   110450000; 50                       ; Narrow FM           ;      50000; Airband
-   110500000; 51                       ; Narrow FM           ;      50000; Airband
-   110550000; 52                       ; Narrow FM           ;      50000; Airband
-   110600000; 53                       ; Narrow FM           ;      50000; Airband
-   110650000; 54                       ; Narrow FM           ;      50000; Airband
-   110700000; 55                       ; Narrow FM           ;      50000; Airband
-   110750000; 56                       ; Narrow FM           ;      50000; Airband
-   110800000; 57                       ; Narrow FM           ;      50000; Airband
-   110850000; 58                       ; Narrow FM           ;      50000; Airband
-   110900000; 59                       ; Narrow FM           ;      50000; Airband
-   110950000; 60                       ; Narrow FM           ;      50000; Airband
-   111000000; 61                       ; Narrow FM           ;      50000; Airband
-   111050000; 62                       ; Narrow FM           ;      50000; Airband
-   111100000; 63                       ; Narrow FM           ;      50000; Airband
-   111150000; 64                       ; Narrow FM           ;      50000; Airband
-   111200000; 65                       ; Narrow FM           ;      50000; Airband
-   111250000; 66                       ; Narrow FM           ;      50000; Airband
-   111300000; 67                       ; Narrow FM           ;      50000; Airband
-   111350000; 68                       ; Narrow FM           ;      50000; Airband
-   111400000; 69                       ; Narrow FM           ;      50000; Airband
-   111450000; 70                       ; Narrow FM           ;      50000; Airband
-   111500000; 71                       ; Narrow FM           ;      50000; Airband
-   111550000; 72                       ; Narrow FM           ;      50000; Airband
-   111600000; 73                       ; Narrow FM           ;      50000; Airband
-   111650000; 74                       ; Narrow FM           ;      50000; Airband
-   111700000; 75                       ; Narrow FM           ;      50000; Airband
-   111750000; 76                       ; Narrow FM           ;      50000; Airband
-   111800000; 77                       ; Narrow FM           ;      50000; Airband
-   111850000; 78                       ; Narrow FM           ;      50000; Airband
-   111900000; 79                       ; Narrow FM           ;      50000; Airband
-   111950000; 80                       ; Narrow FM           ;      50000; Airband
-   112000000; 81                       ; Narrow FM           ;      50000; Airband
-   112050000; 82                       ; Narrow FM           ;      50000; Airband
-   112100000; 83                       ; Narrow FM           ;      50000; Airband
-   112150000; 84                       ; Narrow FM           ;      50000; Airband
-   112200000; 85                       ; Narrow FM           ;      50000; Airband
-   112250000; 86                       ; Narrow FM           ;      50000; Airband
-   112300000; 87 SHJ VOR               ; Narrow FM           ;      50000; Airband
-   112350000; 88                       ; Narrow FM           ;      50000; Airband
-   112400000; 89                       ; Narrow FM           ;      50000; Airband
-   112450000; 90                       ; Narrow FM           ;      50000; Airband
-   112500000; 91                       ; Narrow FM           ;      50000; Airband
-   112550000; 92                       ; Narrow FM           ;      50000; Airband
-   112600000; 93 Ain VOR               ; Narrow FM           ;      50000; Airband
-   112650000; 94                       ; Narrow FM           ;      50000; Airband
-   112700000; 95                       ; Narrow FM           ;      50000; Airband
-   112750000; 96                       ; Narrow FM           ;      50000; Airband
-   112800000; 97                       ; Narrow FM           ;      50000; Airband
-   112850000; 98                       ; Narrow FM           ;      50000; Airband
-   112900000; 99                       ; Narrow FM           ;      50000; Airband
-   112950000; 100                      ; Narrow FM           ;      50000; Airband
-   113000000; 101                      ; Narrow FM           ;      50000; Airband
-   113050000; 102                      ; Narrow FM           ;      50000; Airband
-   113100000; 103                      ; Narrow FM           ;      50000; Airband
-   113150000; 104                      ; Narrow FM           ;      50000; Airband
-   113200000; 105                      ; Narrow FM           ;      50000; Airband
-   113250000; 106                      ; Narrow FM           ;      50000; Airband
-   113300000; 107                      ; Narrow FM           ;      50000; Airband
-   113350000; 108                      ; Narrow FM           ;      50000; Airband
-   113400000; 109                      ; Narrow FM           ;      50000; Airband
-   113450000; 110                      ; Narrow FM           ;      50000; Airband
-   113500000; 111                      ; Narrow FM           ;      50000; Airband
-   113550000; 112                      ; Narrow FM           ;      50000; Airband
-   113600000; 113                      ; Narrow FM           ;      50000; Airband
-   113650000; 114                      ; Narrow FM           ;      50000; Airband
-   113700000; 115                      ; Narrow FM           ;      50000; Airband
-   113750000; 116                      ; Narrow FM           ;      50000; Airband
-   113800000; 117                      ; Narrow FM           ;      50000; Airband
-   113850000; 118                      ; Narrow FM           ;      50000; Airband
-   113900000; 119                      ; Narrow FM           ;      50000; Airband
-   113950000; 120                      ; Narrow FM           ;      50000; Airband
-   114000000; 121 Bateen VOR-DME       ; Narrow FM           ;      50000; Airband
-   114050000; 122                      ; Narrow FM           ;      50000; Airband
-   114100000; 123                      ; Narrow FM           ;      50000; Airband
-   114150000; 124                      ; Narrow FM           ;      50000; Airband
-   114200000; 125                      ; Narrow FM           ;      50000; Airband
-   114250000; 126                      ; Narrow FM           ;      50000; Airband
-   114300000; 127                      ; Narrow FM           ;      50000; Airband
-   114350000; 128                      ; Narrow FM           ;      50000; Airband
-   114400000; 129                      ; Narrow FM           ;      50000; Airband
-   114450000; 130                      ; Narrow FM           ;      50000; Airband
-   114500000; 131                      ; Narrow FM           ;      50000; Airband
-   114550000; 132                      ; Narrow FM           ;      50000; Airband
-   114600000; 133                      ; Narrow FM           ;      50000; Airband
-   114650000; 134                      ; Narrow FM           ;      50000; Airband
-   114700000; 135 Fujairah VOR-DME     ; Narrow FM           ;      50000; Airband
-   114750000; 136                      ; Narrow FM           ;      50000; Airband
-   114800000; 137                      ; Narrow FM           ;      50000; Airband
-   114850000; 138                      ; Narrow FM           ;      50000; Airband
-   114900000; 139 Al Dhafra VORTAC     ; Narrow FM           ;      50000; Airband
-   114950000; 140                      ; Narrow FM           ;      50000; Airband
-   115000000; 141                      ; Narrow FM           ;      50000; Airband
-   115050000; 142                      ; Narrow FM           ;      50000; Airband
-   115100000; 143                      ; Narrow FM           ;      50000; Airband
-   115150000; 144                      ; Narrow FM           ;      50000; Airband
-   115200000; 145                      ; Narrow FM           ;      50000; Airband
-   115250000; 146                      ; Narrow FM           ;      50000; Airband
-   115300000; 147                      ; Narrow FM           ;      50000; Airband
-   115350000; 148                      ; Narrow FM           ;      50000; Airband
-   115400000; 149                      ; Narrow FM           ;      50000; Airband
-   115450000; 150                      ; Narrow FM           ;      50000; Airband
-   115500000; 151                      ; Narrow FM           ;      50000; Airband
-   115550000; 152                      ; Narrow FM           ;      50000; Airband
-   115600000; 153                      ; Narrow FM           ;      50000; Airband
-   115650000; 154                      ; Narrow FM           ;      50000; Airband
-   115700000; 155 DXB VOR              ; Narrow FM           ;      50000; Airband
-   115750000; 156                      ; Narrow FM           ;      50000; Airband
-   115800000; 157                      ; Narrow FM           ;      50000; Airband
-   115850000; 158                      ; Narrow FM           ;      50000; Airband
-   115900000; 159                      ; Narrow FM           ;      50000; Airband
-   115950000; 160                      ; Narrow FM           ;      50000; Airband
-   116000000; 161                      ; Narrow FM           ;      50000; Airband
-   116050000; 162                      ; Narrow FM           ;      50000; Airband
-   116100000; 163                      ; Narrow FM           ;      50000; Airband
-   116150000; 164                      ; Narrow FM           ;      50000; Airband
-   116200000; 165                      ; Narrow FM           ;      50000; Airband
-   116250000; 166                      ; Narrow FM           ;      50000; Airband
-   116300000; 167                      ; Narrow FM           ;      50000; Airband
-   116350000; 168                      ; Narrow FM           ;      50000; Airband
-   116400000; 169                      ; Narrow FM           ;      50000; Airband
-   116450000; 170                      ; Narrow FM           ;      50000; Airband
-   116500000; 171                      ; Narrow FM           ;      50000; Airband
-   116550000; 172                      ; Narrow FM           ;      50000; Airband
-   116600000; 173                      ; Narrow FM           ;      50000; Airband
-   116650000; 174                      ; Narrow FM           ;      50000; Airband
-   116700000; 175                      ; Narrow FM           ;      50000; Airband
-   116750000; 176                      ; Narrow FM           ;      50000; Airband
-   116800000; 177                      ; Narrow FM           ;      50000; Airband
-   116850000; 178                      ; Narrow FM           ;      50000; Airband
-   116900000; 179                      ; Narrow FM           ;      50000; Airband
-   116950000; 180                      ; Narrow FM           ;      50000; Airband
-   117000000; 181                      ; Narrow FM           ;      50000; Airband
-   117050000; 182                      ; Narrow FM           ;      50000; Airband
-   117100000; 183                      ; Narrow FM           ;      50000; Airband
-   117150000; 184                      ; Narrow FM           ;      50000; Airband
-   117200000; 185                      ; Narrow FM           ;      50000; Airband
-   117250000; 186                      ; Narrow FM           ;      50000; Airband
-   117300000; 187                      ; Narrow FM           ;      50000; Airband
-   117350000; 188                      ; Narrow FM           ;      50000; Airband
-   117400000; 189                      ; Narrow FM           ;      50000; Airband
-   117450000; 190                      ; Narrow FM           ;      50000; Airband
-   117500000; 191                      ; Narrow FM           ;      50000; Airband
-   117550000; 192                      ; Narrow FM           ;      50000; Airband
-   117600000; 193                      ; Narrow FM           ;      50000; Airband
-   117650000; 194                      ; Narrow FM           ;      50000; Airband
-   117700000; 195                      ; Narrow FM           ;      50000; Airband
-   117750000; 196                      ; Narrow FM           ;      50000; Airband
-   117800000; 197                      ; Narrow FM           ;      50000; Airband
-   117850000; 198                      ; Narrow FM           ;      50000; Airband
-   117900000; 199                      ; Narrow FM           ;      50000; Airband
-   117950000; 200                      ; Narrow FM           ;      50000; Airband
+   108000000; 1 VOR                    ; AM                  ;      50000; VOR_ILS
+   108050000; 2 VOR                    ; AM                  ;      50000; VOR_ILS
+   108100000; 3 ILS                    ; Narrow FM           ;      50000; VOR_ILS
+   108150000; 4 ILS                    ; Narrow FM           ;      50000; VOR_ILS
+   108200000; 5 VOR                    ; Narrow FM           ;      50000; VOR_ILS
+   108250000; 6 VOR                    ; Narrow FM           ;      50000; VOR_ILS
+   108300000; 7 ILS                    ; Narrow FM           ;      50000; VOR_ILS
+   108350000; 8 ILS                    ; Narrow FM           ;      50000; VOR_ILS
+   108400000; 9                        ; Narrow FM           ;      50000; VOR_ILS
+   108450000; 10                       ; Narrow FM           ;      50000; VOR_ILS
+   108500000; 11                       ; Narrow FM           ;      50000; VOR_ILS
+   108550000; 12                       ; Narrow FM           ;      50000; VOR_ILS
+   108600000; 13                       ; Narrow FM           ;      50000; VOR_ILS
+   108650000; 14                       ; Narrow FM           ;      50000; VOR_ILS
+   108700000; 15                       ; Narrow FM           ;      50000; VOR_ILS
+   108750000; 16                       ; Narrow FM           ;      50000; VOR_ILS
+   108800000; 17                       ; Narrow FM           ;      50000; VOR_ILS
+   108850000; 18                       ; Narrow FM           ;      50000; VOR_ILS
+   108900000; 19                       ; Narrow FM           ;      50000; VOR_ILS
+   108950000; 20                       ; Narrow FM           ;      50000; VOR_ILS
+   109000000; 21                       ; Narrow FM           ;      50000; VOR_ILS
+   109050000; 22                       ; Narrow FM           ;      50000; VOR_ILS
+   109100000; 23                       ; Narrow FM           ;      50000; VOR_ILS
+   109150000; 24                       ; Narrow FM           ;      50000; VOR_ILS
+   109200000; 25                       ; Narrow FM           ;      50000; VOR_ILS
+   109250000; 26                       ; Narrow FM           ;      50000; VOR_ILS
+   109300000; 27                       ; Narrow FM           ;      50000; VOR_ILS
+   109350000; 28                       ; Narrow FM           ;      50000; VOR_ILS
+   109400000; 29                       ; Narrow FM           ;      50000; VOR_ILS
+   109450000; 30                       ; Narrow FM           ;      50000; VOR_ILS
+   109500000; 31                       ; Narrow FM           ;      50000; VOR_ILS
+   109550000; 32                       ; Narrow FM           ;      50000; VOR_ILS
+   109600000; 33                       ; Narrow FM           ;      50000; VOR_ILS
+   109650000; 34                       ; Narrow FM           ;      50000; VOR_ILS
+   109700000; 35                       ; Narrow FM           ;      50000; VOR_ILS
+   109750000; 36                       ; Narrow FM           ;      50000; VOR_ILS
+   109800000; 37                       ; Narrow FM           ;      50000; VOR_ILS
+   109850000; 38                       ; Narrow FM           ;      50000; VOR_ILS
+   109900000; 39                       ; Narrow FM           ;      50000; VOR_ILS
+   109950000; 40                       ; Narrow FM           ;      50000; VOR_ILS
+   110000000; 41                       ; Narrow FM           ;      50000; VOR_ILS
+   110050000; 42                       ; Narrow FM           ;      50000; VOR_ILS
+   110100000; 43                       ; Narrow FM           ;      50000; VOR_ILS
+   110150000; 44                       ; Narrow FM           ;      50000; VOR_ILS
+   110200000; 45                       ; Narrow FM           ;      50000; VOR_ILS
+   110250000; 46                       ; Narrow FM           ;      50000; VOR_ILS
+   110300000; 47                       ; Narrow FM           ;      50000; VOR_ILS
+   110350000; 48                       ; Narrow FM           ;      50000; VOR_ILS
+   110400000; 49                       ; Narrow FM           ;      50000; VOR_ILS
+   110450000; 50                       ; Narrow FM           ;      50000; VOR_ILS
+   110500000; 51                       ; Narrow FM           ;      50000; VOR_ILS
+   110550000; 52                       ; Narrow FM           ;      50000; VOR_ILS
+   110600000; 53                       ; Narrow FM           ;      50000; VOR_ILS
+   110650000; 54                       ; Narrow FM           ;      50000; VOR_ILS
+   110700000; 55                       ; Narrow FM           ;      50000; VOR_ILS
+   110750000; 56                       ; Narrow FM           ;      50000; VOR_ILS
+   110800000; 57                       ; Narrow FM           ;      50000; VOR_ILS
+   110850000; 58                       ; Narrow FM           ;      50000; VOR_ILS
+   110900000; 59                       ; Narrow FM           ;      50000; VOR_ILS
+   110950000; 60                       ; Narrow FM           ;      50000; VOR_ILS
+   111000000; 61                       ; Narrow FM           ;      50000; VOR_ILS
+   111050000; 62                       ; Narrow FM           ;      50000; VOR_ILS
+   111100000; 63                       ; Narrow FM           ;      50000; VOR_ILS
+   111150000; 64                       ; Narrow FM           ;      50000; VOR_ILS
+   111200000; 65                       ; Narrow FM           ;      50000; VOR_ILS
+   111250000; 66                       ; Narrow FM           ;      50000; VOR_ILS
+   111300000; 67                       ; Narrow FM           ;      50000; VOR_ILS
+   111350000; 68                       ; Narrow FM           ;      50000; VOR_ILS
+   111400000; 69                       ; Narrow FM           ;      50000; VOR_ILS
+   111450000; 70                       ; Narrow FM           ;      50000; VOR_ILS
+   111500000; 71                       ; Narrow FM           ;      50000; VOR_ILS
+   111550000; 72                       ; Narrow FM           ;      50000; VOR_ILS
+   111600000; 73                       ; Narrow FM           ;      50000; VOR_ILS
+   111650000; 74                       ; Narrow FM           ;      50000; VOR_ILS
+   111700000; 75                       ; Narrow FM           ;      50000; VOR_ILS
+   111750000; 76                       ; Narrow FM           ;      50000; VOR_ILS
+   111800000; 77 VOR                   ; Narrow FM           ;      50000; VOR_ILS
+   111850000; 78 VOR                   ; Narrow FM           ;      50000; VOR_ILS
+   111900000; 79 ILS                   ; Narrow FM           ;      50000; VOR_ILS
+   111950000; 80 ILS                   ; Narrow FM           ;      50000; VOR_ILS
+   112000000; 81                       ; Narrow FM           ;      50000; VOR_ILS
+   112050000; 82                       ; Narrow FM           ;      50000; VOR_ILS
+   112100000; 83                       ; Narrow FM           ;      50000; VOR_ILS
+   112150000; 84                       ; Narrow FM           ;      50000; VOR_ILS
+   112200000; 85                       ; Narrow FM           ;      50000; VOR_ILS
+   112250000; 86                       ; Narrow FM           ;      50000; VOR_ILS
+   112300000; 87 SHJ VOR               ; Narrow FM           ;      50000; VOR_ILS
+   112350000; 88                       ; Narrow FM           ;      50000; VOR_ILS
+   112400000; 89                       ; Narrow FM           ;      50000; VOR_ILS
+   112450000; 90                       ; Narrow FM           ;      50000; VOR_ILS
+   112500000; 91                       ; Narrow FM           ;      50000; VOR_ILS
+   112550000; 92                       ; Narrow FM           ;      50000; VOR_ILS
+   112600000; 93 AAN VOR               ; Narrow FM           ;      50000; VOR_ILS
+   112650000; 94                       ; Narrow FM           ;      50000; VOR_ILS
+   112700000; 95                       ; Narrow FM           ;      50000; VOR_ILS
+   112750000; 96                       ; Narrow FM           ;      50000; VOR_ILS
+   112800000; 97                       ; Narrow FM           ;      50000; VOR_ILS
+   112850000; 98                       ; Narrow FM           ;      50000; VOR_ILS
+   112900000; 99                       ; Narrow FM           ;      50000; VOR_ILS
+   112950000; 100                      ; Narrow FM           ;      50000; VOR_ILS
+   113000000; 101                      ; Narrow FM           ;      50000; VOR_ILS
+   113050000; 102                      ; Narrow FM           ;      50000; VOR_ILS
+   113100000; 103                      ; Narrow FM           ;      50000; VOR_ILS
+   113150000; 104                      ; Narrow FM           ;      50000; VOR_ILS
+   113200000; 105                      ; Narrow FM           ;      50000; VOR_ILS
+   113250000; 106                      ; Narrow FM           ;      50000; VOR_ILS
+   113300000; 107                      ; Narrow FM           ;      50000; VOR_ILS
+   113350000; 108                      ; Narrow FM           ;      50000; VOR_ILS
+   113400000; 109                      ; Narrow FM           ;      50000; VOR_ILS
+   113450000; 110                      ; Narrow FM           ;      50000; VOR_ILS
+   113500000; 111                      ; Narrow FM           ;      50000; VOR_ILS
+   113550000; 112                      ; Narrow FM           ;      50000; VOR_ILS
+   113600000; 113                      ; Narrow FM           ;      50000; VOR_ILS
+   113650000; 114                      ; Narrow FM           ;      50000; VOR_ILS
+   113700000; 115                      ; Narrow FM           ;      50000; VOR_ILS
+   113750000; 116 Sirri Island VOR-DME ; Narrow FM           ;      50000; VOR_ILS
+   113800000; 117                      ; Narrow FM           ;      50000; VOR_ILS
+   113850000; 118                      ; Narrow FM           ;      50000; VOR_ILS
+   113900000; 119                      ; Narrow FM           ;      50000; VOR_ILS
+   113950000; 120                      ; Narrow FM           ;      50000; VOR_ILS
+   114000000; 121 Bateen VOR-DME       ; Narrow FM           ;      50000; VOR_ILS
+   114050000; 122                      ; Narrow FM           ;      50000; VOR_ILS
+   114100000; 123                      ; Narrow FM           ;      50000; VOR_ILS
+   114150000; 124                      ; Narrow FM           ;      50000; VOR_ILS
+   114200000; 125                      ; Narrow FM           ;      50000; VOR_ILS
+   114250000; 126                      ; Narrow FM           ;      50000; VOR_ILS
+   114300000; 127                      ; Narrow FM           ;      50000; VOR_ILS
+   114350000; 128                      ; Narrow FM           ;      50000; VOR_ILS
+   114400000; 129                      ; Narrow FM           ;      50000; VOR_ILS
+   114450000; 130                      ; Narrow FM           ;      50000; VOR_ILS
+   114500000; 131                      ; Narrow FM           ;      50000; VOR_ILS
+   114550000; 132                      ; Narrow FM           ;      50000; VOR_ILS
+   114600000; 133                      ; Narrow FM           ;      50000; VOR_ILS
+   114650000; 134                      ; Narrow FM           ;      50000; VOR_ILS
+   114700000; 135 FJR ATIS             ; Narrow FM           ;      50000; VOR_ILS
+   114750000; 136                      ; Narrow FM           ;      50000; VOR_ILS
+   114800000; 137                      ; Narrow FM           ;      50000; VOR_ILS
+   114850000; 138                      ; Narrow FM           ;      50000; VOR_ILS
+   114900000; 139 Al Dhafra VORTAC     ; Narrow FM           ;      50000; VOR_ILS
+   114950000; 140                      ; Narrow FM           ;      50000; VOR_ILS
+   115000000; 141                      ; Narrow FM           ;      50000; VOR_ILS
+   115050000; 142                      ; Narrow FM           ;      50000; VOR_ILS
+   115100000; 143                      ; Narrow FM           ;      50000; VOR_ILS
+   115150000; 144                      ; Narrow FM           ;      50000; VOR_ILS
+   115200000; 145                      ; Narrow FM           ;      50000; VOR_ILS
+   115250000; 146                      ; Narrow FM           ;      50000; VOR_ILS
+   115300000; 147                      ; Narrow FM           ;      50000; VOR_ILS
+   115350000; 148                      ; Narrow FM           ;      50000; VOR_ILS
+   115400000; 149                      ; Narrow FM           ;      50000; VOR_ILS
+   115450000; 150                      ; Narrow FM           ;      50000; VOR_ILS
+   115500000; 151                      ; Narrow FM           ;      50000; VOR_ILS
+   115550000; 152                      ; Narrow FM           ;      50000; VOR_ILS
+   115600000; 153                      ; Narrow FM           ;      50000; VOR_ILS
+   115650000; 154                      ; Narrow FM           ;      50000; VOR_ILS
+   115700000; 155 DXB VOR              ; Narrow FM           ;      50000; VOR_ILS
+   115750000; 156                      ; Narrow FM           ;      50000; VOR_ILS
+   115800000; 157                      ; Narrow FM           ;      50000; VOR_ILS
+   115850000; 158                      ; Narrow FM           ;      50000; VOR_ILS
+   115900000; 159                      ; Narrow FM           ;      50000; VOR_ILS
+   115950000; 160                      ; Narrow FM           ;      50000; VOR_ILS
+   116000000; 161                      ; Narrow FM           ;      50000; VOR_ILS
+   116050000; 162                      ; Narrow FM           ;      50000; VOR_ILS
+   116100000; 163                      ; Narrow FM           ;      50000; VOR_ILS
+   116150000; 164                      ; Narrow FM           ;      50000; VOR_ILS
+   116200000; 165                      ; Narrow FM           ;      50000; VOR_ILS
+   116250000; 166                      ; Narrow FM           ;      50000; VOR_ILS
+   116300000; 167                      ; Narrow FM           ;      50000; VOR_ILS
+   116350000; 168                      ; Narrow FM           ;      50000; VOR_ILS
+   116400000; 169                      ; Narrow FM           ;      50000; VOR_ILS
+   116450000; 170                      ; Narrow FM           ;      50000; VOR_ILS
+   116500000; 171                      ; Narrow FM           ;      50000; VOR_ILS
+   116550000; 172                      ; Narrow FM           ;      50000; VOR_ILS
+   116600000; 173                      ; Narrow FM           ;      50000; VOR_ILS
+   116650000; 174                      ; Narrow FM           ;      50000; VOR_ILS
+   116700000; 175                      ; Narrow FM           ;      50000; VOR_ILS
+   116750000; 176                      ; Narrow FM           ;      50000; VOR_ILS
+   116800000; 177                      ; Narrow FM           ;      50000; VOR_ILS
+   116850000; 178                      ; Narrow FM           ;      50000; VOR_ILS
+   116900000; 179                      ; Narrow FM           ;      50000; VOR_ILS
+   116950000; 180                      ; Narrow FM           ;      50000; VOR_ILS
+   117000000; 181                      ; Narrow FM           ;      50000; VOR_ILS
+   117050000; 182                      ; Narrow FM           ;      50000; VOR_ILS
+   117100000; 183                      ; Narrow FM           ;      50000; VOR_ILS
+   117150000; 184                      ; Narrow FM           ;      50000; VOR_ILS
+   117200000; 185                      ; Narrow FM           ;      50000; VOR_ILS
+   117250000; 186                      ; Narrow FM           ;      50000; VOR_ILS
+   117300000; 187                      ; Narrow FM           ;      50000; VOR_ILS
+   117350000; 188                      ; Narrow FM           ;      50000; VOR_ILS
+   117400000; 189                      ; Narrow FM           ;      50000; VOR_ILS
+   117450000; 190                      ; Narrow FM           ;      50000; VOR_ILS
+   117500000; 191                      ; Narrow FM           ;      50000; VOR_ILS
+   117550000; 192                      ; Narrow FM           ;      50000; VOR_ILS
+   117600000; 193                      ; Narrow FM           ;      50000; VOR_ILS
+   117650000; 194                      ; Narrow FM           ;      50000; VOR_ILS
+   117700000; 195                      ; Narrow FM           ;      50000; VOR_ILS
+   117750000; 196                      ; Narrow FM           ;      50000; VOR_ILS
+   117800000; 197                      ; Narrow FM           ;      50000; VOR_ILS
+   117850000; 198                      ; Narrow FM           ;      50000; VOR_ILS
+   117900000; 199                      ; Narrow FM           ;      50000; VOR_ILS
+   117950000; 200                      ; Narrow FM           ;      50000; VOR_ILS
    118000000; 1                        ; AM                  ;       8330; Airband
    118025000; 2                        ; AM                  ;       8330; Airband
    118050000; 3                        ; AM                  ;       8330; Airband
@@ -1070,29 +1072,29 @@ Wi-Fi-2.4G          ; #c0c0c0
    118125000; 6                        ; AM                  ;       8330; Airband
    118150000; 7                        ; AM                  ;       8330; Airband
    118175000; 8                        ; AM                  ;       8330; Airband
-   118200000; 9                        ; AM                  ;       8330; Airband
+   118200000; 9 SLL TWR                ; AM                  ;       8330; Airband
    118225000; 10                       ; AM                  ;       8330; Airband
-   118250000; 11                       ; AM                  ;       8330; Airband
+   118250000; 11 RKT TWR               ; AM                  ;       8330; Airband
    118275000; 12                       ; AM                  ;       8330; Airband
    118300000; 13                       ; AM                  ;       8330; Airband
    118325000; 14                       ; AM                  ;       8330; Airband
-   118350000; 15 DXB                   ; AM                  ;       8330; Airband
-   118375000; 16                       ; AM                  ;       8330; Airband
-   118400000; 17                       ; AM                  ;       8330; Airband
+   118350000; 15 DXB GND               ; AM                  ;       8330; Airband
+   118375000; 16 DWC GND               ; AM                  ;       8330; Airband
+   118400000; 17 MCT TWR               ; AM                  ;       8330; Airband
    118425000; 18                       ; AM                  ;       8330; Airband
-   118450000; 19                       ; AM                  ;       8330; Airband
+   118450000; 19 KIH TWR               ; AM                  ;       8330; Airband
    118475000; 20                       ; AM                  ;       8330; Airband
    118500000; 21                       ; AM                  ;       8330; Airband
    118525000; 22                       ; AM                  ;       8330; Airband
    118550000; 23                       ; AM                  ;       8330; Airband
    118575000; 24                       ; AM                  ;       8330; Airband
-   118600000; 25                       ; AM                  ;       8330; Airband
+   118600000; 25 SHJ TWR               ; AM                  ;       8330; Airband
    118625000; 26                       ; AM                  ;       8330; Airband
    118650000; 27                       ; AM                  ;       8330; Airband
    118675000; 28                       ; AM                  ;       8330; Airband
    118700000; 29                       ; AM                  ;       8330; Airband
    118725000; 30                       ; AM                  ;       8330; Airband
-   118750000; 31 DAP T                 ; AM                  ;       8330; Airband
+   118750000; 31 DXB TWR               ; AM                  ;       8330; Airband
    118775000; 32                       ; AM                  ;       8330; Airband
    118800000; 33                       ; AM                  ;       8330; Airband
    118825000; 34                       ; AM                  ;       8330; Airband
@@ -1106,11 +1108,11 @@ Wi-Fi-2.4G          ; #c0c0c0
    119025000; 42                       ; AM                  ;       8330; Airband
    119050000; 43                       ; AM                  ;       8330; Airband
    119075000; 44                       ; AM                  ;       8330; Airband
-   119100000; 45                       ; AM                  ;       8330; Airband
+   119100000; 45 SLL APP               ; AM                  ;       8330; Airband
    119125000; 46                       ; AM                  ;       8330; Airband
    119150000; 47                       ; AM                  ;       8330; Airband
    119175000; 48                       ; AM                  ;       8330; Airband
-   119200000; 49                       ; AM                  ;       8330; Airband
+   119200000; 49 AUH TWR               ; AM                  ;       8330; Airband
    119225000; 50                       ; AM                  ;       8330; Airband
    119250000; 51                       ; AM                  ;       8330; Airband
    119275000; 52                       ; AM                  ;       8330; Airband
@@ -1120,11 +1122,11 @@ Wi-Fi-2.4G          ; #c0c0c0
    119375000; 56                       ; AM                  ;       8330; Airband
    119400000; 57                       ; AM                  ;       8330; Airband
    119425000; 58                       ; AM                  ;       8330; Airband
-   119450000; 59                       ; AM                  ;       8330; Airband
+   119450000; 59 FJR GND               ; AM                  ;       8330; Airband
    119475000; 60                       ; AM                  ;       8330; Airband
    119500000; 61                       ; AM                  ;       8330; Airband
    119525000; 62                       ; AM                  ;       8330; Airband
-   119550000; 63 DAP T                 ; AM                  ;       8330; Airband
+   119550000; 63 DXB GND               ; AM                  ;       8330; Airband
    119575000; 64                       ; AM                  ;       8330; Airband
    119600000; 65                       ; AM                  ;       8330; Airband
    119625000; 66                       ; AM                  ;       8330; Airband
@@ -1136,7 +1138,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    119775000; 72                       ; AM                  ;       8330; Airband
    119800000; 73                       ; AM                  ;       8330; Airband
    119825000; 74                       ; AM                  ;       8330; Airband
-   119850000; 75                       ; AM                  ;       8330; Airband
+   119850000; 75 AAN APP TWR           ; AM                  ;       8330; Airband
    119875000; 76                       ; AM                  ;       8330; Airband
    119900000; 77                       ; AM                  ;       8330; Airband
    119925000; 78                       ; AM                  ;       8330; Airband
@@ -1190,7 +1192,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    121125000; 126                      ; AM                  ;       8330; Airband
    121150000; 127                      ; AM                  ;       8330; Airband
    121175000; 128                      ; AM                  ;       8330; Airband
-   121200000; 129                      ; AM                  ;       8330; Airband
+   121200000; 129 MCT APP DEP          ; AM                  ;       8330; Airband
    121225000; 130                      ; AM                  ;       8330; Airband
    121250000; 131                      ; AM                  ;       8330; Airband
    121275000; 132                      ; AM                  ;       8330; Airband
@@ -1202,11 +1204,11 @@ Wi-Fi-2.4G          ; #c0c0c0
    121425000; 138                      ; AM                  ;       8330; Airband
    121450000; 139                      ; AM                  ;       8330; Airband
    121475000; 140                      ; AM                  ;       8330; Airband
-   121500000; 141 Emr                  ; AM                  ;       8330; Airband
+   121500000; 141                      ; AM                  ;       8330; Airband
    121525000; 142                      ; AM                  ;       8330; Airband
    121550000; 143                      ; AM                  ;       8330; Airband
    121575000; 144                      ; AM                  ;       8330; Airband
-   121600000; 145                      ; AM                  ;       8330; Airband
+   121600000; 145 RKT GND              ; AM                  ;       8330; Airband
    121625000; 146                      ; AM                  ;       8330; Airband
    121650000; 147 DXB                  ; AM                  ;       8330; Airband
    121675000; 148                      ; AM                  ;       8330; Airband
@@ -1217,7 +1219,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    121800000; 153                      ; AM                  ;       8330; Airband
    121825000; 154                      ; AM                  ;       8330; Airband
    121850000; 155                      ; AM                  ;       8330; Airband
-   121875000; 156 SHJ                  ; AM                  ;       8330; Airband
+   121875000; 156 SHJ GND              ; AM                  ;       8330; Airband
    121900000; 157                      ; AM                  ;       8330; Airband
    121925000; 158                      ; AM                  ;       8330; Airband
    121950000; 159                      ; AM                  ;       8330; Airband
@@ -1238,7 +1240,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    122325000; 174                      ; AM                  ;       8330; Airband
    122350000; 175                      ; AM                  ;       8330; Airband
    122375000; 176                      ; AM                  ;       8330; Airband
-   122400000; 177 SAPI                 ; AM                  ;       8330; Airband
+   122400000; 177 SHJ ATIS             ; AM                  ;       8330; Airband
    122425000; 178                      ; AM                  ;       8330; Airband
    122450000; 179                      ; AM                  ;       8330; Airband
    122475000; 180                      ; AM                  ;       8330; Airband
@@ -1318,18 +1320,18 @@ Wi-Fi-2.4G          ; #c0c0c0
    124325000; 254                      ; AM                  ;       8330; Airband
    124350000; 255                      ; AM                  ;       8330; Airband
    124375000; 256                      ; AM                  ;       8330; Airband
-   124400000; 257                      ; AM                  ;       8330; Airband
+   124400000; 257 AUH APP              ; AM                  ;       8330; Airband
    124425000; 258                      ; AM                  ;       8330; Airband
-   124450000; 259                      ; AM                  ;       8330; Airband
+   124450000; 259 DXB DEP              ; AM                  ;       8330; Airband
    124475000; 260                      ; AM                  ;       8330; Airband
    124500000; 261                      ; AM                  ;       8330; Airband
    124525000; 262                      ; AM                  ;       8330; Airband
    124550000; 263                      ; AM                  ;       8330; Airband
    124575000; 264                      ; AM                  ;       8330; Airband
-   124600000; 265                      ; AM                  ;       8330; Airband
+   124600000; 265 FJR TWR              ; AM                  ;       8330; Airband
    124625000; 266                      ; AM                  ;       8330; Airband
    124650000; 267                      ; AM                  ;       8330; Airband
-   124675000; 268 DAPI                 ; AM                  ;       8330; Airband
+   124675000; 268 SHJ APP              ; AM                  ;       8330; Airband
    124700000; 269                      ; AM                  ;       8330; Airband
    124725000; 270                      ; AM                  ;       8330; Airband
    124750000; 271                      ; AM                  ;       8330; Airband
@@ -1338,7 +1340,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    124825000; 274                      ; AM                  ;       8330; Airband
    124850000; 275                      ; AM                  ;       8330; Airband
    124875000; 276                      ; AM                  ;       8330; Airband
-   124900000; 277                      ; AM                  ;       8330; Airband
+   124900000; 277 DXB APP              ; AM                  ;       8330; Airband
    124925000; 278                      ; AM                  ;       8330; Airband
    124950000; 279                      ; AM                  ;       8330; Airband
    124975000; 280                      ; AM                  ;       8330; Airband
@@ -1346,7 +1348,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    125025000; 282                      ; AM                  ;       8330; Airband
    125050000; 283                      ; AM                  ;       8330; Airband
    125075000; 284                      ; AM                  ;       8330; Airband
-   125100000; 285                      ; AM                  ;       8330; Airband
+   125100000; 285 AUH ATIS             ; AM                  ;       8330; Airband
    125125000; 286                      ; AM                  ;       8330; Airband
    125150000; 287                      ; AM                  ;       8330; Airband
    125175000; 288                      ; AM                  ;       8330; Airband
@@ -1360,7 +1362,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    125375000; 296                      ; AM                  ;       8330; Airband
    125400000; 297                      ; AM                  ;       8330; Airband
    125425000; 298                      ; AM                  ;       8330; Airband
-   125450000; 299                      ; AM                  ;       8330; Airband
+   125450000; 299 FJR DEP              ; AM                  ;       8330; Airband
    125475000; 300                      ; AM                  ;       8330; Airband
    125500000; 301                      ; AM                  ;       8330; Airband
    125525000; 302                      ; AM                  ;       8330; Airband
@@ -1384,7 +1386,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    125975000; 320                      ; AM                  ;       8330; Airband
    126000000; 321                      ; AM                  ;       8330; Airband
    126025000; 322                      ; AM                  ;       8330; Airband
-   126050000; 323                      ; AM                  ;       8330; Airband
+   126050000; 323 xxx ATIS             ; AM                  ;       8330; Airband
    126075000; 324                      ; AM                  ;       8330; Airband
    126100000; 325                      ; AM                  ;       8330; Airband
    126125000; 326                      ; AM                  ;       8330; Airband
@@ -1393,7 +1395,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    126200000; 329                      ; AM                  ;       8330; Airband
    126225000; 330                      ; AM                  ;       8330; Airband
    126250000; 331                      ; AM                  ;       8330; Airband
-   126275000; 332 DAPI                 ; AM                  ;       8330; Airband
+   126275000; 332 DXB ATIS ARR         ; AM                  ;       8330; Airband
    126300000; 333                      ; AM                  ;       8330; Airband
    126325000; 334                      ; AM                  ;       8330; Airband
    126350000; 335                      ; AM                  ;       8330; Airband
@@ -1401,20 +1403,20 @@ Wi-Fi-2.4G          ; #c0c0c0
    126400000; 337                      ; AM                  ;       8330; Airband
    126425000; 338                      ; AM                  ;       8330; Airband
    126450000; 339                      ; AM                  ;       8330; Airband
-   126475000; 340                      ; AM                  ;       8330; Airband
+   126475000; 340 xxx ATIS             ; AM                  ;       8330; Airband
    126500000; 341                      ; AM                  ;       8330; Airband
    126525000; 342                      ; AM                  ;       8330; Airband
    126550000; 343                      ; AM                  ;       8330; Airband
    126575000; 344                      ; AM                  ;       8330; Airband
-   126600000; 345                      ; AM                  ;       8330; Airband
+   126600000; 345 xxx ATIS             ; AM                  ;       8330; Airband
    126625000; 346                      ; AM                  ;       8330; Airband
-   126650000; 347                      ; AM                  ;       8330; Airband
+   126650000; 347 xxx ATIS             ; AM                  ;       8330; Airband
    126675000; 348                      ; AM                  ;       8330; Airband
    126700000; 349                      ; AM                  ;       8330; Airband
    126725000; 350                      ; AM                  ;       8330; Airband
    126750000; 351                      ; AM                  ;       8330; Airband
    126775000; 352                      ; AM                  ;       8330; Airband
-   126800000; 353                      ; AM                  ;       8330; Airband
+   126800000; 353 MCT ATIS             ; AM                  ;       8330; Airband
    126825000; 354                      ; AM                  ;       8330; Airband
    126850000; 355                      ; AM                  ;       8330; Airband
    126875000; 356                      ; AM                  ;       8330; Airband
@@ -1458,11 +1460,11 @@ Wi-Fi-2.4G          ; #c0c0c0
    127825000; 394                      ; AM                  ;       8330; Airband
    127850000; 395                      ; AM                  ;       8330; Airband
    127875000; 396                      ; AM                  ;       8330; Airband
-   127900000; 397                      ; AM                  ;       8330; Airband
+   127900000; 397 DXB TWR              ; AM                  ;       8330; Airband
    127925000; 398                      ; AM                  ;       8330; Airband
    127950000; 399                      ; AM                  ;       8330; Airband
    127975000; 400                      ; AM                  ;       8330; Airband
-   128000000; 401 KIA                  ; AM                  ;       8330; Airband
+   128000000; 401 KIH ATIS             ; AM                  ;       8330; Airband
    128025000; 402                      ; AM                  ;       8330; Airband
    128050000; 403                      ; AM                  ;       8330; Airband
    128075000; 404                      ; AM                  ;       8330; Airband
@@ -1508,7 +1510,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    129075000; 444                      ; AM                  ;       8330; Airband
    129100000; 445                      ; AM                  ;       8330; Airband
    129125000; 446                      ; AM                  ;       8330; Airband
-   129150000; 447                      ; AM                  ;       8330; Airband
+   129150000; 447 AAN GND              ; AM                  ;       8330; Airband
    129175000; 448                      ; AM                  ;       8330; Airband
    129200000; 449                      ; AM                  ;       8330; Airband
    129225000; 450                      ; AM                  ;       8330; Airband
@@ -1518,7 +1520,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    129325000; 454                      ; AM                  ;       8330; Airband
    129350000; 455                      ; AM                  ;       8330; Airband
    129375000; 456                      ; AM                  ;       8330; Airband
-   129400000; 457                      ; AM                  ;       8330; Airband
+   129400000; 457 FJR APP              ; AM                  ;       8330; Airband
    129425000; 458                      ; AM                  ;       8330; Airband
    129450000; 459                      ; AM                  ;       8330; Airband
    129475000; 460                      ; AM                  ;       8330; Airband
@@ -1610,7 +1612,7 @@ Wi-Fi-2.4G          ; #c0c0c0
    131625000; 546                      ; AM                  ;       8330; Airband
    131650000; 547                      ; AM                  ;       8330; Airband
    131675000; 548                      ; AM                  ;       8330; Airband
-   131700000; 549 DAPI                 ; AM                  ;       8330; Airband
+   131700000; 549 DXB ATIS DEP         ; AM                  ;       8330; Airband
    131725000; 550                      ; AM                  ;       8330; Airband
    131750000; 551                      ; AM                  ;       8330; Airband
    131775000; 552                      ; AM                  ;       8330; Airband
@@ -1992,8 +1994,24 @@ Wi-Fi-2.4G          ; #c0c0c0
    147925000; *                        ; Narrow FM           ;      25000; HAM2m
    147950000; *                        ; Narrow FM           ;      25000; HAM2m
    147975000; *                        ; Narrow FM           ;      25000; HAM2m
-   148082000; *                        ; Narrow FM           ;      10000; WalkiTalki_VHF
-   148100000; *                        ; Narrow FM           ;      10000; WalkiTalki_VHF
+   148000000; D                        ; Narrow FM           ;      10000; VHF_Radio
+   148025000; D                        ; Narrow FM           ;      10000; VHF_Radio
+   148075000; D                        ; Narrow FM           ;      10000; VHF_Radio
+   148100000; D                        ; Narrow FM           ;      10000; VHF_Radio
+   148125000; D                        ; Narrow FM           ;      10000; VHF_Radio
+   148150000; D                        ; Narrow FM           ;      10000; VHF_Radio
+   148225000; D                        ; Narrow FM           ;      10000; VHF_Radio
+   148500000; D                        ; Narrow FM           ;      10000; VHF_Radio
+   149475000; D                        ; Narrow FM           ;      25000; VHF_Radio
+   150000000; D                        ; Narrow FM           ;      25000; VHF_Radio
+   150150000; D                        ; Narrow FM           ;      25000; VHF_Radio
+   150815000; D                        ; Narrow FM           ;      25000; VHF_Radio
+   151275000; D                        ; Narrow FM           ;      25000; VHF_Radio
+   151325000; D                        ; Narrow FM           ;      25000; VHF_Radio
+   153425000; D                        ; Narrow FM           ;      25000; VHF_Radio
+   153875000; D                        ; Narrow FM           ;      25000; VHF_Radio
+   154500000; D                        ; Narrow FM           ;      25000; VHF_Radio
+   154800000; D                        ; Narrow FM           ;      25000; VHF_Radio
    155500000; L1                       ; Narrow FM           ;      25000; Marine
    155525000; L2                       ; Narrow FM           ;      25000; Marine
    155625000; F1                       ; Narrow FM           ;      25000; Marine
@@ -2639,7 +2657,6 @@ Wi-Fi-2.4G          ; #c0c0c0
    399950000; 399                      ; Demod Off           ;      24000; Tetra
    399975000; 400                      ; Demod Off           ;      24000; Tetra
    400000000; E                        ; Demod Off           ;      24000; Tetra
-   400600000; V                        ; Narrow FM           ;      20000; Untagged
    420000000; S                        ; Demod Off           ;      24000; Tetra
    420000000; S                        ; Narrow FM           ;      10000; HAM70cm
    420025000; 2                        ; Demod Off           ;      24000; Tetra
@@ -3681,14 +3698,25 @@ Wi-Fi-2.4G          ; #c0c0c0
    445925000; V                        ; Narrow FM           ;      20000; UHF_Radio
    445950000; V                        ; Narrow FM           ;      20000; UHF_Radio
    445975000; V                        ; Narrow FM           ;      20000; UHF_Radio
-   446000000; V                        ; Narrow FM           ;      20000; UHF_Radio
-   446025000; V                        ; Narrow FM           ;      20000; UHF_Radio
-   446050000; V                        ; Narrow FM           ;      20000; UHF_Radio
-   446075000; V                        ; Narrow FM           ;      20000; UHF_Radio
-   446100000; V                        ; Narrow FM           ;      20000; UHF_Radio
-   446125000; V                        ; Narrow FM           ;      20000; UHF_Radio
-   446150000; V                        ; Narrow FM           ;      20000; UHF_Radio
-   446175000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   446000625; 1A                       ; Narrow FM           ;      12500; PMR446
+   446003125; 1D                       ; Demod Off           ;       6250; PMR446
+   446009375; 2D                       ; Demod Off           ;       6250; PMR446
+   446018750; 2A                       ; Narrow FM           ;      12500; PMR446
+   446031250; 3A                       ; Narrow FM           ;      12500; PMR446
+   446043750; 4A                       ; Narrow FM           ;      12500; PMR446
+   446056250; 5A                       ; Narrow FM           ;      12500; PMR446
+   446068750; 6A                       ; Narrow FM           ;      12500; PMR446
+   446081250; 7A                       ; Narrow FM           ;      12500; PMR446
+   446093750; 8A                       ; Narrow FM           ;      12500; PMR446
+   446096875; 16D                      ; Demod Off           ;       6250; PMR446
+   446106250; 9A                       ; Narrow FM           ;      12500; PMR446
+   446118750; 10A                      ; Narrow FM           ;      12500; PMR446
+   446131250; 11A                      ; Narrow FM           ;      12500; PMR446
+   446143750; 12A                      ; Narrow FM           ;      12500; PMR446
+   446156250; 13A                      ; Narrow FM           ;      12500; PMR446
+   446168750; 14A                      ; Narrow FM           ;      12500; PMR446
+   446181250; 15A                      ; Narrow FM           ;      12500; PMR446
+   446193750; 16A                      ; Narrow FM           ;      12500; PMR446
    446200000; V                        ; Narrow FM           ;      20000; UHF_Radio
    446225000; V                        ; Narrow FM           ;      20000; UHF_Radio
    446250000; V                        ; Narrow FM           ;      20000; UHF_Radio
@@ -4656,8 +4684,6 @@ Wi-Fi-2.4G          ; #c0c0c0
   1176450000; IRNSS L5                 ; Narrow FM           ;       2000; IRNSS
   1202250000; GLONASS L3               ; Narrow FM           ;       2000; GLONASS
   1207140000; Galileo E5b              ; Narrow FM           ;      10000; Galileo
-  1209600500; Signal                   ; Demod Off           ;       2000; Untagged
-  1224000000; Signal                   ; Demod Off           ;       2000; Untagged
   1227600000; GPS L2                   ; Narrow FM           ;       2000; GPS
   1240000000; GLONASS L2               ; Narrow FM           ;      10000; GLONASS
   1240000000; S                        ; Narrow FM           ;      10000; HAM23cm
@@ -4674,7 +4700,6 @@ Wi-Fi-2.4G          ; #c0c0c0
   1575420000; GPS L1                   ; Narrow FM           ;      10000; GPS
   1575420000; Galileo E1               ; Narrow FM           ;      10000; Galileo
   1602560000; GLONASS L1               ; Narrow FM           ;      10000; GLONASS
-  1612800100; Signal                   ; Demod Off           ;       2000; Untagged
   1615500000; GLONASS L1               ; Narrow FM           ;      10000; GLONASS
   1620000000; Iridium                  ; Narrow FM           ;      10000; SAT
   1688000000; GOES                     ; Narrow FM           ;      20600; SAT
