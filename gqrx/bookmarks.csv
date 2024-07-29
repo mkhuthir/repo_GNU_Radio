@@ -21,6 +21,7 @@ DAB                 ; #c0ffc0
 DVB                 ; #f57900
 ELF                 ; #ef2929
 FM                  ; #00ff00
+FRS                 ; #ffe100
 GLONASS             ; #c17d11
 GPS                 ; #ce5c00
 Galileo             ; #8f5902
@@ -2255,7 +2256,6 @@ Wi-Fi-2.4G          ; #c0c0c0
    336013000; ISM 336.013 MHz          ; Demod Off           ;      50000; ISM_315
    336330000; ISM 336.330 MHz          ; Demod Off           ;      50000; ISM_315
    337226000; ISM 337.226 MHz          ; Demod Off           ;      50000; ISM_315
-
    390000000; 3600                     ; Demod Off           ;      25000; Tetra
    390025000; 3601                     ; Demod Off           ;      25000; Tetra
    390050000; 3602                     ; Demod Off           ;      25000; Tetra
@@ -2656,8 +2656,6 @@ Wi-Fi-2.4G          ; #c0c0c0
    399925000; 3997                     ; Demod Off           ;      25000; Tetra
    399950000; 3998                     ; Demod Off           ;      25000; Tetra
    399975000; 3999                     ; Demod Off           ;      25000; Tetra
-
-
    430000000; V                        ; Narrow FM           ;      20000; UHF_Radio
    430025000; V                        ; Narrow FM           ;      20000; UHF_Radio
    430050000; V                        ; Narrow FM           ;      20000; UHF_Radio
@@ -4001,12 +3999,27 @@ Wi-Fi-2.4G          ; #c0c0c0
    462500000; V                        ; Narrow FM           ;      20000; UHF_Radio
    462525000; V                        ; Narrow FM           ;      20000; UHF_Radio
    462550000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   462550000; 15                       ; Narrow FM           ;      12500; FRS
+   462562500; 1                        ; Narrow FM           ;      12500; FRS
+   462575000; 16                       ; Narrow FM           ;      12500; FRS
    462575000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   462587500; 2                        ; Narrow FM           ;      12500; FRS
+   462600000; 17                       ; Narrow FM           ;      12500; FRS
    462600000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   462612500; 3                        ; Narrow FM           ;      12500; FRS
+   462625000; 18                       ; Narrow FM           ;      12500; FRS
    462625000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   462637500; 4                        ; Narrow FM           ;      12500; FRS
+   462650000; 19                       ; Narrow FM           ;      12500; FRS
    462650000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   462662500; 5                        ; Narrow FM           ;      12500; FRS
+   462675000; 20                       ; Narrow FM           ;      12500; FRS
    462675000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   462687500; 6                        ; Narrow FM           ;      12500; FRS
+   462700000; 21                       ; Narrow FM           ;      12500; FRS
    462700000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   462712500; 7                        ; Narrow FM           ;      12500; FRS
+   462725000; 22                       ; Narrow FM           ;      12500; FRS
    462725000; V                        ; Narrow FM           ;      20000; UHF_Radio
    462750000; V                        ; Narrow FM           ;      20000; UHF_Radio
    462775000; V                        ; Narrow FM           ;      20000; UHF_Radio
@@ -4201,12 +4214,19 @@ Wi-Fi-2.4G          ; #c0c0c0
    467500000; V                        ; Narrow FM           ;      20000; UHF_Radio
    467525000; V                        ; Narrow FM           ;      20000; UHF_Radio
    467550000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   467562500; 8                        ; Narrow FM           ;      12500; FRS
    467575000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   467587500; 9                        ; Narrow FM           ;      12500; FRS
    467600000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   467612500; 10                       ; Narrow FM           ;      12500; FRS
    467625000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   467637500; 11                       ; Narrow FM           ;      12500; FRS
    467650000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   467662500; 12                       ; Narrow FM           ;      12500; FRS
    467675000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   467687500; 13                       ; Narrow FM           ;      12500; FRS
    467700000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   467712500; 14                       ; Narrow FM           ;      12500; FRS
    467725000; V                        ; Narrow FM           ;      20000; UHF_Radio
    467750000; V                        ; Narrow FM           ;      20000; UHF_Radio
    467775000; V                        ; Narrow FM           ;      20000; UHF_Radio
