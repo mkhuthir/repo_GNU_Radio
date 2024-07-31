@@ -23,9 +23,7 @@
 50000000,     50100000,     CW,  10, #90009470, 6m CW/Data Ham Band
 50100000,     54000000,     USB, 10, #90009470, 6m Ham Band
 144000000,    144100000,    CW,  10, #90009470, 2m CW/Data Ham Band
-144100000,    148000000,    NFM, 10, #90009470, 2m Ham Band
 222000000,    225000000,    NFM, 10, #90009470, 1.25m Ham Band
-420000000,    450000000,    NFM, 10, #90009470, 70cm Ham Band
 902000000,    928000000,    NFM, 10, #90009470, 33cm Ham Band
 1240000000,   1300000000,   NFM, 10, #90009470, 23cm Ham Band
 2300000000,   2310000000,   NFM, 10, #90009470, GHz Ham Band
@@ -40,64 +38,10 @@
 134000000000, 141000000000, NFM, 10, #90009470, GHz Ham Band
 241000000000, 250000000000, NFM, 10, #90009470, GHz Ham Band
 
-# Radionavigation - Source: https://www.ntia.doc.gov/files/ntia/publications/2003-allochrt.pdf
-9000,         14000,        USB, 10, #99AABD26, Radionavigation
-90000,        110000,       USB, 10, #99AABD26, Radionavigation
-190000,       200000,       USB, 10, #99C05017, Aeronautical Radionavigation
-200000,       275000,       USB, 10, #99C05017, Aeronautical Radionavigation
-275000,       285000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
-275000,       285000,       USB, 10, #99C05017, Aeronautical Radionavigation
-285000,       300000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
-285000,       300000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
-300000,       325000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
-300000,       325000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
-325000,       335000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
-325000,       335000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
-335000,       405000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
-405000,       415000,       USB, 10, #99AABD26, Radionavigation
-415000,       495000,       USB, 10, #99C05017, Aeronautical Radionavigation
-510000,       535000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
-74800000,     75200000,     USB, 10, #99C05017, Aeronautical Radionavigation
-328600000,    335400000,    USB, 10, #99C05017, Aeronautical Radionavigation
-399900000,    400050000,    USB, 10, #99E9EB7C, Radionavigation Satellite
-960000000,    1215000000,   USB, 10, #99C05017, Aeronautical Radionavigation
-1215000000,   1240000000,   USB, 10, #99E9EB7C, Radionavigation Satellite
-1300000000,   1350000000,   USB, 10, #99C05017, Aeronautical Radionavigation
-1559000000,   1610000000,   USB, 10, #99E9EB7C, Radionavigation Satellite (Space to Earth)
-1559000000,   1626500000,   USB, 10, #99C05017, Aeronautical Radionavigation
-2700000000,   2900000000,   USB, 10, #99C05017, Aeronautical Radionavigation
-2900000000,   3100000000,   USB, 10, #994C8E75, Maritime Radionavigation
-3500000000,   3650000000,   USB, 10, #99C05017, Aeronautical Radionavigation (Ground)
-4200000000,   4400000000,   USB, 10, #99C05017, Aeronautical Radionavigation
-5000000000,   5250000000,   USB, 10, #99C05017, Aeronautical Radionavigation
-5350000000,   5460000000,   USB, 10, #99C05017, Aeronautical Radionavigation
-5460000000,   5470000000,   USB, 10, #99AABD26, Radionavigation
-5470000000,   5650000000,   USB, 10, #994C8E75, Maritime Radionavigation
-9000000000,   9200000000,   USB, 10, #99C05017, Aeronautical Radionavigation
-9200000000,   9300000000,   USB, 10, #994C8E75, Maritime Radionavigation
-9300000000,   9500000000,   USB, 10, #99AABD26, Radionavigation
-13250000000,  13400000000,  USB, 10, #99C05017, Aeronautical Radionavigation
-14000000000,  14200000000,  USB, 10, #99AABD26, Radionavigation
-15400000000,  15700000000,  USB, 10, #99C05017, Aeronautical Radionavigation
-24450000000,  24650000000,  USB, 10, #99AABD26, Radionavigation
-24750000000,  25050000000,  USB, 10, #99AABD26, Radionavigation
-31800000000,  33400000000,  USB, 10, #99AABD26, Radionavigation
-45500000000,  47000000000,  USB, 10, #99E9EB7C, Radionavigation Satellite
-66000000000,  71000000000,  USB, 10, #99AABD26, Radionavigation
-66000000000,  71000000000,  USB, 10, #99E9EB7C, Radionavigation Satellite
-95000000000,  100000000000, USB, 10, #99AABD26, Radionavigation
-95000000000,  100000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
-134000000000, 142000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
-134000000000, 142000000000, USB, 10, #99AABD26, Radionavigation
-190000000000, 200000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
-190000000000, 200000000000, USB, 10, #99AABD26, Radionavigation
-252000000000, 265000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
-252000000000, 265000000000, USB, 10, #99AABD26, Radionavigation
 
 # Broadcast
 54000000,  72000000,  AM,  10, #902E98BB, Broadcast Television
-76000000,  088000000, AM,  10, #902E98BB, Broadcast Television
-88000000,  108000000, WFM, 10, #902E98BB, Broadcast Radio
+#76000000,  088000000, AM,  10, #902E98BB, Broadcast Television
 174000000, 216000000, AM,  10, #902E98BB, Broadcast Television
 470000000, 512000000, AM,  10, #902E98BB, Broadcast Television
 512000000, 608000000, AM,  10, #902E98BB, Broadcast Television
@@ -105,17 +49,30 @@
 698000000, 763000000, AM,  10, #902E98BB, Broadcast Television
 
 # Other
-108000000, 118000000, AM,   5000, #906600FF, Air Band VOR/ILS
-118000000, 137000000, AM,   5000, #900000FF, Air Band Voice
 26960000,   27410000, AM,   5000, #90FF0000, CB
-156000000, 162025000, NFM, 12500, #90000080, Marine
-225000000, 380000000, NFM, 12500, #90FF0000, Military Air
-240000000, 270000000, NFM, 12500, #90FF0000, Mil Sat
-446000000, 446200000, NFM,  6250, #9000FF00, PMR446
+#225000000, 380000000, NFM, 12500, #90FF0000, Military Air
+#240000000, 270000000, NFM, 12500, #90FF0000, Mil Sat
 
-# Muthanna
-174000000, 240000000, NFM,  1712000, #902E98BB, DAB
-390000000, 400000000, Demod Off, 24000, #902F4F00, Tetra
-450000000, 470000000, NFM, 12500, #904F004F, UHF_Radio
-462550000, 462725000, NFM, 12500, #9040FF40, FRS
-467562500, 467712500, NFM, 12500, #9040FF40, FRS
+# Muthanna 2024 UAE
+#------------------
+
+# FM
+87500000,  108000000, WFM      , 200000 , #902E98BB, Broadcast FM
+
+# Airband
+108000000, 118000000, AM       , 5000   , #906600FF, AirBand VOR/ILS
+118000000, 137000000, AM       , 5000   , #900000FF, AirBand Voice
+
+#VHF
+144100000, 148000000, NFM      , 10     , #90009470, Ham 2m
+156000000, 162025000, NFM      , 12500  , #90000080, Radio Marine
+174000000, 240000000, Demod Off, 1536000, #902E98BB, Broadcast DAB+
+
+#UHF
+390000000, 400000000, Demod Off, 24000  , #902F4F00, Radio Tetra
+400000000, 420000000, NFM      , 12500  , #904F004F, Radio UHF
+420000000, 440000000, NFM      , 12500  , #90009470, Ham 70cm
+440000000, 470000000, NFM      , 12500  , #904F004F, Radio UHF
+446000000, 446200000, NFM      , 6250   , #9000FF00, Radio PMR446
+462550000, 462725000, NFM      , 12500  , #9040FF40, Radio FRS
+467562500, 467712500, NFM      , 12500  , #9040FF40, Radio FRS
