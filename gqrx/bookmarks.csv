@@ -18,7 +18,6 @@ AM                  ; #ff5a5a
 Airband             ; #ce5c00
 CW                  ; #00ff00
 DAB                 ; #c0ffc0
-DVB                 ; #f57900
 ELF                 ; #ef2929
 FM                  ; #00ff00
 FRS                 ; #ffe100
@@ -437,9 +436,8 @@ Wi-Fi-2.4G          ; #c0c0c0
      9965000; *                        ; AM                  ;       5000; AM
      9970000; *                        ; AM                  ;      10000; 31m
     10000000; *                        ; AM                  ;       5000; WWV Time
-    10100000; S                        ; AM                  ;       5000; HAM30m
-    10140000; PSK31                    ; AM                  ;      10000; HAM30m
-    10150000; E                        ; AM                  ;       5000; HAM30m
+    10100000; D                        ; Demod Off           ;       5000; HAM30m
+    10140000; PSK31                    ; Demod Off           ;      10000; HAM30m
     10160000; *                        ; CW-L                ;        500; CW
     11520000; *                        ; AM                  ;       5000; AM
     11530000; *                        ; AM                  ;       5000; AM
@@ -627,9 +625,8 @@ Wi-Fi-2.4G          ; #c0c0c0
     17880000; *                        ; AM                  ;       5000; 16m
     17890000; *                        ; AM                  ;       5000; 16m
     17900000; E                        ; AM                  ;       5000; 16m
-    18068000; S                        ; Narrow FM           ;      10000; HAM17m
-    18100000; PSK31                    ; AM                  ;      10000; HAM17m
-    18168000; E                        ; Narrow FM           ;      10000; HAM17m
+    18068000; D                        ; Demod Off           ;      10000; HAM17m
+    18100000; PSK31                    ; Demod Off           ;      10000; HAM17m
     18900000; S                        ; AM                  ;       5000; 15m
     18970000; *                        ; AM                  ;       5000; 15m
     19020000; E                        ; AM                  ;       5000; 15m
@@ -642,11 +639,9 @@ Wi-Fi-2.4G          ; #c0c0c0
     21640000; *                        ; AM                  ;       5000; 13m
     21695000; *                        ; AM                  ;       5000; 13m
     21850000; E                        ; AM                  ;       5000; 13m
-    24890000; S                        ; Narrow FM           ;      10000; HAM12m
-    24920000; PSK31                    ; AM                  ;      10000; HAM12m
-    24990000; E                        ; Narrow FM           ;      10000; HAM12m
-    25000000; *                        ; AM                  ;       5000; WWV Time
-    25670000; S                        ; AM                  ;       5000; 11m
+    24890000; D                        ; Demod Off           ;      10000; HAM12m
+    24920000; PSK31                    ; Demod Off           ;      10000; HAM12m
+    25670000; S                        ; CW-L                ;       5000; 11m
     26100000; E                        ; AM                  ;       5000; 11m
     26957000; S                        ; Demod Off           ;          0; ISM
     27120000; RC                       ; Demod Off           ;     326000; ISM
@@ -4718,7 +4713,6 @@ Wi-Fi-2.4G          ; #c0c0c0
    469950000; V                        ; Narrow FM           ;      20000; UHF_Radio
    469975000; V                        ; Narrow FM           ;      20000; UHF_Radio
    470000000; V                        ; Narrow FM           ;      20000; UHF_Radio
-   477896000; S                        ; Demod Off           ;          0; DVB
    868000000; 868_000                  ; Demod Off           ;     250000; ISM_868
    902000000; S                        ; Demod Off           ;          0; ISM
    902000000; S                        ; Narrow FM           ;      10000; HAM33cm
