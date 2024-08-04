@@ -2,8 +2,9 @@
 ADSB                ; #75507b
 AM                  ; #ff5a5a
 Airband             ; #ce5c00
+Broadcast           ; #ecdd38
 CW                  ; #00ff00
-DAB                 ; #c0ffc0
+DAB                 ; #fff71c
 FM                  ; #00ff00
 FRS                 ; #ffe100
 GLONASS             ; #c17d11
@@ -5133,6 +5134,7 @@ Wi-Fi-2.4G          ; #0f21c0
    469950000; V                        ; Narrow FM           ;      20000; UHF_Radio
    469975000; V                        ; Narrow FM           ;      20000; UHF_Radio
    470000000; V                        ; Narrow FM           ;      20000; UHF_Radio
+   474510000; T                        ; Demod Off           ;     650000; Broadcast
    868000000; 868_000                  ; Demod Off           ;     250000; ISM_868
    902000000; S                        ; Demod Off           ;          0; ISM
    902000000; S                        ; Narrow FM           ;      10000; HAM33cm
