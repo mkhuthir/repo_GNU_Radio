@@ -1,10 +1,11 @@
 # Tag name          ;  color
 ADSB                ; #75507b
-AM                  ; #ff5a5a
 Airband             ; #ce5c00
+BC AM               ; #ff5a5a
+BC DAB              ; #fff71c
+BC FM               ; #00ff00
+BC MW               ; #0056e6
 CW                  ; #00ff00
-DAB                 ; #fff71c
-FM                  ; #00ff00
 FRS                 ; #ffe100
 GLONASS             ; #c17d11
 GPS                 ; #ce5c00
@@ -30,17 +31,13 @@ HAM6m               ; #729fcf
 HAM70cm             ; #729fcf
 HAM80m              ; #729fcf
 IRNSS               ; #a08c14
-ISM                 ; #edd400
-ISM_315             ; #ff5500
-ISM_868             ; #ff5500
-MW                  ; #0056e6
 Marine              ; #c07010
-Marker              ; #c0c0c0
 NDB                 ; #c0c0c0
 NOAA                ; #cc0000
 PMR446              ; #ffffff
 PMR446_D            ; #ffff00
 RC-VTX              ; #729fcf
+RFID                ; #00aaff
 SAT                 ; #73d216
 Tetra               ; #14a08c
 UHF_Radio           ; #8ae234
@@ -49,6 +46,7 @@ VHF_Radio           ; #8ae234
 VOR_ILS             ; #ce5cff
 WWV Time            ; #4e9a06
 Wi-Fi-2.4G          ; #0f21c0
+_Mark_              ; #c0c0c0
 
 # Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
       135700; S                        ; Narrow FM           ;          0; HAM2200m
@@ -57,126 +55,126 @@ Wi-Fi-2.4G          ; #0f21c0
       472000; S                        ; Narrow FM           ;          0; HAM630m
       479000; E                        ; Narrow FM           ;          0; HAM630m
       500000; *                        ; Narrow FM           ;      10000; CW
-      531000; S                        ; AM                  ;      10000; MW
-      540000; Kuwait                   ; AM                  ;      10000; MW
-      549000; *                        ; AM                  ;      10000; MW
-      558000; *                        ; AM                  ;      10000; MW
-      567000; *                        ; AM                  ;      10000; MW
-      576000; *                        ; AM                  ;      10000; MW
-      585000; *                        ; AM                  ;      10000; MW
-      594000; *                        ; AM                  ;      10000; MW
-      603000; *                        ; AM                  ;      10000; MW
-      612000; *                        ; AM                  ;      10000; MW
-      621000; *                        ; AM                  ;      10000; MW
-      630000; *                        ; AM                  ;      10000; MW
-      639000; *                        ; AM                  ;      10000; MW
-      648000; *                        ; AM                  ;      10000; MW
-      657000; *                        ; AM                  ;      10000; MW
-      666000; *                        ; AM                  ;      10000; MW
-      675000; *                        ; AM                  ;      10000; MW
-      684000; *                        ; AM                  ;      10000; MW
-      693000; *                        ; AM                  ;      10000; MW
-      702000; *                        ; AM                  ;      10000; MW
-      711000; *                        ; AM                  ;      10000; MW
-      720000; *                        ; AM                  ;      10000; MW
-      729000; *                        ; AM                  ;      10000; MW
-      738000; *                        ; AM                  ;      10000; MW
-      747000; *                        ; AM                  ;      10000; MW
-      756000; *                        ; AM                  ;      10000; MW
-      765000; *                        ; AM                  ;      10000; MW
-      774000; *                        ; AM                  ;      10000; MW
-      783000; *                        ; AM                  ;      10000; MW
-      792000; *                        ; AM                  ;      10000; MW
-      801000; *                        ; AM                  ;      10000; MW
-      810000; *                        ; AM                  ;      10000; MW
-      819000; *                        ; AM                  ;      10000; MW
-      828000; *                        ; AM                  ;      10000; MW
-      837000; *                        ; AM                  ;      10000; MW
-      846000; UAQ Quran                ; AM                  ;      10000; MW
-      855000; *                        ; AM                  ;      10000; MW
-      864000; *                        ; AM                  ;      10000; MW
-      873000; *                        ; AM                  ;      10000; MW
-      882000; *                        ; AM                  ;      10000; MW
-      891000; *                        ; AM                  ;      10000; MW
-      900000; *                        ; AM                  ;      10000; MW
-      909000; *                        ; AM                  ;      10000; MW
-      918000; *                        ; AM                  ;      10000; MW
-      927000; *                        ; AM                  ;      10000; MW
-      936000; *                        ; AM                  ;      10000; MW
-      945000; *                        ; AM                  ;      10000; MW
-      954000; *                        ; AM                  ;      10000; MW
-      963000; *                        ; AM                  ;      10000; MW
-      972000; *                        ; AM                  ;      10000; MW
-      981000; *                        ; AM                  ;      10000; MW
-      990000; *                        ; AM                  ;      10000; MW
-      999000; *                        ; AM                  ;      10000; MW
-     1008000; *                        ; AM                  ;      10000; MW
-     1017000; *                        ; AM                  ;      10000; MW
-     1026000; *                        ; AM                  ;      10000; MW
-     1035000; *                        ; AM                  ;      10000; MW
-     1044000; *                        ; AM                  ;      10000; MW
-     1053000; *                        ; AM                  ;      10000; MW
-     1062000; *                        ; AM                  ;      10000; MW
-     1071000; *                        ; AM                  ;      10000; MW
-     1080000; *                        ; AM                  ;      10000; MW
-     1089000; *                        ; AM                  ;      10000; MW
-     1098000; *                        ; AM                  ;      10000; MW
-     1107000; *                        ; AM                  ;      10000; MW
-     1116000; *                        ; AM                  ;      10000; MW
-     1125000; *                        ; AM                  ;      10000; MW
-     1134000; *                        ; AM                  ;      10000; MW
-     1143000; *                        ; AM                  ;      10000; MW
-     1152000; RAK Voice of Kerela      ; AM                  ;      10000; MW
-     1161000; *                        ; AM                  ;      10000; MW
-     1170000; *                        ; AM                  ;      10000; MW
-     1179000; *                        ; AM                  ;      10000; MW
-     1188000; *                        ; AM                  ;      10000; MW
-     1197000; *                        ; AM                  ;      10000; MW
-     1206000; *                        ; AM                  ;      10000; MW
-     1215000; *                        ; AM                  ;      10000; MW
-     1224000; *                        ; AM                  ;      10000; MW
-     1233000; *                        ; AM                  ;      10000; MW
-     1242000; *                        ; AM                  ;      10000; MW
-     1251000; *                        ; AM                  ;      10000; MW
-     1260000; *                        ; AM                  ;      10000; MW
-     1269000; *                        ; AM                  ;      10000; MW
-     1278000; *                        ; AM                  ;      10000; MW
-     1287000; *                        ; AM                  ;      10000; MW
-     1296000; *                        ; AM                  ;      10000; MW
-     1305000; *                        ; AM                  ;      10000; MW
-     1314000; *                        ; AM                  ;      10000; MW
-     1323000; *                        ; AM                  ;      10000; MW
-     1332000; *                        ; AM                  ;      10000; MW
-     1341000; *                        ; AM                  ;      10000; MW
-     1350000; *                        ; AM                  ;      10000; MW
-     1359000; *                        ; AM                  ;      10000; MW
-     1368000; *                        ; AM                  ;      10000; MW
-     1377000; *                        ; AM                  ;      10000; MW
-     1386000; *                        ; AM                  ;      10000; MW
-     1395000; *                        ; AM                  ;      10000; MW
-     1404000; *                        ; AM                  ;      10000; MW
-     1413000; *                        ; AM                  ;      10000; MW
-     1422000; *                        ; AM                  ;      10000; MW
-     1431000; *                        ; AM                  ;      10000; MW
-     1440000; SA                       ; AM                  ;      10000; MW
-     1449000; *                        ; AM                  ;      10000; MW
-     1458000; *                        ; AM                  ;      10000; MW
-     1467000; *                        ; AM                  ;      10000; MW
-     1476000; RAK Radio Asia           ; AM                  ;      10000; MW
-     1485000; *                        ; AM                  ;      10000; MW
-     1494000; *                        ; AM                  ;      10000; MW
-     1503000; *                        ; AM                  ;      10000; MW
-     1512000; *                        ; AM                  ;      10000; MW
-     1521000; *                        ; AM                  ;      10000; MW
-     1530000; *                        ; AM                  ;      10000; MW
-     1539000; *                        ; AM                  ;      10000; MW
-     1548000; *                        ; AM                  ;      10000; MW
-     1557000; *                        ; AM                  ;      10000; MW
-     1566000; *                        ; AM                  ;      10000; MW
-     1575000; *                        ; AM                  ;      10000; MW
-     1584000; *                        ; AM                  ;      10000; MW
-     1593000; *                        ; AM                  ;      10000; MW
-     1602000; E                        ; AM                  ;      10000; MW
+      531000; S                        ; AM                  ;      10000; BC MW
+      540000; Kuwait                   ; AM                  ;      10000; BC MW
+      549000; *                        ; AM                  ;      10000; BC MW
+      558000; *                        ; AM                  ;      10000; BC MW
+      567000; *                        ; AM                  ;      10000; BC MW
+      576000; *                        ; AM                  ;      10000; BC MW
+      585000; *                        ; AM                  ;      10000; BC MW
+      594000; *                        ; AM                  ;      10000; BC MW
+      603000; *                        ; AM                  ;      10000; BC MW
+      612000; *                        ; AM                  ;      10000; BC MW
+      621000; *                        ; AM                  ;      10000; BC MW
+      630000; *                        ; AM                  ;      10000; BC MW
+      639000; *                        ; AM                  ;      10000; BC MW
+      648000; *                        ; AM                  ;      10000; BC MW
+      657000; *                        ; AM                  ;      10000; BC MW
+      666000; *                        ; AM                  ;      10000; BC MW
+      675000; *                        ; AM                  ;      10000; BC MW
+      684000; *                        ; AM                  ;      10000; BC MW
+      693000; *                        ; AM                  ;      10000; BC MW
+      702000; *                        ; AM                  ;      10000; BC MW
+      711000; *                        ; AM                  ;      10000; BC MW
+      720000; *                        ; AM                  ;      10000; BC MW
+      729000; *                        ; AM                  ;      10000; BC MW
+      738000; *                        ; AM                  ;      10000; BC MW
+      747000; *                        ; AM                  ;      10000; BC MW
+      756000; *                        ; AM                  ;      10000; BC MW
+      765000; *                        ; AM                  ;      10000; BC MW
+      774000; *                        ; AM                  ;      10000; BC MW
+      783000; *                        ; AM                  ;      10000; BC MW
+      792000; *                        ; AM                  ;      10000; BC MW
+      801000; *                        ; AM                  ;      10000; BC MW
+      810000; *                        ; AM                  ;      10000; BC MW
+      819000; *                        ; AM                  ;      10000; BC MW
+      828000; *                        ; AM                  ;      10000; BC MW
+      837000; *                        ; AM                  ;      10000; BC MW
+      846000; UAQ Quran                ; AM                  ;      10000; BC MW
+      855000; *                        ; AM                  ;      10000; BC MW
+      864000; *                        ; AM                  ;      10000; BC MW
+      873000; *                        ; AM                  ;      10000; BC MW
+      882000; *                        ; AM                  ;      10000; BC MW
+      891000; *                        ; AM                  ;      10000; BC MW
+      900000; *                        ; AM                  ;      10000; BC MW
+      909000; *                        ; AM                  ;      10000; BC MW
+      918000; *                        ; AM                  ;      10000; BC MW
+      927000; *                        ; AM                  ;      10000; BC MW
+      936000; *                        ; AM                  ;      10000; BC MW
+      945000; *                        ; AM                  ;      10000; BC MW
+      954000; *                        ; AM                  ;      10000; BC MW
+      963000; *                        ; AM                  ;      10000; BC MW
+      972000; *                        ; AM                  ;      10000; BC MW
+      981000; *                        ; AM                  ;      10000; BC MW
+      990000; *                        ; AM                  ;      10000; BC MW
+      999000; *                        ; AM                  ;      10000; BC MW
+     1008000; *                        ; AM                  ;      10000; BC MW
+     1017000; *                        ; AM                  ;      10000; BC MW
+     1026000; *                        ; AM                  ;      10000; BC MW
+     1035000; *                        ; AM                  ;      10000; BC MW
+     1044000; *                        ; AM                  ;      10000; BC MW
+     1053000; *                        ; AM                  ;      10000; BC MW
+     1062000; *                        ; AM                  ;      10000; BC MW
+     1071000; *                        ; AM                  ;      10000; BC MW
+     1080000; *                        ; AM                  ;      10000; BC MW
+     1089000; *                        ; AM                  ;      10000; BC MW
+     1098000; *                        ; AM                  ;      10000; BC MW
+     1107000; *                        ; AM                  ;      10000; BC MW
+     1116000; *                        ; AM                  ;      10000; BC MW
+     1125000; *                        ; AM                  ;      10000; BC MW
+     1134000; *                        ; AM                  ;      10000; BC MW
+     1143000; *                        ; AM                  ;      10000; BC MW
+     1152000; RAK Voice of Kerela      ; AM                  ;      10000; BC MW
+     1161000; *                        ; AM                  ;      10000; BC MW
+     1170000; *                        ; AM                  ;      10000; BC MW
+     1179000; *                        ; AM                  ;      10000; BC MW
+     1188000; *                        ; AM                  ;      10000; BC MW
+     1197000; *                        ; AM                  ;      10000; BC MW
+     1206000; *                        ; AM                  ;      10000; BC MW
+     1215000; *                        ; AM                  ;      10000; BC MW
+     1224000; *                        ; AM                  ;      10000; BC MW
+     1233000; *                        ; AM                  ;      10000; BC MW
+     1242000; *                        ; AM                  ;      10000; BC MW
+     1251000; *                        ; AM                  ;      10000; BC MW
+     1260000; *                        ; AM                  ;      10000; BC MW
+     1269000; *                        ; AM                  ;      10000; BC MW
+     1278000; *                        ; AM                  ;      10000; BC MW
+     1287000; *                        ; AM                  ;      10000; BC MW
+     1296000; *                        ; AM                  ;      10000; BC MW
+     1305000; *                        ; AM                  ;      10000; BC MW
+     1314000; *                        ; AM                  ;      10000; BC MW
+     1323000; *                        ; AM                  ;      10000; BC MW
+     1332000; *                        ; AM                  ;      10000; BC MW
+     1341000; *                        ; AM                  ;      10000; BC MW
+     1350000; *                        ; AM                  ;      10000; BC MW
+     1359000; *                        ; AM                  ;      10000; BC MW
+     1368000; *                        ; AM                  ;      10000; BC MW
+     1377000; *                        ; AM                  ;      10000; BC MW
+     1386000; *                        ; AM                  ;      10000; BC MW
+     1395000; *                        ; AM                  ;      10000; BC MW
+     1404000; *                        ; AM                  ;      10000; BC MW
+     1413000; *                        ; AM                  ;      10000; BC MW
+     1422000; *                        ; AM                  ;      10000; BC MW
+     1431000; *                        ; AM                  ;      10000; BC MW
+     1440000; SA                       ; AM                  ;      10000; BC MW
+     1449000; *                        ; AM                  ;      10000; BC MW
+     1458000; *                        ; AM                  ;      10000; BC MW
+     1467000; *                        ; AM                  ;      10000; BC MW
+     1476000; RAK Radio Asia           ; AM                  ;      10000; BC MW
+     1485000; *                        ; AM                  ;      10000; BC MW
+     1494000; *                        ; AM                  ;      10000; BC MW
+     1503000; *                        ; AM                  ;      10000; BC MW
+     1512000; *                        ; AM                  ;      10000; BC MW
+     1521000; *                        ; AM                  ;      10000; BC MW
+     1530000; *                        ; AM                  ;      10000; BC MW
+     1539000; *                        ; AM                  ;      10000; BC MW
+     1548000; *                        ; AM                  ;      10000; BC MW
+     1557000; *                        ; AM                  ;      10000; BC MW
+     1566000; *                        ; AM                  ;      10000; BC MW
+     1575000; *                        ; AM                  ;      10000; BC MW
+     1584000; *                        ; AM                  ;      10000; BC MW
+     1593000; *                        ; AM                  ;      10000; BC MW
+     1602000; E                        ; AM                  ;      10000; BC MW
      1800000; S                        ; Narrow FM           ;          0; HAM160m
      1838000; PSK31                    ; AM                  ;      10000; HAM160m
      2000000; E                        ; Narrow FM           ;          0; HAM160m
@@ -188,7 +186,7 @@ Wi-Fi-2.4G          ; #0f21c0
      3750000; *                        ; Narrow FM           ;      10000; HAM80m
      4000000; E                        ; Narrow FM           ;      10000; HAM80m
      4331000; 4XZ                      ; CW-L                ;        500; CW
-     4450000; *                        ; AM                  ;      10000; AM
+     4450000; *                        ; AM                  ;      10000; BC AM
      5000000; *                        ; AM                  ;       5000; WWV Time
      5332000; S                        ; Narrow FM           ;      10000; HAM60m
      5348000; *                        ; Narrow FM           ;      10000; HAM60m
@@ -197,50 +195,46 @@ Wi-Fi-2.4G          ; #0f21c0
      5368000; *                        ; Narrow FM           ;      10000; HAM60m
      5373000; *                        ; Narrow FM           ;      10000; HAM60m
      5405000; E                        ; Narrow FM           ;      10000; HAM60m
-     5860000; *                        ; AM                  ;      10000; AM
-     5875000; *                        ; AM                  ;       5000; AM
-     5890000; *                        ; AM                  ;      10000; AM
+     5860000; *                        ; AM                  ;      10000; BC AM
+     5875000; *                        ; AM                  ;       5000; BC AM
+     5890000; *                        ; AM                  ;      10000; BC AM
      6321000; *                        ; CW-L                ;        500; CW
      6607000; 4XZ                      ; CW-L                ;        500; CW
-     6765000; S                        ; Demod Off           ;          0; ISM
-     6795000; E                        ; Demod Off           ;          0; ISM
      7000000; S                        ; Narrow FM           ;      10000; HAM40m
      7070000; PSK31                    ; USB                 ;       5000; HAM40m
      7110000; *                        ; Narrow FM           ;       5000; HAM40m
      7160000; *                        ; Narrow FM           ;      10000; HAM40m
      7300000; E                        ; Narrow FM           ;      10000; HAM40m
-     7465000; *                        ; AM                  ;       5000; AM
-     7485000; *                        ; AM                  ;       5000; AM
-     7495000; *                        ; AM                  ;       5000; AM
-     7540000; *                        ; AM                  ;       5000; AM
-     7565000; *                        ; AM                  ;       5000; AM
-     7590000; *                        ; AM                  ;       5000; AM
-     7600000; *                        ; AM                  ;       5000; AM
-     7610000; *                        ; AM                  ;       5000; AM
-     9310000; *                        ; AM                  ;       5000; AM
-     9355000; *                        ; AM                  ;       5000; AM
-     9370000; *                        ; AM                  ;       5000; AM
-     9380000; *                        ; AM                  ;       5000; AM
-     9390000; *                        ; AM                  ;       5000; AM
-     9915000; *                        ; AM                  ;       5000; AM
-     9920000; *                        ; AM                  ;       5000; AM
-     9930000; *                        ; AM                  ;       5000; AM
-     9960000; *                        ; AM                  ;       5000; AM
-     9965000; *                        ; AM                  ;       5000; AM
+     7465000; *                        ; AM                  ;       5000; BC AM
+     7485000; *                        ; AM                  ;       5000; BC AM
+     7495000; *                        ; AM                  ;       5000; BC AM
+     7540000; *                        ; AM                  ;       5000; BC AM
+     7565000; *                        ; AM                  ;       5000; BC AM
+     7590000; *                        ; AM                  ;       5000; BC AM
+     7600000; *                        ; AM                  ;       5000; BC AM
+     7610000; *                        ; AM                  ;       5000; BC AM
+     9310000; *                        ; AM                  ;       5000; BC AM
+     9355000; *                        ; AM                  ;       5000; BC AM
+     9370000; *                        ; AM                  ;       5000; BC AM
+     9380000; *                        ; AM                  ;       5000; BC AM
+     9390000; *                        ; AM                  ;       5000; BC AM
+     9915000; *                        ; AM                  ;       5000; BC AM
+     9920000; *                        ; AM                  ;       5000; BC AM
+     9930000; *                        ; AM                  ;       5000; BC AM
+     9960000; *                        ; AM                  ;       5000; BC AM
+     9965000; *                        ; AM                  ;       5000; BC AM
     10000000; *                        ; AM                  ;       5000; WWV Time
     10100000; D                        ; Demod Off           ;       5000; HAM30m
     10140000; PSK31                    ; Demod Off           ;      10000; HAM30m
     10160000; *                        ; CW-L                ;        500; CW
-    11520000; *                        ; AM                  ;       5000; AM
-    11530000; *                        ; AM                  ;       5000; AM
-    11550000; *                        ; AM                  ;      10000; AM
-    11570000; *                        ; AM                  ;       5000; AM
-    11575000; *                        ; AM                  ;       5000; AM
-    12130000; *                        ; AM                  ;       5000; AM
-    13420000; *                        ; AM                  ;       5000; AM
-    13553000; S                        ; Demod Off           ;          0; ISM
-    13560000; RFID                     ; Demod Off           ;      14000; ISM
-    13567000; E                        ; Demod Off           ;          0; ISM
+    11520000; *                        ; AM                  ;       5000; BC AM
+    11530000; *                        ; AM                  ;       5000; BC AM
+    11550000; *                        ; AM                  ;      10000; BC AM
+    11570000; *                        ; AM                  ;       5000; BC AM
+    11575000; *                        ; AM                  ;       5000; BC AM
+    12130000; *                        ; AM                  ;       5000; BC AM
+    13420000; *                        ; AM                  ;       5000; BC AM
+    13560000; RFID                     ; Demod Off           ;      14000; RFID
     14000000; S                        ; Narrow FM           ;      10000; HAM20m
     14060000; *                        ; Narrow FM           ;      10000; HAM20m
     14070000; PSK31                    ; Narrow FM           ;       3000; HAM20m
@@ -248,14 +242,14 @@ Wi-Fi-2.4G          ; #0f21c0
     14090000; *                        ; CW-L                ;       2020; HAM20m
     14230000; SSTV                     ; Narrow FM           ;      10000; HAM20m
     14350000; E                        ; Narrow FM           ;      10000; HAM20m
-    14545000; *                        ; AM                  ;       5000; AM
+    14545000; V                        ; AM                  ;       5000; BC AM
     15000000; *                        ; AM                  ;       5000; WWV Time
-    15030000; *                        ; AM                  ;       5000; AM
-    15090000; *                        ; AM                  ;       5000; AM
-    16100000; *                        ; AM                  ;       5000; AM
-    16105000; *                        ; AM                  ;       5000; AM
-    16600000; *                        ; AM                  ;       5000; AM
-    16890000; *                        ; AM                  ;       5000; AM
+    15030000; *                        ; AM                  ;       5000; BC AM
+    15090000; *                        ; AM                  ;       5000; BC AM
+    16100000; *                        ; AM                  ;       5000; BC AM
+    16105000; *                        ; AM                  ;       5000; BC AM
+    16600000; *                        ; AM                  ;       5000; BC AM
+    16890000; *                        ; AM                  ;       5000; BC AM
     18068000; D                        ; Demod Off           ;      10000; HAM17m
     18100000; PSK31                    ; Demod Off           ;      10000; HAM17m
     20000000; *                        ; AM                  ;       5000; WWV Time
@@ -264,222 +258,217 @@ Wi-Fi-2.4G          ; #0f21c0
     21450000; E                        ; Narrow FM           ;      10000; HAM15m
     24000000; S                        ; Demod Off           ;        100; Untagged
     24920000; PSK31                    ; Demod Off           ;      10000; HAM12m
-    26957000; S                        ; Demod Off           ;          0; ISM
-    27120000; RC                       ; Demod Off           ;     326000; ISM
-    27283000; E                        ; Demod Off           ;          0; ISM
     28000000; S                        ; Narrow FM           ;      10000; HAM10m
     28120000; PSK31                    ; AM                  ;      10000; HAM10m
     29700000; E                        ; Narrow FM           ;      10000; HAM10m
-    40660000; S                        ; Demod Off           ;          0; ISM
-    40700000; E                        ; Demod Off           ;          0; ISM
     50000000; S                        ; Narrow FM           ;      10000; HAM6m
     50290000; PSK31                    ; AM                  ;      10000; HAM6m
     54000000; E                        ; Narrow FM           ;      10000; HAM6m
     70000000; S                        ; Narrow FM           ;      10000; HAM4m
     70500000; E                        ; Narrow FM           ;      10000; HAM4m
-    87600000; RAKQuran                 ; WFM (stereo)        ;     200000; FM
-    87700000; *                        ; WFM (stereo)        ;     200000; FM
-    87800000; *                        ; WFM (stereo)        ;     200000; FM
-    87900000; AD Classic Music         ; WFM (stereo)        ;     200000; FM
-    88000000; *                        ; WFM (stereo)        ;     200000; FM
-    88100000; *                        ; WFM (stereo)        ;     200000; FM
-    88200000; AD Quran                 ; WFM (stereo)        ;     200000; FM
-    88300000; *                        ; WFM (stereo)        ;     200000; FM
-    88400000; *                        ; WFM (stereo)        ;     200000; FM
-    88500000; *                        ; WFM (stereo)        ;     200000; FM
-    88600000; *                        ; WFM (stereo)        ;     200000; FM
-    88700000; *                        ; WFM (stereo)        ;     200000; FM
-    88800000; DXB Kadak FM             ; WFM (stereo)        ;     200000; FM
-    88900000; *                        ; WFM (stereo)        ;     200000; FM
-    89000000; *                        ; WFM (stereo)        ;     200000; FM
-    89100000; AJM Radio 4              ; WFM (stereo)        ;     200000; FM
-    89200000; *                        ; WFM (stereo)        ;     200000; FM
-    89300000; *                        ; WFM (stereo)        ;     200000; FM
-    89400000; RAK Tamil FM             ; WFM (stereo)        ;     200000; FM
-    89500000; *                        ; WFM (stereo)        ;     200000; FM
-    89600000; Music                    ; WFM (stereo)        ;     200000; FM
-    89700000; *                        ; WFM (stereo)        ;     200000; FM
-    89800000; *                        ; WFM (stereo)        ;     200000; FM
-    89900000; *                        ; WFM (stereo)        ;     200000; FM
-    90000000; *                        ; WFM (stereo)        ;     200000; FM
-    90100000; *                        ; WFM (stereo)        ;     200000; FM
-    90200000; *                        ; WFM (stereo)        ;     200000; FM
-    90300000; SkyNews                  ; WFM (stereo)        ;     200000; FM
-    90400000; *                        ; WFM (stereo)        ;     200000; FM
-    90500000; SkyNews                  ; WFM (stereo)        ;     200000; FM
-    90600000; *                        ; WFM (stereo)        ;     200000; FM
-    90700000; RockRadio                ; WFM (stereo)        ;     200000; FM
-    90800000; FUJ Rock Radio           ; WFM (stereo)        ;     200000; FM
-    90900000; *                        ; WFM (stereo)        ;     200000; FM
-    91000000; *                        ; WFM (stereo)        ;     200000; FM
-    91100000; DXB Tag 91.1             ; WFM (stereo)        ;     200000; FM
-    91200000; *                        ; WFM (stereo)        ;     200000; FM
-    91300000; *                        ; WFM (stereo)        ;     200000; FM
-    91400000; DXB Quran                ; WFM (stereo)        ;     200000; FM
-    91500000; *                        ; WFM (stereo)        ;     200000; FM
-    91600000; *                        ; WFM (stereo)        ;     200000; FM
-    91700000; *                        ; WFM (stereo)        ;     200000; FM
-    91800000; *                        ; WFM (stereo)        ;     200000; FM
-    91900000; *                        ; WFM (stereo)        ;     200000; FM
-    92000000; Dubai92                  ; WFM (stereo)        ;     200000; FM
-    92100000; *                        ; WFM (stereo)        ;     200000; FM
-    92200000; Khushi                   ; WFM (stereo)        ;     200000; FM
-    92300000; *                        ; WFM (stereo)        ;     200000; FM
-    92400000; *                        ; WFM (stereo)        ;     200000; FM
-    92500000; *                        ; WFM (stereo)        ;     200000; FM
-    92600000; FUJAIRAH                 ; WFM (stereo)        ;     200000; FM
-    92700000; *                        ; WFM (stereo)        ;     200000; FM
-    92800000; *                        ; WFM (stereo)        ;     200000; FM
-    92900000; *                        ; WFM (stereo)        ;     200000; FM
-    93000000; Radio93                  ; WFM (stereo)        ;     200000; FM
-    93100000; *                        ; WFM (stereo)        ;     200000; FM
-    93200000; *                        ; WFM (stereo)        ;     200000; FM
-    93300000; *                        ; WFM (stereo)        ;     200000; FM
-    93400000; SHOMA934                 ; WFM (stereo)        ;     200000; FM
-    93500000; *                        ; WFM (stereo)        ;     200000; FM
-    93600000; *                        ; WFM (stereo)        ;     200000; FM
-    93700000; *                        ; WFM (stereo)        ;     200000; FM
-    93800000; *                        ; WFM (stereo)        ;     200000; FM
-    93900000; DXB NOOR                 ; WFM (stereo)        ;     200000; FM
-    94000000; *                        ; WFM (stereo)        ;     200000; FM
-    94100000; *                        ; WFM (stereo)        ;     200000; FM
-    94200000; *                        ; WFM (stereo)        ;     200000; FM
-    94300000; *                        ; WFM (stereo)        ;     200000; FM
-    94400000; Sharjah                  ; WFM (stereo)        ;     200000; FM
-    94500000; *                        ; WFM (stereo)        ;     200000; FM
-    94600000; *                        ; WFM (stereo)        ;     200000; FM
-    94700000; Radio Asia               ; WFM (stereo)        ;     200000; FM
-    94800000; *                        ; WFM (stereo)        ;     200000; FM
-    94900000; *                        ; WFM (stereo)        ;     200000; FM
-    95000000; SHJ Pulse95              ; WFM (stereo)        ;     200000; FM
-    95100000; *                        ; WFM (stereo)        ;     200000; FM
-    95200000; *                        ; WFM (stereo)        ;     200000; FM
-    95300000; Ibiza Global Radio       ; WFM (stereo)        ;     200000; FM
-    95400000; *                        ; WFM (stereo)        ;     200000; FM
-    95500000; *                        ; WFM (stereo)        ;     200000; FM
-    95600000; UAQ Radio Hala           ; WFM (stereo)        ;     200000; FM
-    95700000; *                        ; WFM (stereo)        ;     200000; FM
-    95800000; *                        ; WFM (stereo)        ;     200000; FM
-    95900000; *                        ; WFM (stereo)        ;     200000; FM
-    96000000; *                        ; WFM (stereo)        ;     200000; FM
-    96100000; WatarFM 96.1             ; WFM (stereo)        ;     200000; FM
-    96200000; *                        ; WFM (stereo)        ;     200000; FM
-    96300000; *                        ; WFM (stereo)        ;     200000; FM
-    96400000; *                        ; WFM (stereo)        ;     200000; FM
-    96500000; *                        ; WFM (stereo)        ;     200000; FM
-    96600000; *                        ; WFM (stereo)        ;     200000; FM
-    96700000; DXB Hit967               ; WFM (stereo)        ;     200000; FM
-    96800000; *                        ; WFM (stereo)        ;     200000; FM
-    96900000; *                        ; WFM (stereo)        ;     200000; FM
-    97000000; *                        ; WFM (stereo)        ;     200000; FM
-    97100000; AD Emarat FM             ; WFM (stereo)        ;     200000; FM
-    97200000; *                        ; WFM (stereo)        ;     200000; FM
-    97300000; Kadak FM 97.3            ; WFM (stereo)        ;     200000; FM
-    97400000; *                        ; WFM (stereo)        ;     200000; FM
-    97500000; *                        ; WFM (stereo)        ;     200000; FM
-    97600000; AD Zayed Quran           ; WFM (stereo)        ;     200000; FM
-    97700000; *                        ; WFM (stereo)        ;     200000; FM
-    97800000; Beat97.8                 ; WFM (stereo)        ;     200000; FM
-    97900000; *                        ; WFM (stereo)        ;     200000; FM
-    98000000; *                        ; WFM (stereo)        ;     200000; FM
-    98100000; *                        ; WFM (stereo)        ;     200000; FM
-    98200000; *                        ; WFM (stereo)        ;     200000; FM
-    98300000; *                        ; WFM (stereo)        ;     200000; FM
-    98400000; AD Radio                 ; WFM (stereo)        ;     200000; FM
-    98500000; *                        ; WFM (stereo)        ;     200000; FM
-    98600000; *                        ; WFM (stereo)        ;     200000; FM
-    98700000; *                        ; WFM (stereo)        ;     200000; FM
-    98800000; *                        ; WFM (stereo)        ;     200000; FM
-    98900000; *                        ; WFM (stereo)        ;     200000; FM
-    99000000; DXB Arabiya              ; WFM (stereo)        ;     200000; FM
-    99100000; *                        ; WFM (stereo)        ;     200000; FM
-    99200000; *                        ; WFM (stereo)        ;     200000; FM
-    99300000; Radio 2                  ; WFM (stereo)        ;     200000; FM
-    99400000; *                        ; WFM (stereo)        ;     200000; FM
-    99500000; *                        ; WFM (stereo)        ;     200000; FM
-    99600000; DXB Club FM              ; WFM (stereo)        ;     200000; FM
-    99700000; *                        ; WFM (stereo)        ;     200000; FM
-    99800000; *                        ; WFM (stereo)        ;     200000; FM
-    99900000; Star FM                  ; WFM (stereo)        ;     200000; FM
-   100000000; *                        ; WFM (stereo)        ;     200000; FM
-   100100000; *                        ; WFM (stereo)        ;     200000; FM
-   100200000; *                        ; WFM (stereo)        ;     200000; FM
-   100300000; UAQ TALK1003             ; WFM (stereo)        ;     200000; FM
-   100400000; *                        ; WFM (stereo)        ;     200000; FM
-   100500000; *                        ; WFM (stereo)        ;     200000; FM
-   100600000; *                        ; WFM (stereo)        ;     200000; FM
-   100700000; *                        ; WFM (stereo)        ;     200000; FM
-   100800000; *                        ; WFM (stereo)        ;     200000; FM
-   100900000; Khalejya                 ; WFM (stereo)        ;     200000; FM
-   101000000; *                        ; WFM (stereo)        ;     200000; FM
-   101100000; *                        ; WFM (stereo)        ;     200000; FM
-   101200000; *                        ; WFM (stereo)        ;     200000; FM
-   101300000; AJM Gold FM              ; WFM (stereo)        ;     200000; FM
-   101400000; *                        ; WFM (stereo)        ;     200000; FM
-   101500000; *                        ; WFM (stereo)        ;     200000; FM
-   101600000; City1016                 ; WFM (stereo)        ;     200000; FM
-   101700000; *                        ; WFM (stereo)        ;     200000; FM
-   101800000; *                        ; WFM (stereo)        ;     200000; FM
-   101900000; *                        ; WFM (stereo)        ;     200000; FM
-   102000000; Pearl                    ; WFM (stereo)        ;     200000; FM
-   102100000; *                        ; WFM (stereo)        ;     200000; FM
-   102200000; *                        ; WFM (stereo)        ;     200000; FM
-   102300000; *                        ; WFM (stereo)        ;     200000; FM
-   102400000; Mirchi 102.4             ; WFM (stereo)        ;     200000; FM
-   102500000; *                        ; WFM (stereo)        ;     200000; FM
-   102600000; *                        ; WFM (stereo)        ;     200000; FM
-   102700000; SHJ Quran                ; WFM (stereo)        ;     200000; FM
-   102800000; *                        ; WFM (stereo)        ;     200000; FM
-   102900000; *                        ; WFM (stereo)        ;     200000; FM
-   103000000; *                        ; WFM (stereo)        ;     200000; FM
-   103100000; *                        ; WFM (stereo)        ;     200000; FM
-   103200000; VOLNA.AE                 ; WFM (stereo)        ;     200000; FM
-   103300000; *                        ; WFM (stereo)        ;     200000; FM
-   103400000; *                        ; WFM (stereo)        ;     200000; FM
-   103500000; RAK FM                   ; WFM (stereo)        ;     200000; FM
-   103600000; *                        ; WFM (stereo)        ;     200000; FM
-   103700000; *                        ; WFM (stereo)        ;     200000; FM
-   103800000; DXB Eye                  ; WFM (stereo)        ;     200000; FM
-   103900000; *                        ; WFM (stereo)        ;     200000; FM
-   104000000; *                        ; WFM (stereo)        ;     200000; FM
-   104100000; Radio 1                  ; WFM (stereo)        ;     200000; FM
-   104200000; *                        ; WFM (stereo)        ;     200000; FM
-   104300000; *                        ; WFM (stereo)        ;     200000; FM
-   104400000; DXB Virgin               ; WFM (stereo)        ;     200000; FM
-   104500000; *                        ; WFM (stereo)        ;     200000; FM
-   104600000; AD SEHA                  ; WFM (stereo)        ;     200000; FM
-   104700000; *                        ; WFM (stereo)        ;     200000; FM
-   104800000; AJM Channel 4            ; WFM (stereo)        ;     200000; FM
-   104900000; *                        ; WFM (stereo)        ;     200000; FM
-   105000000; *                        ; WFM (stereo)        ;     200000; FM
-   105100000; *                        ; WFM (stereo)        ;     200000; FM
-   105200000; *                        ; WFM (stereo)        ;     200000; FM
-   105300000; *                        ; WFM (stereo)        ;     200000; FM
-   105400000; Vibe FM                  ; WFM (stereo)        ;     200000; FM
-   105500000; *                        ; WFM (stereo)        ;     200000; FM
-   105600000; *                        ; WFM (stereo)        ;     200000; FM
-   105700000; *                        ; WFM (stereo)        ;     200000; FM
-   105800000; *                        ; WFM (stereo)        ;     200000; FM
-   105900000; *                        ; WFM (stereo)        ;     200000; FM
-   106000000; Radio 2                  ; WFM (stereo)        ;     200000; FM
-   106100000; *                        ; WFM (stereo)        ;     200000; FM
-   106200000; UAQ Big 106.2            ; WFM (stereo)        ;     200000; FM
-   106300000; *                        ; WFM (stereo)        ;     200000; FM
-   106400000; *                        ; WFM (stereo)        ;     200000; FM
-   106500000; UAQ Radio Gilli          ; WFM (stereo)        ;     200000; FM
-   106600000; *                        ; WFM (stereo)        ;     200000; FM
-   106700000; *                        ; WFM (stereo)        ;     200000; FM
-   106800000; *                        ; WFM (stereo)        ;     200000; FM
-   106900000; Shabab Net               ; WFM (stereo)        ;     200000; FM
-   107000000; *                        ; WFM (stereo)        ;     200000; FM
-   107100000; UAQ LUV 107.1            ; WFM (stereo)        ;     200000; FM
-   107200000; *                        ; WFM (stereo)        ;     200000; FM
-   107300000; *                        ; WFM (stereo)        ;     200000; FM
-   107400000; DXB ALOula               ; WFM (stereo)        ;     200000; FM
-   107500000; *                        ; WFM (stereo)        ;     200000; FM
-   107600000; ClubFM                   ; WFM (stereo)        ;     200000; FM
-   107700000; *                        ; WFM (stereo)        ;     200000; FM
-   107800000; AJM Al Rabia FM          ; WFM (stereo)        ;     200000; FM
+    87600000; RAKQuran                 ; WFM (stereo)        ;     200000; BC FM
+    87700000; *                        ; WFM (stereo)        ;     200000; BC FM
+    87800000; *                        ; WFM (stereo)        ;     200000; BC FM
+    87900000; AD Classic Music         ; WFM (stereo)        ;     200000; BC FM
+    88000000; *                        ; WFM (stereo)        ;     200000; BC FM
+    88100000; *                        ; WFM (stereo)        ;     200000; BC FM
+    88200000; AD Quran                 ; WFM (stereo)        ;     200000; BC FM
+    88300000; *                        ; WFM (stereo)        ;     200000; BC FM
+    88400000; *                        ; WFM (stereo)        ;     200000; BC FM
+    88500000; *                        ; WFM (stereo)        ;     200000; BC FM
+    88600000; *                        ; WFM (stereo)        ;     200000; BC FM
+    88700000; *                        ; WFM (stereo)        ;     200000; BC FM
+    88800000; DXB Kadak FM             ; WFM (stereo)        ;     200000; BC FM
+    88900000; *                        ; WFM (stereo)        ;     200000; BC FM
+    89000000; *                        ; WFM (stereo)        ;     200000; BC FM
+    89100000; AJM Radio 4              ; WFM (stereo)        ;     200000; BC FM
+    89200000; *                        ; WFM (stereo)        ;     200000; BC FM
+    89300000; *                        ; WFM (stereo)        ;     200000; BC FM
+    89400000; RAK Tamil FM             ; WFM (stereo)        ;     200000; BC FM
+    89500000; *                        ; WFM (stereo)        ;     200000; BC FM
+    89600000; Music                    ; WFM (stereo)        ;     200000; BC FM
+    89700000; *                        ; WFM (stereo)        ;     200000; BC FM
+    89800000; *                        ; WFM (stereo)        ;     200000; BC FM
+    89900000; *                        ; WFM (stereo)        ;     200000; BC FM
+    90000000; *                        ; WFM (stereo)        ;     200000; BC FM
+    90100000; *                        ; WFM (stereo)        ;     200000; BC FM
+    90200000; *                        ; WFM (stereo)        ;     200000; BC FM
+    90300000; SkyNews                  ; WFM (stereo)        ;     200000; BC FM
+    90400000; *                        ; WFM (stereo)        ;     200000; BC FM
+    90500000; SkyNews                  ; WFM (stereo)        ;     200000; BC FM
+    90600000; *                        ; WFM (stereo)        ;     200000; BC FM
+    90700000; RockRadio                ; WFM (stereo)        ;     200000; BC FM
+    90800000; FUJ Rock Radio           ; WFM (stereo)        ;     200000; BC FM
+    90900000; *                        ; WFM (stereo)        ;     200000; BC FM
+    91000000; *                        ; WFM (stereo)        ;     200000; BC FM
+    91100000; DXB Tag 91.1             ; WFM (stereo)        ;     200000; BC FM
+    91200000; *                        ; WFM (stereo)        ;     200000; BC FM
+    91300000; *                        ; WFM (stereo)        ;     200000; BC FM
+    91400000; DXB Quran                ; WFM (stereo)        ;     200000; BC FM
+    91500000; *                        ; WFM (stereo)        ;     200000; BC FM
+    91600000; *                        ; WFM (stereo)        ;     200000; BC FM
+    91700000; *                        ; WFM (stereo)        ;     200000; BC FM
+    91800000; *                        ; WFM (stereo)        ;     200000; BC FM
+    91900000; *                        ; WFM (stereo)        ;     200000; BC FM
+    92000000; Dubai92                  ; WFM (stereo)        ;     200000; BC FM
+    92100000; *                        ; WFM (stereo)        ;     200000; BC FM
+    92200000; Khushi                   ; WFM (stereo)        ;     200000; BC FM
+    92300000; *                        ; WFM (stereo)        ;     200000; BC FM
+    92400000; *                        ; WFM (stereo)        ;     200000; BC FM
+    92500000; *                        ; WFM (stereo)        ;     200000; BC FM
+    92600000; FUJAIRAH                 ; WFM (stereo)        ;     200000; BC FM
+    92700000; *                        ; WFM (stereo)        ;     200000; BC FM
+    92800000; *                        ; WFM (stereo)        ;     200000; BC FM
+    92900000; *                        ; WFM (stereo)        ;     200000; BC FM
+    93000000; Radio93                  ; WFM (stereo)        ;     200000; BC FM
+    93100000; *                        ; WFM (stereo)        ;     200000; BC FM
+    93200000; *                        ; WFM (stereo)        ;     200000; BC FM
+    93300000; *                        ; WFM (stereo)        ;     200000; BC FM
+    93400000; SHOMA934                 ; WFM (stereo)        ;     200000; BC FM
+    93500000; *                        ; WFM (stereo)        ;     200000; BC FM
+    93600000; *                        ; WFM (stereo)        ;     200000; BC FM
+    93700000; *                        ; WFM (stereo)        ;     200000; BC FM
+    93800000; *                        ; WFM (stereo)        ;     200000; BC FM
+    93900000; DXB NOOR                 ; WFM (stereo)        ;     200000; BC FM
+    94000000; *                        ; WFM (stereo)        ;     200000; BC FM
+    94100000; *                        ; WFM (stereo)        ;     200000; BC FM
+    94200000; *                        ; WFM (stereo)        ;     200000; BC FM
+    94300000; *                        ; WFM (stereo)        ;     200000; BC FM
+    94400000; Sharjah                  ; WFM (stereo)        ;     200000; BC FM
+    94500000; *                        ; WFM (stereo)        ;     200000; BC FM
+    94600000; *                        ; WFM (stereo)        ;     200000; BC FM
+    94700000; Radio Asia               ; WFM (stereo)        ;     200000; BC FM
+    94800000; *                        ; WFM (stereo)        ;     200000; BC FM
+    94900000; *                        ; WFM (stereo)        ;     200000; BC FM
+    95000000; SHJ Pulse95              ; WFM (stereo)        ;     200000; BC FM
+    95100000; *                        ; WFM (stereo)        ;     200000; BC FM
+    95200000; *                        ; WFM (stereo)        ;     200000; BC FM
+    95300000; Ibiza Global Radio       ; WFM (stereo)        ;     200000; BC FM
+    95400000; *                        ; WFM (stereo)        ;     200000; BC FM
+    95500000; *                        ; WFM (stereo)        ;     200000; BC FM
+    95600000; UAQ Radio Hala           ; WFM (stereo)        ;     200000; BC FM
+    95700000; *                        ; WFM (stereo)        ;     200000; BC FM
+    95800000; *                        ; WFM (stereo)        ;     200000; BC FM
+    95900000; *                        ; WFM (stereo)        ;     200000; BC FM
+    96000000; *                        ; WFM (stereo)        ;     200000; BC FM
+    96100000; WatarFM 96.1             ; WFM (stereo)        ;     200000; BC FM
+    96200000; *                        ; WFM (stereo)        ;     200000; BC FM
+    96300000; *                        ; WFM (stereo)        ;     200000; BC FM
+    96400000; *                        ; WFM (stereo)        ;     200000; BC FM
+    96500000; *                        ; WFM (stereo)        ;     200000; BC FM
+    96600000; *                        ; WFM (stereo)        ;     200000; BC FM
+    96700000; DXB Hit967               ; WFM (stereo)        ;     200000; BC FM
+    96800000; *                        ; WFM (stereo)        ;     200000; BC FM
+    96900000; *                        ; WFM (stereo)        ;     200000; BC FM
+    97000000; *                        ; WFM (stereo)        ;     200000; BC FM
+    97100000; AD Emarat FM             ; WFM (stereo)        ;     200000; BC FM
+    97200000; *                        ; WFM (stereo)        ;     200000; BC FM
+    97300000; Kadak FM 97.3            ; WFM (stereo)        ;     200000; BC FM
+    97400000; *                        ; WFM (stereo)        ;     200000; BC FM
+    97500000; *                        ; WFM (stereo)        ;     200000; BC FM
+    97600000; AD Zayed Quran           ; WFM (stereo)        ;     200000; BC FM
+    97700000; *                        ; WFM (stereo)        ;     200000; BC FM
+    97800000; Beat97.8                 ; WFM (stereo)        ;     200000; BC FM
+    97900000; *                        ; WFM (stereo)        ;     200000; BC FM
+    98000000; *                        ; WFM (stereo)        ;     200000; BC FM
+    98100000; *                        ; WFM (stereo)        ;     200000; BC FM
+    98200000; *                        ; WFM (stereo)        ;     200000; BC FM
+    98300000; *                        ; WFM (stereo)        ;     200000; BC FM
+    98400000; AD Radio                 ; WFM (stereo)        ;     200000; BC FM
+    98500000; *                        ; WFM (stereo)        ;     200000; BC FM
+    98600000; *                        ; WFM (stereo)        ;     200000; BC FM
+    98700000; *                        ; WFM (stereo)        ;     200000; BC FM
+    98800000; *                        ; WFM (stereo)        ;     200000; BC FM
+    98900000; *                        ; WFM (stereo)        ;     200000; BC FM
+    99000000; DXB Arabiya              ; WFM (stereo)        ;     200000; BC FM
+    99100000; *                        ; WFM (stereo)        ;     200000; BC FM
+    99200000; *                        ; WFM (stereo)        ;     200000; BC FM
+    99300000; Radio 2                  ; WFM (stereo)        ;     200000; BC FM
+    99400000; *                        ; WFM (stereo)        ;     200000; BC FM
+    99500000; *                        ; WFM (stereo)        ;     200000; BC FM
+    99600000; DXB Club FM              ; WFM (stereo)        ;     200000; BC FM
+    99700000; *                        ; WFM (stereo)        ;     200000; BC FM
+    99800000; *                        ; WFM (stereo)        ;     200000; BC FM
+    99900000; Star FM                  ; WFM (stereo)        ;     200000; BC FM
+   100000000; *                        ; WFM (stereo)        ;     200000; BC FM
+   100100000; *                        ; WFM (stereo)        ;     200000; BC FM
+   100200000; *                        ; WFM (stereo)        ;     200000; BC FM
+   100300000; UAQ TALK1003             ; WFM (stereo)        ;     200000; BC FM
+   100400000; *                        ; WFM (stereo)        ;     200000; BC FM
+   100500000; *                        ; WFM (stereo)        ;     200000; BC FM
+   100600000; *                        ; WFM (stereo)        ;     200000; BC FM
+   100700000; *                        ; WFM (stereo)        ;     200000; BC FM
+   100800000; *                        ; WFM (stereo)        ;     200000; BC FM
+   100900000; Khalejya                 ; WFM (stereo)        ;     200000; BC FM
+   101000000; *                        ; WFM (stereo)        ;     200000; BC FM
+   101100000; *                        ; WFM (stereo)        ;     200000; BC FM
+   101200000; *                        ; WFM (stereo)        ;     200000; BC FM
+   101300000; AJM Gold FM              ; WFM (stereo)        ;     200000; BC FM
+   101400000; *                        ; WFM (stereo)        ;     200000; BC FM
+   101500000; *                        ; WFM (stereo)        ;     200000; BC FM
+   101600000; City1016                 ; WFM (stereo)        ;     200000; BC FM
+   101700000; *                        ; WFM (stereo)        ;     200000; BC FM
+   101800000; *                        ; WFM (stereo)        ;     200000; BC FM
+   101900000; *                        ; WFM (stereo)        ;     200000; BC FM
+   102000000; Pearl                    ; WFM (stereo)        ;     200000; BC FM
+   102100000; *                        ; WFM (stereo)        ;     200000; BC FM
+   102200000; *                        ; WFM (stereo)        ;     200000; BC FM
+   102300000; *                        ; WFM (stereo)        ;     200000; BC FM
+   102400000; Mirchi 102.4             ; WFM (stereo)        ;     200000; BC FM
+   102500000; *                        ; WFM (stereo)        ;     200000; BC FM
+   102600000; *                        ; WFM (stereo)        ;     200000; BC FM
+   102700000; SHJ Quran                ; WFM (stereo)        ;     200000; BC FM
+   102800000; *                        ; WFM (stereo)        ;     200000; BC FM
+   102900000; *                        ; WFM (stereo)        ;     200000; BC FM
+   103000000; *                        ; WFM (stereo)        ;     200000; BC FM
+   103100000; *                        ; WFM (stereo)        ;     200000; BC FM
+   103200000; VOLNA.AE                 ; WFM (stereo)        ;     200000; BC FM
+   103300000; *                        ; WFM (stereo)        ;     200000; BC FM
+   103400000; *                        ; WFM (stereo)        ;     200000; BC FM
+   103500000; RAK FM                   ; WFM (stereo)        ;     200000; BC FM
+   103600000; *                        ; WFM (stereo)        ;     200000; BC FM
+   103700000; *                        ; WFM (stereo)        ;     200000; BC FM
+   103800000; DXB Eye                  ; WFM (stereo)        ;     200000; BC FM
+   103900000; *                        ; WFM (stereo)        ;     200000; BC FM
+   104000000; *                        ; WFM (stereo)        ;     200000; BC FM
+   104100000; Radio 1                  ; WFM (stereo)        ;     200000; BC FM
+   104200000; *                        ; WFM (stereo)        ;     200000; BC FM
+   104300000; *                        ; WFM (stereo)        ;     200000; BC FM
+   104400000; DXB Virgin               ; WFM (stereo)        ;     200000; BC FM
+   104500000; *                        ; WFM (stereo)        ;     200000; BC FM
+   104600000; AD SEHA                  ; WFM (stereo)        ;     200000; BC FM
+   104700000; *                        ; WFM (stereo)        ;     200000; BC FM
+   104800000; AJM Channel 4            ; WFM (stereo)        ;     200000; BC FM
+   104900000; *                        ; WFM (stereo)        ;     200000; BC FM
+   105000000; *                        ; WFM (stereo)        ;     200000; BC FM
+   105100000; *                        ; WFM (stereo)        ;     200000; BC FM
+   105200000; *                        ; WFM (stereo)        ;     200000; BC FM
+   105300000; *                        ; WFM (stereo)        ;     200000; BC FM
+   105400000; Vibe FM                  ; WFM (stereo)        ;     200000; BC FM
+   105500000; *                        ; WFM (stereo)        ;     200000; BC FM
+   105600000; *                        ; WFM (stereo)        ;     200000; BC FM
+   105700000; *                        ; WFM (stereo)        ;     200000; BC FM
+   105800000; *                        ; WFM (stereo)        ;     200000; BC FM
+   105900000; *                        ; WFM (stereo)        ;     200000; BC FM
+   106000000; Radio 2                  ; WFM (stereo)        ;     200000; BC FM
+   106100000; *                        ; WFM (stereo)        ;     200000; BC FM
+   106200000; UAQ Big 106.2            ; WFM (stereo)        ;     200000; BC FM
+   106300000; *                        ; WFM (stereo)        ;     200000; BC FM
+   106400000; *                        ; WFM (stereo)        ;     200000; BC FM
+   106500000; UAQ Radio Gilli          ; WFM (stereo)        ;     200000; BC FM
+   106600000; *                        ; WFM (stereo)        ;     200000; BC FM
+   106700000; *                        ; WFM (stereo)        ;     200000; BC FM
+   106800000; *                        ; WFM (stereo)        ;     200000; BC FM
+   106900000; Shabab Net               ; WFM (stereo)        ;     200000; BC FM
+   107000000; *                        ; WFM (stereo)        ;     200000; BC FM
+   107100000; UAQ LUV 107.1            ; WFM (stereo)        ;     200000; BC FM
+   107200000; *                        ; WFM (stereo)        ;     200000; BC FM
+   107300000; *                        ; WFM (stereo)        ;     200000; BC FM
+   107400000; DXB ALOula               ; WFM (stereo)        ;     200000; BC FM
+   107500000; *                        ; WFM (stereo)        ;     200000; BC FM
+   107600000; ClubFM                   ; WFM (stereo)        ;     200000; BC FM
+   107700000; *                        ; WFM (stereo)        ;     200000; BC FM
+   107800000; AJM Al Rabia FM          ; WFM (stereo)        ;     200000; BC FM
    108000000; 1 VOR                    ; AM                  ;      50000; VOR_ILS
    108050000; 2 VOR                    ; AM                  ;      50000; VOR_ILS
    108100000; 3 ILS                    ; Narrow FM           ;      50000; VOR_ILS
@@ -796,12 +785,12 @@ Wi-Fi-2.4G          ; #0f21c0
    120825000; 114                      ; AM                  ;       8330; Airband
    120850000; 115                      ; AM                  ;       8330; Airband
    120875000; 116                      ; AM                  ;       8330; Airband
-   120900000; 117                      ; AM                  ;       8330; Airband
+   120900000; 117 DXB                  ; AM                  ;       8330; Airband
    120925000; 118                      ; AM                  ;       8330; Airband
    120950000; 119                      ; AM                  ;       8330; Airband
    120975000; 120                      ; AM                  ;       8330; Airband
    121000000; 121                      ; AM                  ;       8330; Airband
-   121025000; 122                      ; AM                  ;       8330; Airband
+   121025000; 122 DXB DEP              ; AM                  ;       8330; Airband
    121050000; 123                      ; AM                  ;       8330; Airband
    121075000; 124                      ; AM                  ;       8330; Airband
    121100000; 125                      ; AM                  ;       8330; Airband
@@ -826,7 +815,7 @@ Wi-Fi-2.4G          ; #0f21c0
    121575000; 144                      ; AM                  ;       8330; Airband
    121600000; 145 RKT GND              ; AM                  ;       8330; Airband
    121625000; 146                      ; AM                  ;       8330; Airband
-   121650000; 147 DXB                  ; AM                  ;       8330; Airband
+   121650000; 147 DXB GND              ; AM                  ;       8330; Airband
    121675000; 148                      ; AM                  ;       8330; Airband
    121700000; 149                      ; AM                  ;       8330; Airband
    121725000; 150 DAPI                 ; AM                  ;       8330; Airband
@@ -1440,13 +1429,13 @@ Wi-Fi-2.4G          ; #0f21c0
    136925000; 758                      ; AM                  ;       8330; Airband
    136950000; 759                      ; AM                  ;       8330; Airband
    136975000; 760                      ; AM                  ;       8330; Airband
-   137055000; *                        ; USB                 ;       8000; SAT
+   137055000; D                        ; USB                 ;       8000; SAT
    137100000; NOAA 19                  ; Narrow FM           ;      20600; NOAA
-   137500000; *                        ; USB                 ;       8000; SAT
+   137500000; D                        ; USB                 ;       8000; SAT
    137620000; NOAA 15                  ; Narrow FM           ;      20600; NOAA
-   137660000; *                        ; USB                 ;       3900; SAT
-   137700000; *                        ; USB                 ;       3500; SAT
-   137800000; *                        ; USB                 ;       8000; SAT
+   137660000; D                        ; USB                 ;       3900; SAT
+   137700000; D                        ; USB                 ;       3500; SAT
+   137800000; D                        ; USB                 ;       8000; SAT
    137912500; NOAA 18                  ; WFM (stereo)        ;      34000; NOAA
    144000000; S                        ; Narrow FM           ;      25000; HAM2m
    144025000; *                        ; Narrow FM           ;      25000; HAM2m
@@ -1825,51 +1814,46 @@ Wi-Fi-2.4G          ; #0f21c0
    162525000; WX7                      ; Narrow FM           ;      25000; NOAA
    162550000; WX1                      ; Narrow FM           ;      25000; NOAA
    163275000; WX10                     ; Narrow FM           ;      25000; NOAA
-   174928000; DAB 5A                   ; Demod Off           ;    1712000; DAB
-   176640000; DAB 5B                   ; Demod Off           ;    1712000; DAB
-   178352000; DAB 5C                   ; Demod Off           ;    1712000; DAB
-   180064000; DAB 5D                   ; Demod Off           ;    1712000; DAB
-   181936000; DAB 6A                   ; Demod Off           ;    1712000; DAB
-   183648000; DAB 6B                   ; Demod Off           ;    1712000; DAB
-   185360000; DAB 6C                   ; Demod Off           ;    1712000; DAB
-   187072000; DAB 6D                   ; Demod Off           ;    1712000; DAB
-   188928000; DAB 7A                   ; Demod Off           ;    1712000; DAB
-   190640000; DAB 7B                   ; Demod Off           ;    1712000; DAB
-   192352000; DAB 7C                   ; Demod Off           ;    1712000; DAB
-   194064000; DAB 7D                   ; Demod Off           ;    1712000; DAB
-   195936000; DAB 8A                   ; Demod Off           ;    1712000; DAB
-   197648000; DAB 8B                   ; Demod Off           ;    1712000; DAB
-   199360000; DAB 8C                   ; Demod Off           ;    1712000; DAB
-   201072000; DAB 8D                   ; Demod Off           ;    1712000; DAB
-   202928000; DAB 9A                   ; Demod Off           ;    1712000; DAB
-   204640000; DAB 9B                   ; Demod Off           ;    1712000; DAB
-   206352000; DAB 9C                   ; Demod Off           ;    1712000; DAB
-   208064000; DAB 9D                   ; Demod Off           ;    1712000; DAB
-   209936000; DAB 10A                  ; Demod Off           ;    1712000; DAB
-   211648000; DAB 10B                  ; Demod Off           ;    1712000; DAB
-   213360000; DAB 10C                  ; Demod Off           ;    1712000; DAB
-   215072000; DAB 10D                  ; Demod Off           ;    1712000; DAB
-   216928000; DAB 11A                  ; Demod Off           ;    1712000; DAB
-   218640000; DAB 11B                  ; Demod Off           ;    1712000; DAB
+   174928000; DAB 5A                   ; Demod Off           ;    1712000; BC DAB
+   176640000; DAB 5B                   ; Demod Off           ;    1712000; BC DAB
+   178352000; DAB 5C                   ; Demod Off           ;    1712000; BC DAB
+   180064000; DAB 5D                   ; Demod Off           ;    1712000; BC DAB
+   181936000; DAB 6A                   ; Demod Off           ;    1712000; BC DAB
+   183648000; DAB 6B                   ; Demod Off           ;    1712000; BC DAB
+   185360000; DAB 6C                   ; Demod Off           ;    1712000; BC DAB
+   187072000; DAB 6D                   ; Demod Off           ;    1712000; BC DAB
+   188928000; DAB 7A                   ; Demod Off           ;    1712000; BC DAB
+   190640000; DAB 7B                   ; Demod Off           ;    1712000; BC DAB
+   192352000; DAB 7C                   ; Demod Off           ;    1712000; BC DAB
+   194064000; DAB 7D                   ; Demod Off           ;    1712000; BC DAB
+   195936000; DAB 8A                   ; Demod Off           ;    1712000; BC DAB
+   197648000; DAB 8B                   ; Demod Off           ;    1712000; BC DAB
+   199360000; DAB 8C                   ; Demod Off           ;    1712000; BC DAB
+   201072000; DAB 8D                   ; Demod Off           ;    1712000; BC DAB
+   202928000; DAB 9A                   ; Demod Off           ;    1712000; BC DAB
+   204640000; DAB 9B                   ; Demod Off           ;    1712000; BC DAB
+   206352000; DAB 9C                   ; Demod Off           ;    1712000; BC DAB
+   208064000; DAB 9D                   ; Demod Off           ;    1712000; BC DAB
+   209936000; DAB 10A                  ; Demod Off           ;    1712000; BC DAB
+   211648000; DAB 10B                  ; Demod Off           ;    1712000; BC DAB
+   213360000; DAB 10C                  ; Demod Off           ;    1712000; BC DAB
+   215072000; DAB 10D                  ; Demod Off           ;    1712000; BC DAB
+   216928000; DAB 11A                  ; Demod Off           ;    1712000; BC DAB
+   218640000; DAB 11B                  ; Demod Off           ;    1712000; BC DAB
    219000000; S                        ; Narrow FM           ;      10000; HAM1.25m
-   220352000; DAB 11C                  ; Demod Off           ;    1712000; DAB
-   222064000; DAB 11D                  ; Demod Off           ;    1712000; DAB
-   223936000; DAB 12A                  ; Demod Off           ;    1712000; DAB
+   220352000; DAB 11C                  ; Demod Off           ;    1712000; BC DAB
+   222064000; DAB 11D                  ; Demod Off           ;    1712000; BC DAB
+   223936000; DAB 12A                  ; Demod Off           ;    1712000; BC DAB
    225000000; E                        ; Narrow FM           ;      10000; HAM1.25m
-   225648000; DAB 12B                  ; Demod Off           ;    1712000; DAB
-   227360000; DAB 12C                  ; Demod Off           ;    1712000; DAB
-   229072000; DAB 12D                  ; Demod Off           ;    1712000; DAB
-   230784000; DAB 13A                  ; Demod Off           ;    1712000; DAB
-   232496000; DAB 13B                  ; Demod Off           ;    1712000; DAB
-   234208000; DAB 13C                  ; Demod Off           ;    1712000; DAB
-   235776000; DAB 13D                  ; Demod Off           ;    1712000; DAB
-   237488000; DAB 13E                  ; Demod Off           ;    1712000; DAB
-   239200000; DAB 13F                  ; Demod Off           ;    1712000; DAB
-   315000000; ISM 315.000 MHz          ; Demod Off           ;      50000; ISM_315
-   315100000; key_315.1                ; Demod Off           ;      25000; ISM_315
-   336013000; ISM 336.013 MHz          ; Demod Off           ;      50000; ISM_315
-   336330000; ISM 336.330 MHz          ; Demod Off           ;      50000; ISM_315
-   337226000; ISM 337.226 MHz          ; Demod Off           ;      50000; ISM_315
+   225648000; DAB 12B                  ; Demod Off           ;    1712000; BC DAB
+   227360000; DAB 12C                  ; Demod Off           ;    1712000; BC DAB
+   229072000; DAB 12D                  ; Demod Off           ;    1712000; BC DAB
+   230784000; DAB 13A                  ; Demod Off           ;    1712000; BC DAB
+   232496000; DAB 13B                  ; Demod Off           ;    1712000; BC DAB
+   234208000; DAB 13C                  ; Demod Off           ;    1712000; BC DAB
+   235776000; DAB 13D                  ; Demod Off           ;    1712000; BC DAB
+   237488000; DAB 13E                  ; Demod Off           ;    1712000; BC DAB
+   239200000; DAB 13F                  ; Demod Off           ;    1712000; BC DAB
    390000000; 3600                     ; Demod Off           ;      25000; Tetra
    390025000; 3601                     ; Demod Off           ;      25000; Tetra
    390050000; 3602                     ; Demod Off           ;      25000; Tetra
@@ -5133,12 +5117,7 @@ Wi-Fi-2.4G          ; #0f21c0
    469950000; V                        ; Narrow FM           ;      20000; UHF_Radio
    469975000; V                        ; Narrow FM           ;      20000; UHF_Radio
    470000000; V                        ; Narrow FM           ;      20000; UHF_Radio
-   474510000; T                        ; Demod Off           ;     650000; DAB
-   868000000; 868_000                  ; Demod Off           ;     250000; ISM_868
-   902000000; S                        ; Demod Off           ;          0; ISM
    902000000; S                        ; Narrow FM           ;      10000; HAM33cm
-   915000000; *                        ; Demod Off           ;      50000; ISM
-   928000000; E                        ; Demod Off           ;          0; ISM
    928000000; E                        ; Narrow FM           ;      10000; HAM33cm
    978000000; ADS-B 978.0 MHz          ; Demod Off           ;    1300000; ADSB
   1090000000; ADS-B 1090.0 MHz         ; Demod Off           ;      50000; ADSB
@@ -5168,7 +5147,6 @@ Wi-Fi-2.4G          ; #0f21c0
   1688000000; GOES                     ; Narrow FM           ;      20600; SAT
   2300000000; S                        ; Narrow FM           ;      10000; HAM13cm
   2310000000; E                        ; Narrow FM           ;      10000; HAM13cm
-  2400000000; S                        ; Demod Off           ;          0; ISM
   2412000000; Ch1                      ; Demod Off           ;   22000000; Wi-Fi-2.4G
   2417000000; Ch2                      ; Demod Off           ;   22000000; Wi-Fi-2.4G
   2422000000; Ch3                      ; Demod Off           ;   22000000; Wi-Fi-2.4G
@@ -5177,7 +5155,6 @@ Wi-Fi-2.4G          ; #0f21c0
   2437000000; Ch6                      ; Demod Off           ;   22000000; Wi-Fi-2.4G
   2442000000; Ch7                      ; Demod Off           ;   22000000; Wi-Fi-2.4G
   2447000000; Ch8                      ; Demod Off           ;   22000000; Wi-Fi-2.4G
-  2450000000; *                        ; Demod Off           ;      50000; ISM
   2452000000; Ch9                      ; Demod Off           ;   22000000; Wi-Fi-2.4G
   2457000000; Ch10                     ; Demod Off           ;   22000000; Wi-Fi-2.4G
   2462000000; Ch11                     ; Demod Off           ;   22000000; Wi-Fi-2.4G
@@ -5185,7 +5162,6 @@ Wi-Fi-2.4G          ; #0f21c0
   2472000000; Ch13                     ; Demod Off           ;   22000000; Wi-Fi-2.4G
   2484000000; Ch14                     ; Demod Off           ;   22000000; Wi-Fi-2.4G
   2492080000; IRNSS S                  ; Narrow FM           ;       2000; IRNSS
-  2500000000; E                        ; Demod Off           ;          0; ISM
   5325000000; U1                       ; Demod Off           ;   30000000; RC-VTX
   5333000000; L1                       ; Demod Off           ;   30000000; RC-VTX
   5348000000; U2                       ; Demod Off           ;   30000000; RC-VTX
@@ -5227,7 +5203,6 @@ Wi-Fi-2.4G          ; #0f21c0
   5695000000; R2                       ; Demod Off           ;   30000000; RC-VTX
   5705000000; E1                       ; Demod Off           ;   30000000; RC-VTX
   5725000000; A8                       ; Demod Off           ;   30000000; RC-VTX
-  5725000000; S                        ; Demod Off           ;          0; ISM
   5732000000; R3                       ; Demod Off           ;   30000000; RC-VTX
   5733000000; B1                       ; Demod Off           ;   30000000; RC-VTX
   5733000000; H3                       ; Demod Off           ;   30000000; RC-VTX
@@ -5243,7 +5218,6 @@ Wi-Fi-2.4G          ; #0f21c0
   5785000000; A5                       ; Demod Off           ;   30000000; RC-VTX
   5790000000; B4                       ; Demod Off           ;   30000000; RC-VTX
   5800000000; F4                       ; Demod Off           ;   30000000; RC-VTX
-  5800000000; *                        ; Demod Off           ;      50000; ISM
   5805000000; A4                       ; Demod Off           ;   30000000; RC-VTX
   5806000000; R5                       ; Demod Off           ;   30000000; RC-VTX
   5809000000; B5                       ; Demod Off           ;   30000000; RC-VTX
@@ -5259,7 +5233,6 @@ Wi-Fi-2.4G          ; #0f21c0
   5860000000; F7                       ; Demod Off           ;   30000000; RC-VTX
   5865000000; A1                       ; Demod Off           ;   30000000; RC-VTX
   5866000000; B8                       ; Demod Off           ;   30000000; RC-VTX
-  5875000000; E                        ; Demod Off           ;          0; ISM
   5880000000; R7                       ; Demod Off           ;   30000000; RC-VTX
   5880000000; F8                       ; Demod Off           ;   30000000; RC-VTX
   5885000000; E5                       ; Demod Off           ;   30000000; RC-VTX
@@ -5269,4 +5242,4 @@ Wi-Fi-2.4G          ; #0f21c0
   5925000000; E7                       ; Demod Off           ;   30000000; RC-VTX
   5933000000; H8                       ; Demod Off           ;   30000000; RC-VTX
   5945000000; E8                       ; Demod Off           ;   30000000; RC-VTX
-  7245708100; HackRFEnd                ; CW-U                ;          0; Marker
+  7245708100; HackRFEnd                ; Demod Off           ;          0; _Mark_
