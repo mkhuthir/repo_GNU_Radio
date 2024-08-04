@@ -1834,18 +1834,16 @@ _Mark_              ; #c0c0c0
    204640000; DAB 9B                   ; Demod Off           ;    1712000; BC DAB
    206352000; DAB 9C                   ; Demod Off           ;    1712000; BC DAB
    208064000; DAB 9D                   ; Demod Off           ;    1712000; BC DAB
-   209936000; DAB 10A                  ; Demod Off           ;    1712000; BC DAB
-   211648000; DAB 10B                  ; Demod Off           ;    1712000; BC DAB
-   213360000; DAB 10C                  ; Demod Off           ;    1712000; BC DAB
+   209936000; DAB 10A KSA              ; Demod Off           ;    1712000; BC DAB
+   211648000; DAB 10B Qatar            ; Demod Off           ;    1712000; BC DAB
+   213360000; DAB 10C Abu Dhabi        ; Demod Off           ;    1712000; BC DAB
    215072000; DAB 10D                  ; Demod Off           ;    1712000; BC DAB
    216928000; DAB 11A                  ; Demod Off           ;    1712000; BC DAB
    218640000; DAB 11B                  ; Demod Off           ;    1712000; BC DAB
-   219000000; S                        ; Narrow FM           ;      10000; HAM1.25m
    220352000; DAB 11C                  ; Demod Off           ;    1712000; BC DAB
    222064000; DAB 11D                  ; Demod Off           ;    1712000; BC DAB
    223936000; DAB 12A                  ; Demod Off           ;    1712000; BC DAB
-   225000000; E                        ; Narrow FM           ;      10000; HAM1.25m
-   225648000; DAB 12B                  ; Demod Off           ;    1712000; BC DAB
+   225648000; DAB 12B Bahrain          ; Demod Off           ;    1712000; BC DAB
    227360000; DAB 12C                  ; Demod Off           ;    1712000; BC DAB
    229072000; DAB 12D                  ; Demod Off           ;    1712000; BC DAB
    230784000; DAB 13A                  ; Demod Off           ;    1712000; BC DAB
