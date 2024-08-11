@@ -58,25 +58,25 @@
     },
     "satdump_directories": {
         "recording_path": {
-            "value": "/home/mkhuthir/Downloads"
+            "value": "/home/mkhuthir/rfdata"
         },
         "live_processing_autogen": {
             "value": false
         },
         "live_processing_path": {
-            "value": "/home/mkhuthir/Downloads"
+            "value": "/home/mkhuthir/rfdata"
         },
         "default_input_directory": {
-            "value": "/home/mkhuthir/Downloads"
+            "value": "/home/mkhuthir/rfdata"
         },
         "default_output_directory": {
-            "value": "/home/mkhuthir/Downloads"
+            "value": "/home/mkhuthir/rfdata"
         },
         "default_image_output_directory": {
-            "value": "/home/mkhuthir/Downloads"
+            "value": "/home/mkhuthir/rfdata"
         },
         "default_projection_output_directory": {
-            "value": "/home/mkhuthir/Downloads"
+            "value": "/home/mkhuthir/rfdata"
         }
     },
     "plugin_settings": {
