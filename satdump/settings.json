@@ -60,6 +60,9 @@
         "recording_path": {
             "value": "/home/mkhuthir/Downloads"
         },
+        "live_processing_autogen": {
+            "value": false
+        },
         "live_processing_path": {
             "value": "/home/mkhuthir/Downloads"
         },
@@ -81,17 +84,17 @@
     },
     "user": {
         "recorder_state": {
-            "fft_avgn": 10.0,
-            "fft_max": 150.0,
-            "fft_min": -150.0,
+            "fft_avgn": 5.0,
+            "fft_max": -80.26200103759766,
+            "fft_min": -94.39600372314453,
             "fft_rate": 120,
-            "fft_size": 8192,
-            "panel_ratio": 0.20000000298023224,
+            "fft_size": 4096,
+            "panel_ratio": 0.2518918812274933,
             "select_sample_format": 0,
             "show_waterfall": true,
-            "waterfall_palette": "Turbo",
-            "waterfall_rate": 60,
-            "waterfall_ratio": 0.699999988079071
+            "waterfall_palette": "GQRX",
+            "waterfall_rate": 120,
+            "waterfall_ratio": 0.47863247990608215
         },
         "viewer_state": {
             "panel_ratio": 0.23000000417232513,
@@ -158,6 +161,54 @@
                 "projections_utm_zone": 30
             }
         },
-        "tles_last_updated": 1719061485
+        "tles_last_updated": 1723354092,
+        "recorder_sdr_settings": {
+            "last_used_sdr": "File Source",
+            "Realtek RTL2838UHIDIR #00000001": {
+                "agc": false,
+                "bias": false,
+                "gain": 47,
+                "ppm_correction": 0,
+                "samplerate": 1024000,
+                "frequency": 434775200,
+                "xconverter_frequency": 0.0,
+                "decimation": 1
+            },
+            "File Source": {
+                "baseband_type": "cs16",
+                "buffer_size": 25000,
+                "file_path": "/home/mkhuthir/Downloads/rfdata/GOES-R/HRIT/SDRSharp_20170117_162508Z_1694100000Hz_IQ.wav",
+                "iq_swap": false,
+                "samplerate": 5000000,
+                "frequency": 1694100000,
+                "xconverter_frequency": 0.0,
+                "decimation": 1
+            }
+        },
+        "recorder_tracking": {
+            "rotator_config": {
+                "rotctl": {
+                    "address": "127.0.0.1",
+                    "port": 4533
+                }
+            },
+            "enabled_objects": [],
+            "autotrack_cfg": {
+                "autotrack_min_elevation": 0.0,
+                "stop_sdr_when_idle": false,
+                "multi_mode": false
+            },
+            "rotator_algo": {
+                "park_position": {
+                    "az": 0.0,
+                    "el": 0.0
+                },
+                "park_while_idle": false,
+                "rounding": false,
+                "rounding_decimal_places": 3,
+                "unpark_at_minus": 60.0,
+                "update_period": 1.0
+            }
+        }
     }
 }
