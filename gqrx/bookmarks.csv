@@ -758,7 +758,7 @@ _Mark_              ; #c0c0c0
    118775000; 32                       ; AM                  ;       8330; Airband
    118800000; 33                       ; AM                  ;       8330; Airband
    118825000; 34                       ; AM                  ;       8330; Airband
-   118850000; 35                       ; AM                  ;       8330; Airband
+   118850000; 35 DXB GND               ; AM                  ;       8330; Airband
    118875000; 36                       ; AM                  ;       8330; Airband
    118900000; 37                       ; AM                  ;       8330; Airband
    118925000; 38                       ; AM                  ;       8330; Airband
@@ -766,7 +766,7 @@ _Mark_              ; #c0c0c0
    118975000; 40                       ; AM                  ;       8330; Airband
    119000000; 41                       ; AM                  ;       8330; Airband
    119025000; 42                       ; AM                  ;       8330; Airband
-   119050000; 43                       ; AM                  ;       8330; Airband
+   119050000; 43 DXB TWR               ; AM                  ;       8330; Airband
    119075000; 44                       ; AM                  ;       8330; Airband
    119100000; 45 SLL APP               ; AM                  ;       8330; Airband
    119125000; 46                       ; AM                  ;       8330; Airband
@@ -816,11 +816,11 @@ _Mark_              ; #c0c0c0
    120225000; 90                       ; AM                  ;       8330; Airband
    120250000; 91                       ; AM                  ;       8330; Airband
    120275000; 92                       ; AM                  ;       8330; Airband
-   120300000; 93                       ; AM                  ;       8330; Airband
+   120300000; 93 DXB                   ; AM                  ;       8330; Airband
    120325000; 94                       ; AM                  ;       8330; Airband
-   120350000; 95                       ; AM                  ;       8330; Airband
+   120350000; 95 DXB Delivery          ; AM                  ;       8330; Airband
    120375000; 96                       ; AM                  ;       8330; Airband
-   120400000; 97                       ; AM                  ;       8330; Airband
+   120400000; 97 DXB Radar             ; AM                  ;       8330; Airband
    120425000; 98                       ; AM                  ;       8330; Airband
    120450000; 99                       ; AM                  ;       8330; Airband
    120475000; 100                      ; AM                  ;       8330; Airband
@@ -904,7 +904,7 @@ _Mark_              ; #c0c0c0
    122425000; 178                      ; AM                  ;       8330; Airband
    122450000; 179                      ; AM                  ;       8330; Airband
    122475000; 180                      ; AM                  ;       8330; Airband
-   122500000; 181                      ; AM                  ;       8330; Airband
+   122500000; 181 Minhad App           ; AM                  ;       8330; Airband
    122525000; 182                      ; AM                  ;       8330; Airband
    122550000; 183                      ; AM                  ;       8330; Airband
    122575000; 184                      ; AM                  ;       8330; Airband
@@ -1045,14 +1045,14 @@ _Mark_              ; #c0c0c0
    125950000; 319                      ; AM                  ;       8330; Airband
    125975000; 320                      ; AM                  ;       8330; Airband
    126000000; 321                      ; AM                  ;       8330; Airband
-   126025000; 322                      ; AM                  ;       8330; Airband
+   126025000; 322 Minhad App           ; AM                  ;       8330; Airband
    126050000; 323 xxx ATIS             ; AM                  ;       8330; Airband
    126075000; 324                      ; AM                  ;       8330; Airband
    126100000; 325                      ; AM                  ;       8330; Airband
    126125000; 326                      ; AM                  ;       8330; Airband
    126150000; 327                      ; AM                  ;       8330; Airband
    126175000; 328                      ; AM                  ;       8330; Airband
-   126200000; 329                      ; AM                  ;       8330; Airband
+   126200000; 329 DXB Dep              ; AM                  ;       8330; Airband
    126225000; 330                      ; AM                  ;       8330; Airband
    126250000; 331                      ; AM                  ;       8330; Airband
    126275000; 332 DXB ATIS ARR         ; AM                  ;       8330; Airband
@@ -1075,7 +1075,7 @@ _Mark_              ; #c0c0c0
    126700000; 349                      ; AM                  ;       8330; Airband
    126725000; 350                      ; AM                  ;       8330; Airband
    126750000; 351                      ; AM                  ;       8330; Airband
-   126775000; 352                      ; AM                  ;       8330; Airband
+   126775000; 352 DXB TWR              ; AM                  ;       8330; Airband
    126800000; 353 MCT ATIS             ; AM                  ;       8330; Airband
    126825000; 354                      ; AM                  ;       8330; Airband
    126850000; 355                      ; AM                  ;       8330; Airband
@@ -1120,7 +1120,7 @@ _Mark_              ; #c0c0c0
    127825000; 394                      ; AM                  ;       8330; Airband
    127850000; 395                      ; AM                  ;       8330; Airband
    127875000; 396                      ; AM                  ;       8330; Airband
-   127900000; 397 DXB TWR              ; AM                  ;       8330; Airband
+   127900000; 397 DXB Direct           ; AM                  ;       8330; Airband
    127925000; 398                      ; AM                  ;       8330; Airband
    127950000; 399                      ; AM                  ;       8330; Airband
    127975000; 400                      ; AM                  ;       8330; Airband
@@ -1263,21 +1263,21 @@ _Mark_              ; #c0c0c0
    131400000; 537                      ; AM                  ;       8330; Airband
    131425000; 538                      ; AM                  ;       8330; Airband
    131450000; 539                      ; AM                  ;       8330; Airband
-   131475000; 540                      ; AM                  ;       8330; Airband
+   131475000; 540 ACARS                ; AM                  ;       8330; Airband
    131500000; 541                      ; AM                  ;       8330; Airband
    131525000; 542                      ; AM                  ;       8330; Airband
-   131550000; 543                      ; AM                  ;       8330; Airband
+   131550000; 543 ACARS                ; AM                  ;       8330; Airband
    131575000; 544                      ; AM                  ;       8330; Airband
    131600000; 545                      ; AM                  ;       8330; Airband
    131625000; 546                      ; AM                  ;       8330; Airband
    131650000; 547                      ; AM                  ;       8330; Airband
    131675000; 548                      ; AM                  ;       8330; Airband
    131700000; 549 DXB ATIS DEP         ; AM                  ;       8330; Airband
-   131725000; 550                      ; AM                  ;       8330; Airband
+   131725000; 550 ACARS                ; AM                  ;       8330; Airband
    131750000; 551                      ; AM                  ;       8330; Airband
    131775000; 552                      ; AM                  ;       8330; Airband
    131800000; 553                      ; AM                  ;       8330; Airband
-   131825000; 554                      ; AM                  ;       8330; Airband
+   131825000; 554 ACARS                ; AM                  ;       8330; Airband
    131850000; 555                      ; AM                  ;       8330; Airband
    131875000; 556                      ; AM                  ;       8330; Airband
    131900000; 557                      ; AM                  ;       8330; Airband
