@@ -4,12 +4,17 @@
         "FM Radio": {
             "bookmarks": {
                 "DXB Quran": {
-                    "bandwidth": 194744.125,
+                    "bandwidth": 200000.0,
                     "frequency": 91400000.0,
                     "mode": 1
                 },
+                "Radio 4": {
+                    "bandwidth": 200000.0,
+                    "frequency": 89100000.0,
+                    "mode": 1
+                },
                 "SkyNews Arabia": {
-                    "bandwidth": 194744.125,
+                    "bandwidth": 200000.0,
                     "frequency": 90500000.0,
                     "mode": 1
                 }
@@ -85,6 +90,26 @@
                 "3702": {
                     "bandwidth": 25000.0,
                     "frequency": 392550000.0,
+                    "mode": 7
+                },
+                "3732": {
+                    "bandwidth": 25000.0,
+                    "frequency": 393300000.0,
+                    "mode": 7
+                },
+                "3788": {
+                    "bandwidth": 25000.0,
+                    "frequency": 394700000.0,
+                    "mode": 7
+                },
+                "3814": {
+                    "bandwidth": 25000.0,
+                    "frequency": 395350000.0,
+                    "mode": 7
+                },
+                "3999": {
+                    "bandwidth": 25000.0,
+                    "frequency": 399975000.0,
                     "mode": 7
                 }
             },
