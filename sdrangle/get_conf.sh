@@ -1,4 +1,4 @@
 #!/bin/sh
 
 # Get a copy of configuration
-cp ~/.config/f4exb/SDRangel.conf ~/Downloads/sdr/sdrangle/SDRangel.conf 
+cp ~/.config/f4exb/SDRangel.conf .
