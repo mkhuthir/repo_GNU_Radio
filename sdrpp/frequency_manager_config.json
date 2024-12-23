@@ -1,0 +1,95 @@
+{
+    "bookmarkDisplayMode": 1,
+    "lists": {
+        "FM Radio": {
+            "bookmarks": {
+                "DXB Quran": {
+                    "bandwidth": 194744.125,
+                    "frequency": 91400000.0,
+                    "mode": 1
+                },
+                "SkyNews Arabia": {
+                    "bandwidth": 194744.125,
+                    "frequency": 90500000.0,
+                    "mode": 1
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "General": {
+            "bookmarks": {},
+            "showOnWaterfall": true
+        },
+        "Tetra": {
+            "bookmarks": {
+                "3600": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390000000.0,
+                    "mode": 7
+                },
+                "3601": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390025000.0,
+                    "mode": 7
+                },
+                "3610": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390250000.0,
+                    "mode": 7
+                },
+                "3611": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390275000.0,
+                    "mode": 7
+                },
+                "3634": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390850000.0,
+                    "mode": 7
+                },
+                "3638": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390950000.0,
+                    "mode": 7
+                },
+                "3667": {
+                    "bandwidth": 25000.0,
+                    "frequency": 391675000.0,
+                    "mode": 7
+                },
+                "3685": {
+                    "bandwidth": 25000.0,
+                    "frequency": 392125000.0,
+                    "mode": 7
+                },
+                "3686": {
+                    "bandwidth": 25000.0,
+                    "frequency": 392150000.0,
+                    "mode": 7
+                },
+                "3692": {
+                    "bandwidth": 25000.0,
+                    "frequency": 392300000.0,
+                    "mode": 7
+                },
+                "3699": {
+                    "bandwidth": 25000.0,
+                    "frequency": 392475000.0,
+                    "mode": 7
+                },
+                "3700": {
+                    "bandwidth": 25000.0,
+                    "frequency": 392500000.0,
+                    "mode": 7
+                },
+                "3702": {
+                    "bandwidth": 25000.0,
+                    "frequency": 392550000.0,
+                    "mode": 7
+                }
+            },
+            "showOnWaterfall": true
+        }
+    },
+    "selectedList": "Tetra"
+}
