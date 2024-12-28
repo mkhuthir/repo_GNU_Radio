@@ -27,6 +27,11 @@
         },
         "Tetra": {
             "bookmarks": {
+                "2608": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390200000.0,
+                    "mode": 7
+                },
                 "3600": {
                     "bandwidth": 25000.0,
                     "frequency": 390000000.0,
@@ -35,6 +40,31 @@
                 "3601": {
                     "bandwidth": 25000.0,
                     "frequency": 390025000.0,
+                    "mode": 7
+                },
+                "3602": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390050000.0,
+                    "mode": 7
+                },
+                "3603": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390075000.0,
+                    "mode": 7
+                },
+                "3604": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390100000.0,
+                    "mode": 7
+                },
+                "3605": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390125000.0,
+                    "mode": 7
+                },
+                "3609": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390225000.0,
                     "mode": 7
                 },
                 "3610": {
@@ -47,9 +77,49 @@
                     "frequency": 390275000.0,
                     "mode": 7
                 },
+                "3612": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390300000.0,
+                    "mode": 7
+                },
+                "3613": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390325000.0,
+                    "mode": 7
+                },
+                "3616": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390400000.0,
+                    "mode": 7
+                },
+                "3620": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390500000.0,
+                    "mode": 7
+                },
+                "3624": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390600000.0,
+                    "mode": 7
+                },
+                "3628": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390700000.0,
+                    "mode": 7
+                },
+                "3632": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390800000.0,
+                    "mode": 7
+                },
                 "3634": {
                     "bandwidth": 25000.0,
                     "frequency": 390850000.0,
+                    "mode": 7
+                },
+                "3636": {
+                    "bandwidth": 25000.0,
+                    "frequency": 390900000.0,
                     "mode": 7
                 },
                 "3638": {
@@ -57,9 +127,69 @@
                     "frequency": 390950000.0,
                     "mode": 7
                 },
+                "3640": {
+                    "bandwidth": 25000.0,
+                    "frequency": 391000000.0,
+                    "mode": 7
+                },
+                "3644": {
+                    "bandwidth": 25000.0,
+                    "frequency": 391100000.0,
+                    "mode": 7
+                },
+                "3648": {
+                    "bandwidth": 25000.0,
+                    "frequency": 391200000.0,
+                    "mode": 7
+                },
+                "3652": {
+                    "bandwidth": 25000.0,
+                    "frequency": 391300000.0,
+                    "mode": 7
+                },
+                "3656": {
+                    "bandwidth": 25000.0,
+                    "frequency": 391400000.0,
+                    "mode": 7
+                },
+                "3660": {
+                    "bandwidth": 25000.0,
+                    "frequency": 391500000.0,
+                    "mode": 7
+                },
+                "3664": {
+                    "bandwidth": 25000.0,
+                    "frequency": 391600000.0,
+                    "mode": 7
+                },
                 "3667": {
                     "bandwidth": 25000.0,
                     "frequency": 391675000.0,
+                    "mode": 7
+                },
+                "3668": {
+                    "bandwidth": 25000.0,
+                    "frequency": 391700000.0,
+                    "mode": 7
+                },
+                "3672": {
+                    "bandwidth": 25000.0,
+                    "frequency": 391800000.0,
+                    "mode": 7
+                },
+                "3676": {
+                    "bandwidth": 25000.0,
+                    "frequency": 391900000.0,
+                    "mode": 7
+                },
+                "3680": {
+                    "bandwidth": 25000.0,
+                    "frequency": 392000000.0,
+                    "mode": 7
+                },
+                "3684": {
+                    "bandwidth": 25000.0,
+                    "frequency": 392100000.0,
                     "mode": 7
                 },
                 "3685": {
@@ -70,6 +200,11 @@
                 "3686": {
                     "bandwidth": 25000.0,
                     "frequency": 392150000.0,
+                    "mode": 7
+                },
+                "3688": {
+                    "bandwidth": 25000.0,
+                    "frequency": 392200000.0,
                     "mode": 7
                 },
                 "3692": {
