@@ -54,6 +54,12 @@
                 0.0,
                 1.0
             ]
+        },
+        "tle_space_track_login": {
+            "value": "mkhuthir@gmail.com"
+        },
+        "tle_space_track_password": {
+            "value": ""
         }
     },
     "satdump_directories": {
@@ -80,26 +86,44 @@
         }
     },
     "plugin_settings": {
-        "remote_sdr_support": []
+        "remote_sdr_support": [],
+        "goes_support": {
+            "last_pdt_update": 0,
+            "update_interval": 14400,
+            "pdt_urls": [
+                "https://dcs1.noaa.gov/PDTS_COMPRESSED.txt",
+                "https://dcs2.noaa.gov/PDTS_COMPRESSED.txt",
+                "https://dcs3.noaa.gov/PDTS_COMPRESSED.txt",
+                "https://dcs4.noaa.gov/PDTS_COMPRESSED.txt"
+            ],
+            "hads_urls": [
+                "https://hads.ncep.noaa.gov/compressed_defs/all_dcp_defs.txt"
+            ]
+        }
     },
     "user": {
         "recorder_state": {
+            "baseband_type": "cf32",
             "fft_avgn": 5.0,
             "fft_max": -80.26200103759766,
             "fft_min": -94.39600372314453,
             "fft_rate": 120,
             "fft_size": 4096,
             "panel_ratio": 0.2518918812274933,
-            "select_sample_format": 0,
             "show_waterfall": true,
             "waterfall_palette": "GQRX",
             "waterfall_rate": 120,
-            "waterfall_ratio": 0.47863247990608215
+            "waterfall_ratio": 0.47863247990608215,
+            "ziq_depth": 8
         },
         "viewer_state": {
             "panel_ratio": 0.23000000417232513,
             "save_type": "png",
             "projections": {
+                "projection_auto_mode": false,
+                "projection_auto_scale_mode": false,
+                "projection_autoscale_x": 0.016,
+                "projection_autoscale_y": 0.016,
                 "projections_current_selected_proj": 0,
                 "projections_equirectangular_br_lat": -90.0,
                 "projections_equirectangular_br_lon": 180.0,
@@ -161,7 +185,7 @@
                 "projections_utm_zone": 30
             }
         },
-        "tles_last_updated": 1723354092,
+        "tles_last_updated": 1735491234,
         "recorder_sdr_settings": {
             "last_used_sdr": "File Source",
             "Realtek RTL2838UHIDIR #00000001": {
