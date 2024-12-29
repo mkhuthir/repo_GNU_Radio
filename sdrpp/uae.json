@@ -1,0 +1,69 @@
+{
+    "name": "UAE",
+    "country_name": "United Arab Emirates",
+    "country_code": "UAE",
+    "author_name": "Muthanna Alwahash",
+    "author_url": "https://github.com/mkhuthir",
+    "bands": [
+        {
+            "name": "Q0100 Beacon",
+            "type": "broadcast",
+            "start": 10489500000,
+            "end": 10489505000
+        },
+        {
+            "name": "Q0100 CW",
+            "type": "amateur",
+            "start": 10489505000,
+            "end": 10489540000
+        },
+        {
+            "name": "Q0100 NB Digi",
+            "type": "amateur",
+            "start": 10489540000,
+            "end": 10489580000
+        },
+        {
+            "name": "Q0100 Digi",
+            "type": "amateur",
+            "start": 10489580000,
+            "end": 10489650000
+        },
+        {
+            "name": "Q0100 SSB",
+            "type": "amateur",
+            "start": 10489650000,
+            "end": 10489745000
+        },
+        {
+            "name": "Q0100 Beacon",
+            "type": "broadcast",
+            "start": 10489745000,
+            "end": 10489755000
+        },
+        {
+            "name": "Q0100 SSB",
+            "type": "amateur",
+            "start": 10489755000,
+            "end": 10489850000
+        },
+        {
+            "name": "Q0100 Emergency",
+            "type": "amateur",
+            "start": 10489850000,
+            "end": 10489870000
+        },
+        {
+            "name": "Q0100 Mixed/Contest",
+            "type": "amateur",
+            "start": 10489870000,
+            "end": 10489990000
+        },
+        {
+            "name": "Q0100 Beacon",
+            "type": "broadcast",
+            "start": 10489990000,
+            "end": 10490000000
+        }
+    ]
+}
