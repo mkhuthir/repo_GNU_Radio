@@ -1,27 +1,19 @@
 {
     "bookmarkDisplayMode": 1,
     "lists": {
+        "AirBand": {
+            "bookmarks": {},
+            "showOnWaterfall": true
+        },
         "FM Radio": {
-            "bookmarks": {
-                "DXB Quran": {
-                    "bandwidth": 200000.0,
-                    "frequency": 91400000.0,
-                    "mode": 1
-                },
-                "Radio 4": {
-                    "bandwidth": 200000.0,
-                    "frequency": 89100000.0,
-                    "mode": 1
-                },
-                "SkyNews Arabia": {
-                    "bandwidth": 200000.0,
-                    "frequency": 90500000.0,
-                    "mode": 1
-                }
-            },
+            "bookmarks": {},
             "showOnWaterfall": true
         },
         "General": {
+            "bookmarks": {},
+            "showOnWaterfall": true
+        },
+        "MarineBand": {
             "bookmarks": {},
             "showOnWaterfall": true
         },
