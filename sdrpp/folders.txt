@@ -1,3 +1,5 @@
+~/.config/sdrpp/
+
 /usr/share/sdrpp/
 /usr/share/sdrpp/bandplans/
 
