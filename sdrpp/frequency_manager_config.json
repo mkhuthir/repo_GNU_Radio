@@ -6,7 +6,283 @@
             "showOnWaterfall": true
         },
         "FM Radio": {
-            "bookmarks": {},
+            "bookmarks": {
+                "AD Classic Music": {
+                    "bandwidth": 200000.0,
+                    "frequency": 87900000.0,
+                    "mode": 1
+                },
+                "AD Emarat FM": {
+                    "bandwidth": 200000.0,
+                    "frequency": 97100000.0,
+                    "mode": 1
+                },
+                "AD Quran": {
+                    "bandwidth": 200000.0,
+                    "frequency": 88200000.0,
+                    "mode": 1
+                },
+                "AD Radio": {
+                    "bandwidth": 200000.0,
+                    "frequency": 98400000.0,
+                    "mode": 1
+                },
+                "AD SEHA": {
+                    "bandwidth": 200000.0,
+                    "frequency": 104600000.0,
+                    "mode": 1
+                },
+                "AD Zayed Quran": {
+                    "bandwidth": 200000.0,
+                    "frequency": 97600000.0,
+                    "mode": 1
+                },
+                "AJM Al Rabia FM": {
+                    "bandwidth": 200000.0,
+                    "frequency": 107800000.0,
+                    "mode": 1
+                },
+                "AJM Channel 4": {
+                    "bandwidth": 200000.0,
+                    "frequency": 104800000.0,
+                    "mode": 1
+                },
+                "AJM Gold FM": {
+                    "bandwidth": 200000.0,
+                    "frequency": 101300000.0,
+                    "mode": 1
+                },
+                "AJM Radio 4": {
+                    "bandwidth": 200000.0,
+                    "frequency": 89100000.0,
+                    "mode": 1
+                },
+                "Beat97.8": {
+                    "bandwidth": 200000.0,
+                    "frequency": 97800000.0,
+                    "mode": 1
+                },
+                "City1016": {
+                    "bandwidth": 200000.0,
+                    "frequency": 101600000.0,
+                    "mode": 1
+                },
+                "ClubFM": {
+                    "bandwidth": 200000.0,
+                    "frequency": 107600000.0,
+                    "mode": 1
+                },
+                "DXB ALOula": {
+                    "bandwidth": 200000.0,
+                    "frequency": 107400000.0,
+                    "mode": 1
+                },
+                "DXB Arabiya": {
+                    "bandwidth": 200000.0,
+                    "frequency": 99000000.0,
+                    "mode": 1
+                },
+                "DXB Club FM": {
+                    "bandwidth": 200000.0,
+                    "frequency": 99600000.0,
+                    "mode": 1
+                },
+                "DXB Eye": {
+                    "bandwidth": 200000.0,
+                    "frequency": 103800000.0,
+                    "mode": 1
+                },
+                "DXB Hit967": {
+                    "bandwidth": 200000.0,
+                    "frequency": 96700000.0,
+                    "mode": 1
+                },
+                "DXB Kadak FM": {
+                    "bandwidth": 200000.0,
+                    "frequency": 88800000.0,
+                    "mode": 1
+                },
+                "DXB NOOR": {
+                    "bandwidth": 200000.0,
+                    "frequency": 93900000.0,
+                    "mode": 1
+                },
+                "DXB Quran": {
+                    "bandwidth": 200000.0,
+                    "frequency": 91400000.0,
+                    "mode": 1
+                },
+                "DXB Tag 91.1": {
+                    "bandwidth": 200000.0,
+                    "frequency": 91100000.0,
+                    "mode": 1
+                },
+                "DXB Virgin": {
+                    "bandwidth": 200000.0,
+                    "frequency": 104400000.0,
+                    "mode": 1
+                },
+                "Dubai92": {
+                    "bandwidth": 200000.0,
+                    "frequency": 92000000.0,
+                    "mode": 1
+                },
+                "FUJ Rock Radio": {
+                    "bandwidth": 200000.0,
+                    "frequency": 90800000.0,
+                    "mode": 1
+                },
+                "FUJAIRAH": {
+                    "bandwidth": 200000.0,
+                    "frequency": 92600000.0,
+                    "mode": 1
+                },
+                "Ibiza Global Radio": {
+                    "bandwidth": 200000.0,
+                    "frequency": 95300000.0,
+                    "mode": 1
+                },
+                "Kadak FM 97.3": {
+                    "bandwidth": 200000.0,
+                    "frequency": 97300000.0,
+                    "mode": 1
+                },
+                "Khalejya": {
+                    "bandwidth": 200000.0,
+                    "frequency": 100900000.0,
+                    "mode": 1
+                },
+                "Khushi": {
+                    "bandwidth": 200000.0,
+                    "frequency": 92200000.0,
+                    "mode": 1
+                },
+                "Mirchi 102.4": {
+                    "bandwidth": 200000.0,
+                    "frequency": 102400000.0,
+                    "mode": 1
+                },
+                "Music": {
+                    "bandwidth": 200000.0,
+                    "frequency": 89600000.0,
+                    "mode": 1
+                },
+                "Pearl": {
+                    "bandwidth": 200000.0,
+                    "frequency": 102000000.0,
+                    "mode": 1
+                },
+                "RAK FM": {
+                    "bandwidth": 200000.0,
+                    "frequency": 103500000.0,
+                    "mode": 1
+                },
+                "RAK Tamil FM": {
+                    "bandwidth": 200000.0,
+                    "frequency": 89400000.0,
+                    "mode": 1
+                },
+                "RAKQuran": {
+                    "bandwidth": 200000.0,
+                    "frequency": 87600000.0,
+                    "mode": 1
+                },
+                "Radio 1": {
+                    "bandwidth": 200000.0,
+                    "frequency": 104100000.0,
+                    "mode": 1
+                },
+                "Radio 2": {
+                    "bandwidth": 200000.0,
+                    "frequency": 106000000.0,
+                    "mode": 1
+                },
+                "Radio Asia": {
+                    "bandwidth": 200000.0,
+                    "frequency": 94700000.0,
+                    "mode": 1
+                },
+                "Radio93": {
+                    "bandwidth": 200000.0,
+                    "frequency": 93000000.0,
+                    "mode": 1
+                },
+                "SHJ Pulse95": {
+                    "bandwidth": 200000.0,
+                    "frequency": 95000000.0,
+                    "mode": 1
+                },
+                "SHJ Quran": {
+                    "bandwidth": 200000.0,
+                    "frequency": 102700000.0,
+                    "mode": 1
+                },
+                "SHOMA934": {
+                    "bandwidth": 200000.0,
+                    "frequency": 93400000.0,
+                    "mode": 1
+                },
+                "Shabab Net": {
+                    "bandwidth": 200000.0,
+                    "frequency": 106900000.0,
+                    "mode": 1
+                },
+                "Sharjah": {
+                    "bandwidth": 200000.0,
+                    "frequency": 94400000.0,
+                    "mode": 1
+                },
+                "SkyNews": {
+                    "bandwidth": 200000.0,
+                    "frequency": 90500000.0,
+                    "mode": 1
+                },
+                "Star FM": {
+                    "bandwidth": 200000.0,
+                    "frequency": 99900000.0,
+                    "mode": 1
+                },
+                "UAQ Big 106.2": {
+                    "bandwidth": 200000.0,
+                    "frequency": 106200000.0,
+                    "mode": 1
+                },
+                "UAQ LUV 107.1": {
+                    "bandwidth": 200000.0,
+                    "frequency": 107100000.0,
+                    "mode": 1
+                },
+                "UAQ Radio Gilli": {
+                    "bandwidth": 200000.0,
+                    "frequency": 106500000.0,
+                    "mode": 1
+                },
+                "UAQ Radio Hala": {
+                    "bandwidth": 200000.0,
+                    "frequency": 95600000.0,
+                    "mode": 1
+                },
+                "UAQ TALK1003": {
+                    "bandwidth": 200000.0,
+                    "frequency": 100300000.0,
+                    "mode": 1
+                },
+                "VOLNA.AE": {
+                    "bandwidth": 200000.0,
+                    "frequency": 103200000.0,
+                    "mode": 1
+                },
+                "Vibe FM": {
+                    "bandwidth": 200000.0,
+                    "frequency": 105400000.0,
+                    "mode": 1
+                },
+                "WatarFM 96.1": {
+                    "bandwidth": 200000.0,
+                    "frequency": 96100000.0,
+                    "mode": 1
+                }
+            },
             "showOnWaterfall": true
         },
         "General": {
@@ -2023,5 +2299,5 @@
             "showOnWaterfall": true
         }
     },
-    "selectedList": "Tetra"
+    "selectedList": "FM Radio"
 }
