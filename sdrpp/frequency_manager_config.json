@@ -4300,6 +4300,121 @@
             },
             "showOnWaterfall": true
         },
+        "Radio - FRS GMRS": {
+            "bookmarks": {
+                "1": {
+                    "bandwidth": 12500,
+                    "frequency": 462562500,
+                    "mode": 0
+                },
+                "10": {
+                    "bandwidth": 12500,
+                    "frequency": 467612500,
+                    "mode": 0
+                },
+                "11": {
+                    "bandwidth": 12500,
+                    "frequency": 467637500,
+                    "mode": 0
+                },
+                "12": {
+                    "bandwidth": 12500,
+                    "frequency": 467662500,
+                    "mode": 0
+                },
+                "13": {
+                    "bandwidth": 12500,
+                    "frequency": 467687500,
+                    "mode": 0
+                },
+                "14": {
+                    "bandwidth": 12500,
+                    "frequency": 467712500,
+                    "mode": 0
+                },
+                "15": {
+                    "bandwidth": 12500,
+                    "frequency": 462550000,
+                    "mode": 0
+                },
+                "16": {
+                    "bandwidth": 12500,
+                    "frequency": 462575000,
+                    "mode": 0
+                },
+                "17": {
+                    "bandwidth": 12500,
+                    "frequency": 462600000,
+                    "mode": 0
+                },
+                "18": {
+                    "bandwidth": 12500,
+                    "frequency": 462625000,
+                    "mode": 0
+                },
+                "19": {
+                    "bandwidth": 12500,
+                    "frequency": 462650000,
+                    "mode": 0
+                },
+                "2": {
+                    "bandwidth": 12500,
+                    "frequency": 462587500,
+                    "mode": 0
+                },
+                "20": {
+                    "bandwidth": 12500,
+                    "frequency": 462675000,
+                    "mode": 0
+                },
+                "21": {
+                    "bandwidth": 12500,
+                    "frequency": 462700000,
+                    "mode": 0
+                },
+                "22": {
+                    "bandwidth": 12500,
+                    "frequency": 462725000,
+                    "mode": 0
+                },
+                "3": {
+                    "bandwidth": 12500,
+                    "frequency": 462612500,
+                    "mode": 0
+                },
+                "4": {
+                    "bandwidth": 12500,
+                    "frequency": 462637500,
+                    "mode": 0
+                },
+                "5": {
+                    "bandwidth": 12500,
+                    "frequency": 462662500,
+                    "mode": 0
+                },
+                "6": {
+                    "bandwidth": 12500,
+                    "frequency": 462687500,
+                    "mode": 0
+                },
+                "7": {
+                    "bandwidth": 12500,
+                    "frequency": 462712500,
+                    "mode": 0
+                },
+                "8": {
+                    "bandwidth": 12500,
+                    "frequency": 467562500,
+                    "mode": 0
+                },
+                "9": {
+                    "bandwidth": 12500,
+                    "frequency": 467587500,
+                    "mode": 0
+                }
+            },
+            "showOnWaterfall": true
+        },
         "Radio - Marine": {
             "bookmarks": {},
             "showOnWaterfall": true
@@ -6310,5 +6425,5 @@
             "showOnWaterfall": true
         }
     },
-    "selectedList": "BC - DAB"
+    "selectedList": "Radio - FRS GMRS"
 }
