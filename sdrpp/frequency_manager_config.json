@@ -6423,7 +6423,62 @@
                 }
             },
             "showOnWaterfall": true
+        },
+        "Sat - GPS": {
+            "bookmarks": {
+                "GLONASS L1": {
+                    "bandwidth": 10000.0,
+                    "frequency": 1615500000.0,
+                    "mode": 7
+                },
+                "GLONASS L2": {
+                    "bandwidth": 10000.0,
+                    "frequency": 1260000000.0,
+                    "mode": 7
+                },
+                "GLONASS L3": {
+                    "bandwidth": 2000.0,
+                    "frequency": 1202250000.0,
+                    "mode": 7
+                },
+                "GPS L1 Galileo E1": {
+                    "bandwidth": 1000000.0,
+                    "frequency": 1575420000.0,
+                    "mode": 7
+                },
+                "GPS L2": {
+                    "bandwidth": 2000.0,
+                    "frequency": 1227600000.0,
+                    "mode": 7
+                },
+                "GPS L3": {
+                    "bandwidth": 2000.0,
+                    "frequency": 1381050000.0,
+                    "mode": 7
+                },
+                "GPS L4": {
+                    "bandwidth": 2000.0,
+                    "frequency": 1379913300.0,
+                    "mode": 7
+                },
+                "GPS L5 Galileo E5a": {
+                    "bandwidth": 10000.0,
+                    "frequency": 1176450000.0,
+                    "mode": 7
+                },
+                "Galileo E5b": {
+                    "bandwidth": 10000.0,
+                    "frequency": 1207140000.0,
+                    "mode": 7
+                },
+                "Galileo E6": {
+                    "bandwidth": 10000.0,
+                    "frequency": 1278750000.0,
+                    "mode": 7
+                }
+            },
+            "showOnWaterfall": true
         }
     },
-    "selectedList": "Radio - FRS GMRS"
+    "selectedList": "Sat - GPS"
 }
