@@ -1,6 +1,0 @@
-
-# iio
-sudo apt install libiio-utils
-
-# network tools
-sudo apt install avahi-daemon avahi-utils
