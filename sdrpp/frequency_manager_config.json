@@ -515,6 +515,21 @@
             "bookmarks": {},
             "showOnWaterfall": false
         },
+        "Data - ADSB": {
+            "bookmarks": {
+                "ADS-B 1090 MHz": {
+                    "bandwidth": 2000000.0,
+                    "frequency": 1090000000.0,
+                    "mode": 7
+                },
+                "ADS-B 978 MHz": {
+                    "bandwidth": 1300000.0,
+                    "frequency": 978000000.0,
+                    "mode": 7
+                }
+            },
+            "showOnWaterfall": false
+        },
         "Data - AIS": {
             "bookmarks": {
                 "AIS-LR1": {
@@ -536,6 +551,66 @@
                     "bandwidth": 48000.0,
                     "frequency": 162025000.0,
                     "mode": 7
+                }
+            },
+            "showOnWaterfall": false
+        },
+        "Data - APRS": {
+            "bookmarks": {
+                "APRS1": {
+                    "bandwidth": 12500.0,
+                    "frequency": 144390000.0,
+                    "mode": 7
+                },
+                "APRS2": {
+                    "bandwidth": 12500.0,
+                    "frequency": 144575000.0,
+                    "mode": 7
+                },
+                "APRS3": {
+                    "bandwidth": 12500.0,
+                    "frequency": 144640000.0,
+                    "mode": 7
+                },
+                "APRS4": {
+                    "bandwidth": 12500.0,
+                    "frequency": 144660000.0,
+                    "mode": 7
+                },
+                "APRS5": {
+                    "bandwidth": 12500.0,
+                    "frequency": 144800000.0,
+                    "mode": 7
+                },
+                "APRS6": {
+                    "bandwidth": 12500.0,
+                    "frequency": 144930000.0,
+                    "mode": 7
+                },
+                "APRS7": {
+                    "bandwidth": 12500.0,
+                    "frequency": 145175000.0,
+                    "mode": 7
+                },
+                "APRS8": {
+                    "bandwidth": 12500.0,
+                    "frequency": 145570000.0,
+                    "mode": 7
+                },
+                "APRS9": {
+                    "bandwidth": 12500.0,
+                    "frequency": 145825000.0,
+                    "mode": 7
+                }
+            },
+            "showOnWaterfall": false
+        },
+        "HAM - VHF 2m": {
+            "bookmarks": {
+                "1": {
+                    "bandwidth": 25000.0,
+                    "frequency": 145298500.0,
+                    "mode": 0
                 }
             },
             "showOnWaterfall": false
@@ -4958,7 +5033,7 @@
                     "mode": 0
                 }
             },
-            "showOnWaterfall": true
+            "showOnWaterfall": false
         },
         "Radio - NOAA": {
             "bookmarks": {
@@ -7096,5 +7171,5 @@
             "showOnWaterfall": false
         }
     },
-    "selectedList": "Radio - Marine"
+    "selectedList": "Data - APRS"
 }
