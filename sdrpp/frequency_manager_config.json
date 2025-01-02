@@ -6458,17 +6458,17 @@
                     "mode": 7
                 },
                 "GPS L1 Galileo E1": {
-                    "bandwidth": 1000000.0,
+                    "bandwidth": 15345000.0,
                     "frequency": 1575420000.0,
                     "mode": 7
                 },
                 "GPS L2": {
-                    "bandwidth": 2000.0,
+                    "bandwidth": 11000000.0,
                     "frequency": 1227600000.0,
                     "mode": 7
                 },
                 "GPS L3": {
-                    "bandwidth": 2000.0,
+                    "bandwidth": 15345000.0,
                     "frequency": 1381050000.0,
                     "mode": 7
                 },
@@ -6478,7 +6478,7 @@
                     "mode": 7
                 },
                 "GPS L5 Galileo E5a": {
-                    "bandwidth": 10000.0,
+                    "bandwidth": 12500000.0,
                     "frequency": 1176450000.0,
                     "mode": 7
                 },
@@ -6496,5 +6496,5 @@
             "showOnWaterfall": true
         }
     },
-    "selectedList": "Radio - FRS GMRS"
+    "selectedList": "Sat - GPS"
 }
