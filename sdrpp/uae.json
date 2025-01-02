@@ -282,6 +282,13 @@
             "end": 270000000
         },
         {
+            "name": "Tetra",
+            "type": "radio",
+            "start": 390000000,
+            "end": 400000000
+        },
+
+        {
             "name": "70cm Ham Band",
             "type": "amateur",
             "start": 420000000,
