@@ -3,11 +3,33 @@
     "lists": {
         "BC - AM": {
             "bookmarks": {
-                "x": {
-                    "bandwidth": 10000.0,
-                    "frequency": 550000.0,
-                    "mode": 2
-                }
+
+  "Kuwait": {
+     "bandwidth":10000,
+    "frequency":540000,
+    "mode":1
+    },
+  "UAQ Quran": {
+     "bandwidth":10000,
+    "frequency":846000,
+    "mode":1
+    },
+  "RAK Voice of Kerela": {
+     "bandwidth":10000,
+    "frequency":1152000,
+    "mode":1
+    },
+  "SA": {
+     "bandwidth":10000,
+    "frequency":1440000,
+    "mode":1
+    },
+  "RAK Radio Asia": {
+     "bandwidth":10000,
+    "frequency":1476000,
+    "mode":1
+    }
+
             },
             "showOnWaterfall": true
         },
