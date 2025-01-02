@@ -3,33 +3,31 @@
     "lists": {
         "BC - AM": {
             "bookmarks": {
-
-  "Kuwait": {
-     "bandwidth":10000,
-    "frequency":540000,
-    "mode":1
-    },
-  "UAQ Quran": {
-     "bandwidth":10000,
-    "frequency":846000,
-    "mode":1
-    },
-  "RAK Voice of Kerela": {
-     "bandwidth":10000,
-    "frequency":1152000,
-    "mode":1
-    },
-  "SA": {
-     "bandwidth":10000,
-    "frequency":1440000,
-    "mode":1
-    },
-  "RAK Radio Asia": {
-     "bandwidth":10000,
-    "frequency":1476000,
-    "mode":1
-    }
-
+                "Kuwait": {
+                    "bandwidth": 10000,
+                    "frequency": 540000,
+                    "mode": 2
+                },
+                "RAK Radio Asia": {
+                    "bandwidth": 10000,
+                    "frequency": 1476000,
+                    "mode": 2
+                },
+                "RAK Voice of Kerela": {
+                    "bandwidth": 10000,
+                    "frequency": 1152000,
+                    "mode": 2
+                },
+                "SA": {
+                    "bandwidth": 10000,
+                    "frequency": 1440000,
+                    "mode": 2
+                },
+                "UAQ Quran": {
+                    "bandwidth": 10000,
+                    "frequency": 846000,
+                    "mode": 2
+                }
             },
             "showOnWaterfall": true
         },
@@ -511,10 +509,6 @@
                     "mode": 1
                 }
             },
-            "showOnWaterfall": true
-        },
-        "BC - MW": {
-            "bookmarks": {},
             "showOnWaterfall": true
         },
         "Radio - Aviation": {
@@ -6502,5 +6496,5 @@
             "showOnWaterfall": true
         }
     },
-    "selectedList": "Sat - GPS"
+    "selectedList": "Radio - FRS GMRS"
 }
