@@ -29,7 +29,7 @@
                     "mode": 2
                 }
             },
-            "showOnWaterfall": true
+            "showOnWaterfall": false
         },
         "BC - DAB": {
             "bookmarks": {
@@ -224,7 +224,7 @@
                     "mode": 7
                 }
             },
-            "showOnWaterfall": true
+            "showOnWaterfall": false
         },
         "BC - FM": {
             "bookmarks": {
@@ -509,7 +509,36 @@
                     "mode": 1
                 }
             },
-            "showOnWaterfall": true
+            "showOnWaterfall": false
+        },
+        "Data - ACARS": {
+            "bookmarks": {},
+            "showOnWaterfall": false
+        },
+        "Data - AIS": {
+            "bookmarks": {
+                "AIS-LR1": {
+                    "bandwidth": 48000.0,
+                    "frequency": 156775000.0,
+                    "mode": 7
+                },
+                "AIS-LR2": {
+                    "bandwidth": 48000.0,
+                    "frequency": 156825000.0,
+                    "mode": 7
+                },
+                "AIS1": {
+                    "bandwidth": 48000.0,
+                    "frequency": 161975000.0,
+                    "mode": 7
+                },
+                "AIS2": {
+                    "bandwidth": 48000.0,
+                    "frequency": 162025000.0,
+                    "mode": 7
+                }
+            },
+            "showOnWaterfall": false
         },
         "Radio - Aviation": {
             "bookmarks": {
@@ -4314,7 +4343,7 @@
                     "mode": 2
                 }
             },
-            "showOnWaterfall": true
+            "showOnWaterfall": false
         },
         "Radio - FRS GMRS": {
             "bookmarks": {
@@ -4429,11 +4458,562 @@
                     "mode": 0
                 }
             },
-            "showOnWaterfall": true
+            "showOnWaterfall": false
         },
         "Radio - Marine": {
-            "bookmarks": {},
+            "bookmarks": {
+                "10B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156500000.0,
+                    "mode": 0
+                },
+                "11B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156550000.0,
+                    "mode": 0
+                },
+                "12B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156600000.0,
+                    "mode": 0
+                },
+                "13B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156650000.0,
+                    "mode": 0
+                },
+                "14B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156700000.0,
+                    "mode": 0
+                },
+                "15B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156750000.0,
+                    "mode": 0
+                },
+                "16B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156800000.0,
+                    "mode": 0
+                },
+                "17B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156850000.0,
+                    "mode": 0
+                },
+                "18R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161500000.0,
+                    "mode": 0
+                },
+                "18T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156900000.0,
+                    "mode": 0
+                },
+                "19R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161550000.0,
+                    "mode": 0
+                },
+                "19T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156950000.0,
+                    "mode": 0
+                },
+                "1R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160650000.0,
+                    "mode": 0
+                },
+                "1T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156050000.0,
+                    "mode": 0
+                },
+                "20R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161600000.0,
+                    "mode": 0
+                },
+                "20T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157000000.0,
+                    "mode": 0
+                },
+                "21R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161650000.0,
+                    "mode": 0
+                },
+                "21T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157050000.0,
+                    "mode": 0
+                },
+                "22R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161700000.0,
+                    "mode": 0
+                },
+                "22T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157100000.0,
+                    "mode": 0
+                },
+                "23R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161750000.0,
+                    "mode": 0
+                },
+                "23T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157150000.0,
+                    "mode": 0
+                },
+                "24R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161800000.0,
+                    "mode": 0
+                },
+                "24T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157200000.0,
+                    "mode": 0
+                },
+                "25R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161850000.0,
+                    "mode": 0
+                },
+                "25T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157250000.0,
+                    "mode": 0
+                },
+                "26R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161900000.0,
+                    "mode": 0
+                },
+                "26T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157300000.0,
+                    "mode": 0
+                },
+                "27R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161950000.0,
+                    "mode": 0
+                },
+                "27T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157350000.0,
+                    "mode": 0
+                },
+                "28R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 162000000.0,
+                    "mode": 0
+                },
+                "28T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157400000.0,
+                    "mode": 0
+                },
+                "2R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160700000.0,
+                    "mode": 0
+                },
+                "2T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156100000.0,
+                    "mode": 0
+                },
+                "3R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160750000.0,
+                    "mode": 0
+                },
+                "3T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156150000.0,
+                    "mode": 0
+                },
+                "4R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160800000.0,
+                    "mode": 0
+                },
+                "4T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156200000.0,
+                    "mode": 0
+                },
+                "5R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160850000.0,
+                    "mode": 0
+                },
+                "5T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156250000.0,
+                    "mode": 0
+                },
+                "60R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160625000.0,
+                    "mode": 0
+                },
+                "60T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156025000.0,
+                    "mode": 0
+                },
+                "61R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160675000.0,
+                    "mode": 0
+                },
+                "61T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156075000.0,
+                    "mode": 0
+                },
+                "62R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160725000.0,
+                    "mode": 0
+                },
+                "62T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156125000.0,
+                    "mode": 0
+                },
+                "63R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160775000.0,
+                    "mode": 0
+                },
+                "63T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156175000.0,
+                    "mode": 0
+                },
+                "64R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160825000.0,
+                    "mode": 0
+                },
+                "64T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156225000.0,
+                    "mode": 0
+                },
+                "65R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160875000.0,
+                    "mode": 0
+                },
+                "65T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156275000.0,
+                    "mode": 0
+                },
+                "66R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160925000.0,
+                    "mode": 0
+                },
+                "66T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156325000.0,
+                    "mode": 0
+                },
+                "67B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156375000.0,
+                    "mode": 0
+                },
+                "68B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156425000.0,
+                    "mode": 0
+                },
+                "69B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156475000.0,
+                    "mode": 0
+                },
+                "6B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156300000.0,
+                    "mode": 0
+                },
+                "6R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160900000.0,
+                    "mode": 0
+                },
+                "70B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156525000.0,
+                    "mode": 0
+                },
+                "71B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156575000.0,
+                    "mode": 0
+                },
+                "72B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156625000.0,
+                    "mode": 0
+                },
+                "73B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156675000.0,
+                    "mode": 0
+                },
+                "74B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156725000.0,
+                    "mode": 0
+                },
+                "75B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156775000.0,
+                    "mode": 7
+                },
+                "76B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156825000.0,
+                    "mode": 7
+                },
+                "77B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156875000.0,
+                    "mode": 0
+                },
+                "78R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161525000.0,
+                    "mode": 0
+                },
+                "78T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156925000.0,
+                    "mode": 0
+                },
+                "79R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161575000.0,
+                    "mode": 0
+                },
+                "79T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156975000.0,
+                    "mode": 0
+                },
+                "7R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 160950000.0,
+                    "mode": 0
+                },
+                "7T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156350000.0,
+                    "mode": 0
+                },
+                "80R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161625000.0,
+                    "mode": 0
+                },
+                "80T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157025000.0,
+                    "mode": 0
+                },
+                "81R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161675000.0,
+                    "mode": 0
+                },
+                "81T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157075000.0,
+                    "mode": 0
+                },
+                "82R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161725000.0,
+                    "mode": 0
+                },
+                "82T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157125000.0,
+                    "mode": 0
+                },
+                "83R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161775000.0,
+                    "mode": 0
+                },
+                "83T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157175000.0,
+                    "mode": 0
+                },
+                "84R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161825000.0,
+                    "mode": 0
+                },
+                "84T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157225000.0,
+                    "mode": 0
+                },
+                "85R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161875000.0,
+                    "mode": 0
+                },
+                "85T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157275000.0,
+                    "mode": 0
+                },
+                "86R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161925000.0,
+                    "mode": 0
+                },
+                "86T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157325000.0,
+                    "mode": 0
+                },
+                "87B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161975000.0,
+                    "mode": 7
+                },
+                "87T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157375000.0,
+                    "mode": 0
+                },
+                "88B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 162025000.0,
+                    "mode": 7
+                },
+                "88T": {
+                    "bandwidth": 25000.0,
+                    "frequency": 157425000.0,
+                    "mode": 0
+                },
+                "8B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156400000.0,
+                    "mode": 0
+                },
+                "9B": {
+                    "bandwidth": 25000.0,
+                    "frequency": 156450000.0,
+                    "mode": 0
+                },
+                "F1": {
+                    "bandwidth": 25000.0,
+                    "frequency": 155625000.0,
+                    "mode": 0
+                },
+                "F2": {
+                    "bandwidth": 25000.0,
+                    "frequency": 155775000.0,
+                    "mode": 0
+                },
+                "F3": {
+                    "bandwidth": 25000.0,
+                    "frequency": 155825000.0,
+                    "mode": 0
+                },
+                "L1": {
+                    "bandwidth": 25000.0,
+                    "frequency": 155500000.0,
+                    "mode": 0
+                },
+                "L2": {
+                    "bandwidth": 25000.0,
+                    "frequency": 155525000.0,
+                    "mode": 0
+                },
+                "L3": {
+                    "bandwidth": 25000.0,
+                    "frequency": 155650000.0,
+                    "mode": 0
+                }
+            },
             "showOnWaterfall": true
+        },
+        "Radio - NOAA": {
+            "bookmarks": {
+                "WX1": {
+                    "bandwidth": 25000.0,
+                    "frequency": 162550000.0,
+                    "mode": 0
+                },
+                "WX10": {
+                    "bandwidth": 25000.0,
+                    "frequency": 163275000.0,
+                    "mode": 0
+                },
+                "WX2": {
+                    "bandwidth": 25000.0,
+                    "frequency": 162400000.0,
+                    "mode": 0
+                },
+                "WX3": {
+                    "bandwidth": 25000.0,
+                    "frequency": 162475000.0,
+                    "mode": 0
+                },
+                "WX4": {
+                    "bandwidth": 25000.0,
+                    "frequency": 162425000.0,
+                    "mode": 0
+                },
+                "WX5": {
+                    "bandwidth": 25000.0,
+                    "frequency": 162450000.0,
+                    "mode": 0
+                },
+                "WX6": {
+                    "bandwidth": 25000.0,
+                    "frequency": 162500000.0,
+                    "mode": 0
+                },
+                "WX7": {
+                    "bandwidth": 25000.0,
+                    "frequency": 162525000.0,
+                    "mode": 0
+                },
+                "WX8-21R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161650000.0,
+                    "mode": 0
+                },
+                "WX9-83R": {
+                    "bandwidth": 25000.0,
+                    "frequency": 161775000.0,
+                    "mode": 0
+                }
+            },
+            "showOnWaterfall": false
         },
         "Radio - Tetra": {
             "bookmarks": {
@@ -6438,7 +7018,7 @@
                     "mode": 7
                 }
             },
-            "showOnWaterfall": true
+            "showOnWaterfall": false
         },
         "Sat - GPS": {
             "bookmarks": {
@@ -6493,8 +7073,28 @@
                     "mode": 7
                 }
             },
-            "showOnWaterfall": true
+            "showOnWaterfall": false
+        },
+        "Sat - NOAA": {
+            "bookmarks": {
+                "NOAA-15": {
+                    "bandwidth": 20600.0,
+                    "frequency": 137620000.0,
+                    "mode": 7
+                },
+                "NOAA-18": {
+                    "bandwidth": 34000.0,
+                    "frequency": 137912500.0,
+                    "mode": 7
+                },
+                "NOAA-19": {
+                    "bandwidth": 20600.0,
+                    "frequency": 137100000.0,
+                    "mode": 7
+                }
+            },
+            "showOnWaterfall": false
         }
     },
-    "selectedList": "Sat - GPS"
+    "selectedList": "Radio - Marine"
 }
