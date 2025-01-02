@@ -605,6 +605,81 @@
             },
             "showOnWaterfall": false
         },
+        "Data - WiFi 2.4GHz": {
+            "bookmarks": {
+                "C01": {
+                    "bandwidth": 22000000,
+                    "frequency": 2412000000,
+                    "mode": 7
+                },
+                "C02": {
+                    "bandwidth": 22000000,
+                    "frequency": 2417000000,
+                    "mode": 7
+                },
+                "C03": {
+                    "bandwidth": 22000000,
+                    "frequency": 2422000000,
+                    "mode": 7
+                },
+                "C04": {
+                    "bandwidth": 22000000,
+                    "frequency": 2427000000,
+                    "mode": 7
+                },
+                "C05": {
+                    "bandwidth": 22000000,
+                    "frequency": 2432000000,
+                    "mode": 7
+                },
+                "C06": {
+                    "bandwidth": 22000000,
+                    "frequency": 2437000000,
+                    "mode": 7
+                },
+                "C07": {
+                    "bandwidth": 22000000,
+                    "frequency": 2442000000,
+                    "mode": 7
+                },
+                "C08": {
+                    "bandwidth": 22000000,
+                    "frequency": 2447000000,
+                    "mode": 7
+                },
+                "C09": {
+                    "bandwidth": 22000000,
+                    "frequency": 2452000000,
+                    "mode": 7
+                },
+                "C10": {
+                    "bandwidth": 22000000,
+                    "frequency": 2457000000,
+                    "mode": 7
+                },
+                "C11": {
+                    "bandwidth": 22000000,
+                    "frequency": 2462000000,
+                    "mode": 7
+                },
+                "C12": {
+                    "bandwidth": 22000000,
+                    "frequency": 2467000000,
+                    "mode": 7
+                },
+                "C13": {
+                    "bandwidth": 22000000,
+                    "frequency": 2472000000,
+                    "mode": 7
+                },
+                "C14": {
+                    "bandwidth": 22000000,
+                    "frequency": 2484000000,
+                    "mode": 7
+                }
+            },
+            "showOnWaterfall": false
+        },
         "HAM - VHF 2m": {
             "bookmarks": {
                 "1": {
@@ -7171,5 +7246,5 @@
             "showOnWaterfall": false
         }
     },
-    "selectedList": "Data - APRS"
+    "selectedList": "Sat - NOAA"
 }
