@@ -229,283 +229,278 @@
         "BC - FM": {
             "bookmarks": {
                 "AD Classic Music": {
-                    "bandwidth": 200000,
-                    "frequency": 87900000,
+                    "bandwidth": 200000.0,
+                    "frequency": 87900000.0,
                     "mode": 1
                 },
                 "AD Emarat FM": {
-                    "bandwidth": 200000,
-                    "frequency": 97100000,
+                    "bandwidth": 200000.0,
+                    "frequency": 97100000.0,
                     "mode": 1
                 },
                 "AD Quran": {
-                    "bandwidth": 200000,
-                    "frequency": 88200000,
+                    "bandwidth": 200000.0,
+                    "frequency": 88200000.0,
                     "mode": 1
                 },
                 "AD Radio": {
-                    "bandwidth": 200000,
-                    "frequency": 98400000,
+                    "bandwidth": 200000.0,
+                    "frequency": 98400000.0,
                     "mode": 1
                 },
                 "AD SEHA": {
-                    "bandwidth": 200000,
-                    "frequency": 104600000,
+                    "bandwidth": 200000.0,
+                    "frequency": 104600000.0,
                     "mode": 1
                 },
                 "AD Zayed Quran": {
-                    "bandwidth": 200000,
-                    "frequency": 97600000,
+                    "bandwidth": 200000.0,
+                    "frequency": 97600000.0,
                     "mode": 1
                 },
                 "AJM Al Rabia FM": {
-                    "bandwidth": 200000,
-                    "frequency": 107800000,
+                    "bandwidth": 200000.0,
+                    "frequency": 107800000.0,
                     "mode": 1
                 },
                 "AJM Channel 4": {
-                    "bandwidth": 200000,
-                    "frequency": 104800000,
+                    "bandwidth": 200000.0,
+                    "frequency": 104800000.0,
                     "mode": 1
                 },
                 "AJM Gold FM": {
-                    "bandwidth": 200000,
-                    "frequency": 101300000,
+                    "bandwidth": 200000.0,
+                    "frequency": 101300000.0,
                     "mode": 1
                 },
                 "AJM Radio 4": {
-                    "bandwidth": 200000,
-                    "frequency": 89100000,
+                    "bandwidth": 200000.0,
+                    "frequency": 89100000.0,
                     "mode": 1
                 },
                 "Beat97.8": {
-                    "bandwidth": 200000,
-                    "frequency": 97800000,
+                    "bandwidth": 200000.0,
+                    "frequency": 97800000.0,
                     "mode": 1
                 },
                 "City1016": {
-                    "bandwidth": 200000,
-                    "frequency": 101600000,
+                    "bandwidth": 200000.0,
+                    "frequency": 101600000.0,
                     "mode": 1
                 },
                 "ClubFM": {
-                    "bandwidth": 200000,
-                    "frequency": 107600000,
+                    "bandwidth": 200000.0,
+                    "frequency": 107600000.0,
                     "mode": 1
                 },
                 "DXB ALOula": {
-                    "bandwidth": 200000,
-                    "frequency": 107400000,
+                    "bandwidth": 200000.0,
+                    "frequency": 107400000.0,
                     "mode": 1
                 },
                 "DXB Arabiya": {
-                    "bandwidth": 200000,
-                    "frequency": 99000000,
+                    "bandwidth": 200000.0,
+                    "frequency": 99000000.0,
                     "mode": 1
                 },
                 "DXB Club FM": {
-                    "bandwidth": 200000,
-                    "frequency": 99600000,
+                    "bandwidth": 200000.0,
+                    "frequency": 99600000.0,
                     "mode": 1
                 },
                 "DXB Eye": {
-                    "bandwidth": 200000,
-                    "frequency": 103800000,
+                    "bandwidth": 200000.0,
+                    "frequency": 103800000.0,
                     "mode": 1
                 },
                 "DXB Hit967": {
-                    "bandwidth": 200000,
-                    "frequency": 96700000,
+                    "bandwidth": 200000.0,
+                    "frequency": 96700000.0,
                     "mode": 1
                 },
                 "DXB Kadak FM": {
-                    "bandwidth": 200000,
-                    "frequency": 88800000,
+                    "bandwidth": 200000.0,
+                    "frequency": 88800000.0,
                     "mode": 1
                 },
                 "DXB NOOR": {
-                    "bandwidth": 200000,
-                    "frequency": 93900000,
+                    "bandwidth": 200000.0,
+                    "frequency": 93900000.0,
                     "mode": 1
                 },
                 "DXB Quran": {
-                    "bandwidth": 200000,
-                    "frequency": 91400000,
+                    "bandwidth": 200000.0,
+                    "frequency": 91400000.0,
                     "mode": 1
                 },
                 "DXB Tag 91.1": {
-                    "bandwidth": 200000,
-                    "frequency": 91100000,
+                    "bandwidth": 200000.0,
+                    "frequency": 91100000.0,
                     "mode": 1
                 },
                 "DXB Virgin": {
-                    "bandwidth": 200000,
-                    "frequency": 104400000,
+                    "bandwidth": 200000.0,
+                    "frequency": 104400000.0,
                     "mode": 1
                 },
                 "Dubai92": {
-                    "bandwidth": 200000,
-                    "frequency": 92000000,
+                    "bandwidth": 200000.0,
+                    "frequency": 92000000.0,
                     "mode": 1
                 },
                 "FUJ Rock Radio": {
-                    "bandwidth": 200000,
-                    "frequency": 90800000,
+                    "bandwidth": 200000.0,
+                    "frequency": 90800000.0,
                     "mode": 1
                 },
                 "FUJAIRAH": {
-                    "bandwidth": 200000,
-                    "frequency": 92600000,
+                    "bandwidth": 200000.0,
+                    "frequency": 92600000.0,
                     "mode": 1
                 },
                 "Ibiza Global Radio": {
-                    "bandwidth": 200000,
-                    "frequency": 95300000,
+                    "bandwidth": 200000.0,
+                    "frequency": 95300000.0,
                     "mode": 1
                 },
                 "Kadak FM 97.3": {
-                    "bandwidth": 200000,
-                    "frequency": 97300000,
+                    "bandwidth": 200000.0,
+                    "frequency": 97300000.0,
                     "mode": 1
                 },
                 "Khalejya": {
-                    "bandwidth": 200000,
-                    "frequency": 100900000,
+                    "bandwidth": 200000.0,
+                    "frequency": 100900000.0,
                     "mode": 1
                 },
                 "Khushi": {
-                    "bandwidth": 200000,
-                    "frequency": 92200000,
+                    "bandwidth": 200000.0,
+                    "frequency": 92200000.0,
                     "mode": 1
                 },
                 "Mirchi 102.4": {
-                    "bandwidth": 200000,
-                    "frequency": 102400000,
+                    "bandwidth": 200000.0,
+                    "frequency": 102400000.0,
                     "mode": 1
                 },
                 "Music": {
-                    "bandwidth": 200000,
-                    "frequency": 89600000,
+                    "bandwidth": 200000.0,
+                    "frequency": 89600000.0,
                     "mode": 1
                 },
                 "Pearl": {
-                    "bandwidth": 200000,
-                    "frequency": 102000000,
+                    "bandwidth": 200000.0,
+                    "frequency": 102000000.0,
                     "mode": 1
                 },
                 "RAK FM": {
-                    "bandwidth": 200000,
-                    "frequency": 103500000,
+                    "bandwidth": 200000.0,
+                    "frequency": 103500000.0,
                     "mode": 1
                 },
                 "RAK Tamil FM": {
-                    "bandwidth": 200000,
-                    "frequency": 89400000,
+                    "bandwidth": 200000.0,
+                    "frequency": 89400000.0,
                     "mode": 1
                 },
                 "RAKQuran": {
-                    "bandwidth": 200000,
-                    "frequency": 87600000,
+                    "bandwidth": 200000.0,
+                    "frequency": 87600000.0,
                     "mode": 1
                 },
                 "Radio 1": {
-                    "bandwidth": 200000,
-                    "frequency": 104100000,
+                    "bandwidth": 200000.0,
+                    "frequency": 104100000.0,
                     "mode": 1
                 },
                 "Radio 2": {
-                    "bandwidth": 200000,
-                    "frequency": 106000000,
+                    "bandwidth": 200000.0,
+                    "frequency": 106000000.0,
                     "mode": 1
                 },
                 "Radio Asia": {
-                    "bandwidth": 200000,
-                    "frequency": 94700000,
+                    "bandwidth": 200000.0,
+                    "frequency": 94700000.0,
                     "mode": 1
                 },
                 "Radio93": {
-                    "bandwidth": 200000,
-                    "frequency": 93000000,
-                    "mode": 1
-                },
-                "RockRadio": {
-                    "bandwidth": 200000,
-                    "frequency": 90700000,
+                    "bandwidth": 200000.0,
+                    "frequency": 93000000.0,
                     "mode": 1
                 },
                 "SHJ Pulse95": {
-                    "bandwidth": 200000,
-                    "frequency": 95000000,
+                    "bandwidth": 200000.0,
+                    "frequency": 95000000.0,
                     "mode": 1
                 },
                 "SHJ Quran": {
-                    "bandwidth": 200000,
-                    "frequency": 102700000,
+                    "bandwidth": 200000.0,
+                    "frequency": 102700000.0,
                     "mode": 1
                 },
                 "SHOMA934": {
-                    "bandwidth": 200000,
-                    "frequency": 93400000,
+                    "bandwidth": 200000.0,
+                    "frequency": 93400000.0,
                     "mode": 1
                 },
                 "Shabab Net": {
-                    "bandwidth": 200000,
-                    "frequency": 106900000,
+                    "bandwidth": 200000.0,
+                    "frequency": 106900000.0,
                     "mode": 1
                 },
                 "Sharjah": {
-                    "bandwidth": 200000,
-                    "frequency": 94400000,
+                    "bandwidth": 200000.0,
+                    "frequency": 94400000.0,
                     "mode": 1
                 },
                 "SkyNews": {
-                    "bandwidth": 200000,
-                    "frequency": 90500000,
+                    "bandwidth": 200000.0,
+                    "frequency": 90500000.0,
                     "mode": 1
                 },
                 "Star FM": {
-                    "bandwidth": 200000,
-                    "frequency": 99900000,
+                    "bandwidth": 200000.0,
+                    "frequency": 99900000.0,
                     "mode": 1
                 },
                 "UAQ Big 106.2": {
-                    "bandwidth": 200000,
-                    "frequency": 106200000,
+                    "bandwidth": 200000.0,
+                    "frequency": 106200000.0,
                     "mode": 1
                 },
                 "UAQ LUV 107.1": {
-                    "bandwidth": 200000,
-                    "frequency": 107100000,
+                    "bandwidth": 200000.0,
+                    "frequency": 107100000.0,
                     "mode": 1
                 },
                 "UAQ Radio Gilli": {
-                    "bandwidth": 200000,
-                    "frequency": 106500000,
+                    "bandwidth": 200000.0,
+                    "frequency": 106500000.0,
                     "mode": 1
                 },
                 "UAQ Radio Hala": {
-                    "bandwidth": 200000,
-                    "frequency": 95600000,
+                    "bandwidth": 200000.0,
+                    "frequency": 95600000.0,
                     "mode": 1
                 },
                 "UAQ TALK1003": {
-                    "bandwidth": 200000,
-                    "frequency": 100300000,
+                    "bandwidth": 200000.0,
+                    "frequency": 100300000.0,
                     "mode": 1
                 },
                 "VOLNA.AE": {
-                    "bandwidth": 200000,
-                    "frequency": 103200000,
+                    "bandwidth": 200000.0,
+                    "frequency": 103200000.0,
                     "mode": 1
                 },
                 "Vibe FM": {
-                    "bandwidth": 200000,
-                    "frequency": 105400000,
+                    "bandwidth": 200000.0,
+                    "frequency": 105400000.0,
                     "mode": 1
                 },
                 "WatarFM 96.1": {
-                    "bandwidth": 200000,
-                    "frequency": 96100000,
+                    "bandwidth": 200000.0,
+                    "frequency": 96100000.0,
                     "mode": 1
                 }
             },
@@ -5165,6 +5160,14 @@
             },
             "showOnWaterfall": false
         },
+        "Radio - PMR466": {
+            "bookmarks": {},
+            "showOnWaterfall": false
+        },
+        "Radio - PMR466 D": {
+            "bookmarks": {},
+            "showOnWaterfall": false
+        },
         "Radio - Tetra": {
             "bookmarks": {
                 "3600": {
@@ -7172,22 +7175,7 @@
         },
         "Sat - GPS": {
             "bookmarks": {
-                "GLONASS L1": {
-                    "bandwidth": 10000.0,
-                    "frequency": 1615500000.0,
-                    "mode": 7
-                },
-                "GLONASS L2": {
-                    "bandwidth": 10000.0,
-                    "frequency": 1260000000.0,
-                    "mode": 7
-                },
-                "GLONASS L3": {
-                    "bandwidth": 2000.0,
-                    "frequency": 1202250000.0,
-                    "mode": 7
-                },
-                "GPS L1 Galileo E1": {
+                "GPS L1": {
                     "bandwidth": 15345000.0,
                     "frequency": 1575420000.0,
                     "mode": 7
@@ -7207,7 +7195,46 @@
                     "frequency": 1379913300.0,
                     "mode": 7
                 },
-                "GPS L5 Galileo E5a": {
+                "GPS L5": {
+                    "bandwidth": 12500000.0,
+                    "frequency": 1176450000.0,
+                    "mode": 7
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "Sat - GPS BeiDou": {
+            "bookmarks": {},
+            "showOnWaterfall": true
+        },
+        "Sat - GPS GLONASS": {
+            "bookmarks": {
+                "GLONASS L1": {
+                    "bandwidth": 10000.0,
+                    "frequency": 1615500000.0,
+                    "mode": 7
+                },
+                "GLONASS L2": {
+                    "bandwidth": 10000.0,
+                    "frequency": 1260000000.0,
+                    "mode": 7
+                },
+                "GLONASS L3": {
+                    "bandwidth": 2000.0,
+                    "frequency": 1202250000.0,
+                    "mode": 7
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "Sat - GPS Galileo": {
+            "bookmarks": {
+                "Galileo E1": {
+                    "bandwidth": 15345000.0,
+                    "frequency": 1575420000.0,
+                    "mode": 7
+                },
+                "Galileo E5a": {
                     "bandwidth": 12500000.0,
                     "frequency": 1176450000.0,
                     "mode": 7
@@ -7223,7 +7250,15 @@
                     "mode": 7
                 }
             },
-            "showOnWaterfall": false
+            "showOnWaterfall": true
+        },
+        "Sat - GPS IRNSS": {
+            "bookmarks": {},
+            "showOnWaterfall": true
+        },
+        "Sat - GPS QZSS": {
+            "bookmarks": {},
+            "showOnWaterfall": true
         },
         "Sat - NOAA": {
             "bookmarks": {
@@ -7244,7 +7279,1032 @@
                 }
             },
             "showOnWaterfall": false
+        },
+        "Signal - RFID": {
+            "bookmarks": {
+                "RFID HF 13.56MHz": {
+                    "bandwidth": 14000.0,
+                    "frequency": 13560000.0,
+                    "mode": 7
+                },
+                "RFID LF 125KHz": {
+                    "bandwidth": 9000.0,
+                    "frequency": 125000.0,
+                    "mode": 7
+                },
+                "RFID LF 134KHz": {
+                    "bandwidth": 9000.0,
+                    "frequency": 134000.0,
+                    "mode": 7
+                }
+            },
+            "showOnWaterfall": false
+        },
+        "Signal - VOR-ILS": {
+            "bookmarks": {
+                "1": {
+                    "bandwidth": 50000,
+                    "frequency": 108000000,
+                    "mode": 7
+                },
+                "10": {
+                    "bandwidth": 50000,
+                    "frequency": 108450000,
+                    "mode": 7
+                },
+                "100": {
+                    "bandwidth": 50000,
+                    "frequency": 112950000,
+                    "mode": 7
+                },
+                "101": {
+                    "bandwidth": 50000,
+                    "frequency": 113000000,
+                    "mode": 7
+                },
+                "102": {
+                    "bandwidth": 50000,
+                    "frequency": 113050000,
+                    "mode": 7
+                },
+                "103": {
+                    "bandwidth": 50000,
+                    "frequency": 113100000,
+                    "mode": 7
+                },
+                "104": {
+                    "bandwidth": 50000,
+                    "frequency": 113150000,
+                    "mode": 7
+                },
+                "105": {
+                    "bandwidth": 50000,
+                    "frequency": 113200000,
+                    "mode": 7
+                },
+                "106": {
+                    "bandwidth": 50000,
+                    "frequency": 113250000,
+                    "mode": 7
+                },
+                "107": {
+                    "bandwidth": 50000,
+                    "frequency": 113300000,
+                    "mode": 7
+                },
+                "108": {
+                    "bandwidth": 50000,
+                    "frequency": 113350000,
+                    "mode": 7
+                },
+                "109": {
+                    "bandwidth": 50000,
+                    "frequency": 113400000,
+                    "mode": 7
+                },
+                "11": {
+                    "bandwidth": 50000,
+                    "frequency": 108500000,
+                    "mode": 7
+                },
+                "110": {
+                    "bandwidth": 50000,
+                    "frequency": 113450000,
+                    "mode": 7
+                },
+                "111": {
+                    "bandwidth": 50000,
+                    "frequency": 113500000,
+                    "mode": 7
+                },
+                "112": {
+                    "bandwidth": 50000,
+                    "frequency": 113550000,
+                    "mode": 7
+                },
+                "113": {
+                    "bandwidth": 50000,
+                    "frequency": 113600000,
+                    "mode": 7
+                },
+                "114": {
+                    "bandwidth": 50000,
+                    "frequency": 113650000,
+                    "mode": 7
+                },
+                "115": {
+                    "bandwidth": 50000,
+                    "frequency": 113700000,
+                    "mode": 7
+                },
+                "116": {
+                    "bandwidth": 50000,
+                    "frequency": 113750000,
+                    "mode": 7
+                },
+                "117": {
+                    "bandwidth": 50000,
+                    "frequency": 113800000,
+                    "mode": 7
+                },
+                "118": {
+                    "bandwidth": 50000,
+                    "frequency": 113850000,
+                    "mode": 7
+                },
+                "119": {
+                    "bandwidth": 50000,
+                    "frequency": 113900000,
+                    "mode": 7
+                },
+                "12": {
+                    "bandwidth": 50000,
+                    "frequency": 108550000,
+                    "mode": 7
+                },
+                "120": {
+                    "bandwidth": 50000,
+                    "frequency": 113950000,
+                    "mode": 7
+                },
+                "121": {
+                    "bandwidth": 50000,
+                    "frequency": 114000000,
+                    "mode": 7
+                },
+                "122": {
+                    "bandwidth": 50000,
+                    "frequency": 114050000,
+                    "mode": 7
+                },
+                "123": {
+                    "bandwidth": 50000,
+                    "frequency": 114100000,
+                    "mode": 7
+                },
+                "124": {
+                    "bandwidth": 50000,
+                    "frequency": 114150000,
+                    "mode": 7
+                },
+                "125": {
+                    "bandwidth": 50000,
+                    "frequency": 114200000,
+                    "mode": 7
+                },
+                "126": {
+                    "bandwidth": 50000,
+                    "frequency": 114250000,
+                    "mode": 7
+                },
+                "127": {
+                    "bandwidth": 50000,
+                    "frequency": 114300000,
+                    "mode": 7
+                },
+                "128": {
+                    "bandwidth": 50000,
+                    "frequency": 114350000,
+                    "mode": 7
+                },
+                "129": {
+                    "bandwidth": 50000,
+                    "frequency": 114400000,
+                    "mode": 7
+                },
+                "13": {
+                    "bandwidth": 50000,
+                    "frequency": 108600000,
+                    "mode": 7
+                },
+                "130": {
+                    "bandwidth": 50000,
+                    "frequency": 114450000,
+                    "mode": 7
+                },
+                "131": {
+                    "bandwidth": 50000,
+                    "frequency": 114500000,
+                    "mode": 7
+                },
+                "132": {
+                    "bandwidth": 50000,
+                    "frequency": 114550000,
+                    "mode": 7
+                },
+                "133": {
+                    "bandwidth": 50000,
+                    "frequency": 114600000,
+                    "mode": 7
+                },
+                "134": {
+                    "bandwidth": 50000,
+                    "frequency": 114650000,
+                    "mode": 7
+                },
+                "135": {
+                    "bandwidth": 50000,
+                    "frequency": 114700000,
+                    "mode": 7
+                },
+                "136": {
+                    "bandwidth": 50000,
+                    "frequency": 114750000,
+                    "mode": 7
+                },
+                "137": {
+                    "bandwidth": 50000,
+                    "frequency": 114800000,
+                    "mode": 7
+                },
+                "138": {
+                    "bandwidth": 50000,
+                    "frequency": 114850000,
+                    "mode": 7
+                },
+                "139": {
+                    "bandwidth": 50000,
+                    "frequency": 114900000,
+                    "mode": 7
+                },
+                "14": {
+                    "bandwidth": 50000,
+                    "frequency": 108650000,
+                    "mode": 7
+                },
+                "140": {
+                    "bandwidth": 50000,
+                    "frequency": 114950000,
+                    "mode": 7
+                },
+                "141": {
+                    "bandwidth": 50000,
+                    "frequency": 115000000,
+                    "mode": 7
+                },
+                "142": {
+                    "bandwidth": 50000,
+                    "frequency": 115050000,
+                    "mode": 7
+                },
+                "143": {
+                    "bandwidth": 50000,
+                    "frequency": 115100000,
+                    "mode": 7
+                },
+                "144": {
+                    "bandwidth": 50000,
+                    "frequency": 115150000,
+                    "mode": 7
+                },
+                "145": {
+                    "bandwidth": 50000,
+                    "frequency": 115200000,
+                    "mode": 7
+                },
+                "146": {
+                    "bandwidth": 50000,
+                    "frequency": 115250000,
+                    "mode": 7
+                },
+                "147": {
+                    "bandwidth": 50000,
+                    "frequency": 115300000,
+                    "mode": 7
+                },
+                "148": {
+                    "bandwidth": 50000,
+                    "frequency": 115350000,
+                    "mode": 7
+                },
+                "149": {
+                    "bandwidth": 50000,
+                    "frequency": 115400000,
+                    "mode": 7
+                },
+                "15": {
+                    "bandwidth": 50000,
+                    "frequency": 108700000,
+                    "mode": 7
+                },
+                "150": {
+                    "bandwidth": 50000,
+                    "frequency": 115450000,
+                    "mode": 7
+                },
+                "151": {
+                    "bandwidth": 50000,
+                    "frequency": 115500000,
+                    "mode": 7
+                },
+                "152": {
+                    "bandwidth": 50000,
+                    "frequency": 115550000,
+                    "mode": 7
+                },
+                "153": {
+                    "bandwidth": 50000,
+                    "frequency": 115600000,
+                    "mode": 7
+                },
+                "154": {
+                    "bandwidth": 50000,
+                    "frequency": 115650000,
+                    "mode": 7
+                },
+                "155": {
+                    "bandwidth": 50000,
+                    "frequency": 115700000,
+                    "mode": 7
+                },
+                "156": {
+                    "bandwidth": 50000,
+                    "frequency": 115750000,
+                    "mode": 7
+                },
+                "157": {
+                    "bandwidth": 50000,
+                    "frequency": 115800000,
+                    "mode": 7
+                },
+                "158": {
+                    "bandwidth": 50000,
+                    "frequency": 115850000,
+                    "mode": 7
+                },
+                "159": {
+                    "bandwidth": 50000,
+                    "frequency": 115900000,
+                    "mode": 7
+                },
+                "16": {
+                    "bandwidth": 50000,
+                    "frequency": 108750000,
+                    "mode": 7
+                },
+                "160": {
+                    "bandwidth": 50000,
+                    "frequency": 115950000,
+                    "mode": 7
+                },
+                "161": {
+                    "bandwidth": 50000,
+                    "frequency": 116000000,
+                    "mode": 7
+                },
+                "162": {
+                    "bandwidth": 50000,
+                    "frequency": 116050000,
+                    "mode": 7
+                },
+                "163": {
+                    "bandwidth": 50000,
+                    "frequency": 116100000,
+                    "mode": 7
+                },
+                "164": {
+                    "bandwidth": 50000,
+                    "frequency": 116150000,
+                    "mode": 7
+                },
+                "165": {
+                    "bandwidth": 50000,
+                    "frequency": 116200000,
+                    "mode": 7
+                },
+                "166": {
+                    "bandwidth": 50000,
+                    "frequency": 116250000,
+                    "mode": 7
+                },
+                "167": {
+                    "bandwidth": 50000,
+                    "frequency": 116300000,
+                    "mode": 7
+                },
+                "168": {
+                    "bandwidth": 50000,
+                    "frequency": 116350000,
+                    "mode": 7
+                },
+                "169": {
+                    "bandwidth": 50000,
+                    "frequency": 116400000,
+                    "mode": 7
+                },
+                "17": {
+                    "bandwidth": 50000,
+                    "frequency": 108800000,
+                    "mode": 7
+                },
+                "170": {
+                    "bandwidth": 50000,
+                    "frequency": 116450000,
+                    "mode": 7
+                },
+                "171": {
+                    "bandwidth": 50000,
+                    "frequency": 116500000,
+                    "mode": 7
+                },
+                "172": {
+                    "bandwidth": 50000,
+                    "frequency": 116550000,
+                    "mode": 7
+                },
+                "173": {
+                    "bandwidth": 50000,
+                    "frequency": 116600000,
+                    "mode": 7
+                },
+                "174": {
+                    "bandwidth": 50000,
+                    "frequency": 116650000,
+                    "mode": 7
+                },
+                "175": {
+                    "bandwidth": 50000,
+                    "frequency": 116700000,
+                    "mode": 7
+                },
+                "176": {
+                    "bandwidth": 50000,
+                    "frequency": 116750000,
+                    "mode": 7
+                },
+                "177": {
+                    "bandwidth": 50000,
+                    "frequency": 116800000,
+                    "mode": 7
+                },
+                "178": {
+                    "bandwidth": 50000,
+                    "frequency": 116850000,
+                    "mode": 7
+                },
+                "179": {
+                    "bandwidth": 50000,
+                    "frequency": 116900000,
+                    "mode": 7
+                },
+                "18": {
+                    "bandwidth": 50000,
+                    "frequency": 108850000,
+                    "mode": 7
+                },
+                "180": {
+                    "bandwidth": 50000,
+                    "frequency": 116950000,
+                    "mode": 7
+                },
+                "181": {
+                    "bandwidth": 50000,
+                    "frequency": 117000000,
+                    "mode": 7
+                },
+                "182": {
+                    "bandwidth": 50000,
+                    "frequency": 117050000,
+                    "mode": 7
+                },
+                "183": {
+                    "bandwidth": 50000,
+                    "frequency": 117100000,
+                    "mode": 7
+                },
+                "184": {
+                    "bandwidth": 50000,
+                    "frequency": 117150000,
+                    "mode": 7
+                },
+                "185": {
+                    "bandwidth": 50000,
+                    "frequency": 117200000,
+                    "mode": 7
+                },
+                "186": {
+                    "bandwidth": 50000,
+                    "frequency": 117250000,
+                    "mode": 7
+                },
+                "187": {
+                    "bandwidth": 50000,
+                    "frequency": 117300000,
+                    "mode": 7
+                },
+                "188": {
+                    "bandwidth": 50000,
+                    "frequency": 117350000,
+                    "mode": 7
+                },
+                "189": {
+                    "bandwidth": 50000,
+                    "frequency": 117400000,
+                    "mode": 7
+                },
+                "19": {
+                    "bandwidth": 50000,
+                    "frequency": 108900000,
+                    "mode": 7
+                },
+                "190": {
+                    "bandwidth": 50000,
+                    "frequency": 117450000,
+                    "mode": 7
+                },
+                "191": {
+                    "bandwidth": 50000,
+                    "frequency": 117500000,
+                    "mode": 7
+                },
+                "192": {
+                    "bandwidth": 50000,
+                    "frequency": 117550000,
+                    "mode": 7
+                },
+                "193": {
+                    "bandwidth": 50000,
+                    "frequency": 117600000,
+                    "mode": 7
+                },
+                "194": {
+                    "bandwidth": 50000,
+                    "frequency": 117650000,
+                    "mode": 7
+                },
+                "195": {
+                    "bandwidth": 50000,
+                    "frequency": 117700000,
+                    "mode": 7
+                },
+                "196": {
+                    "bandwidth": 50000,
+                    "frequency": 117750000,
+                    "mode": 7
+                },
+                "197": {
+                    "bandwidth": 50000,
+                    "frequency": 117800000,
+                    "mode": 7
+                },
+                "198": {
+                    "bandwidth": 50000,
+                    "frequency": 117850000,
+                    "mode": 7
+                },
+                "199": {
+                    "bandwidth": 50000,
+                    "frequency": 117900000,
+                    "mode": 7
+                },
+                "2": {
+                    "bandwidth": 50000,
+                    "frequency": 108050000,
+                    "mode": 7
+                },
+                "20": {
+                    "bandwidth": 50000,
+                    "frequency": 108950000,
+                    "mode": 7
+                },
+                "200": {
+                    "bandwidth": 50000,
+                    "frequency": 117950000,
+                    "mode": 7
+                },
+                "21": {
+                    "bandwidth": 50000,
+                    "frequency": 109000000,
+                    "mode": 7
+                },
+                "22": {
+                    "bandwidth": 50000,
+                    "frequency": 109050000,
+                    "mode": 7
+                },
+                "23": {
+                    "bandwidth": 50000,
+                    "frequency": 109100000,
+                    "mode": 7
+                },
+                "24": {
+                    "bandwidth": 50000,
+                    "frequency": 109150000,
+                    "mode": 7
+                },
+                "25": {
+                    "bandwidth": 50000,
+                    "frequency": 109200000,
+                    "mode": 7
+                },
+                "26": {
+                    "bandwidth": 50000,
+                    "frequency": 109250000,
+                    "mode": 7
+                },
+                "27": {
+                    "bandwidth": 50000,
+                    "frequency": 109300000,
+                    "mode": 7
+                },
+                "28": {
+                    "bandwidth": 50000,
+                    "frequency": 109350000,
+                    "mode": 7
+                },
+                "29": {
+                    "bandwidth": 50000,
+                    "frequency": 109400000,
+                    "mode": 7
+                },
+                "3": {
+                    "bandwidth": 50000,
+                    "frequency": 108100000,
+                    "mode": 7
+                },
+                "30": {
+                    "bandwidth": 50000,
+                    "frequency": 109450000,
+                    "mode": 7
+                },
+                "31": {
+                    "bandwidth": 50000,
+                    "frequency": 109500000,
+                    "mode": 7
+                },
+                "32": {
+                    "bandwidth": 50000,
+                    "frequency": 109550000,
+                    "mode": 7
+                },
+                "33": {
+                    "bandwidth": 50000,
+                    "frequency": 109600000,
+                    "mode": 7
+                },
+                "34": {
+                    "bandwidth": 50000,
+                    "frequency": 109650000,
+                    "mode": 7
+                },
+                "35": {
+                    "bandwidth": 50000,
+                    "frequency": 109700000,
+                    "mode": 7
+                },
+                "36": {
+                    "bandwidth": 50000,
+                    "frequency": 109750000,
+                    "mode": 7
+                },
+                "37": {
+                    "bandwidth": 50000,
+                    "frequency": 109800000,
+                    "mode": 7
+                },
+                "38": {
+                    "bandwidth": 50000,
+                    "frequency": 109850000,
+                    "mode": 7
+                },
+                "39": {
+                    "bandwidth": 50000,
+                    "frequency": 109900000,
+                    "mode": 7
+                },
+                "4": {
+                    "bandwidth": 50000,
+                    "frequency": 108150000,
+                    "mode": 7
+                },
+                "40": {
+                    "bandwidth": 50000,
+                    "frequency": 109950000,
+                    "mode": 7
+                },
+                "41": {
+                    "bandwidth": 50000,
+                    "frequency": 110000000,
+                    "mode": 7
+                },
+                "42": {
+                    "bandwidth": 50000,
+                    "frequency": 110050000,
+                    "mode": 7
+                },
+                "43": {
+                    "bandwidth": 50000,
+                    "frequency": 110100000,
+                    "mode": 7
+                },
+                "44": {
+                    "bandwidth": 50000,
+                    "frequency": 110150000,
+                    "mode": 7
+                },
+                "45": {
+                    "bandwidth": 50000,
+                    "frequency": 110200000,
+                    "mode": 7
+                },
+                "46": {
+                    "bandwidth": 50000,
+                    "frequency": 110250000,
+                    "mode": 7
+                },
+                "47": {
+                    "bandwidth": 50000,
+                    "frequency": 110300000,
+                    "mode": 7
+                },
+                "48": {
+                    "bandwidth": 50000,
+                    "frequency": 110350000,
+                    "mode": 7
+                },
+                "49": {
+                    "bandwidth": 50000,
+                    "frequency": 110400000,
+                    "mode": 7
+                },
+                "5": {
+                    "bandwidth": 50000,
+                    "frequency": 108200000,
+                    "mode": 7
+                },
+                "50": {
+                    "bandwidth": 50000,
+                    "frequency": 110450000,
+                    "mode": 7
+                },
+                "51": {
+                    "bandwidth": 50000,
+                    "frequency": 110500000,
+                    "mode": 7
+                },
+                "52": {
+                    "bandwidth": 50000,
+                    "frequency": 110550000,
+                    "mode": 7
+                },
+                "53": {
+                    "bandwidth": 50000,
+                    "frequency": 110600000,
+                    "mode": 7
+                },
+                "54": {
+                    "bandwidth": 50000,
+                    "frequency": 110650000,
+                    "mode": 7
+                },
+                "55": {
+                    "bandwidth": 50000,
+                    "frequency": 110700000,
+                    "mode": 7
+                },
+                "56": {
+                    "bandwidth": 50000,
+                    "frequency": 110750000,
+                    "mode": 7
+                },
+                "57": {
+                    "bandwidth": 50000,
+                    "frequency": 110800000,
+                    "mode": 7
+                },
+                "58": {
+                    "bandwidth": 50000,
+                    "frequency": 110850000,
+                    "mode": 7
+                },
+                "59": {
+                    "bandwidth": 50000,
+                    "frequency": 110900000,
+                    "mode": 7
+                },
+                "6": {
+                    "bandwidth": 50000,
+                    "frequency": 108250000,
+                    "mode": 7
+                },
+                "60": {
+                    "bandwidth": 50000,
+                    "frequency": 110950000,
+                    "mode": 7
+                },
+                "61": {
+                    "bandwidth": 50000,
+                    "frequency": 111000000,
+                    "mode": 7
+                },
+                "62": {
+                    "bandwidth": 50000,
+                    "frequency": 111050000,
+                    "mode": 7
+                },
+                "63": {
+                    "bandwidth": 50000,
+                    "frequency": 111100000,
+                    "mode": 7
+                },
+                "64": {
+                    "bandwidth": 50000,
+                    "frequency": 111150000,
+                    "mode": 7
+                },
+                "65": {
+                    "bandwidth": 50000,
+                    "frequency": 111200000,
+                    "mode": 7
+                },
+                "66": {
+                    "bandwidth": 50000,
+                    "frequency": 111250000,
+                    "mode": 7
+                },
+                "67": {
+                    "bandwidth": 50000,
+                    "frequency": 111300000,
+                    "mode": 7
+                },
+                "68": {
+                    "bandwidth": 50000,
+                    "frequency": 111350000,
+                    "mode": 7
+                },
+                "69": {
+                    "bandwidth": 50000,
+                    "frequency": 111400000,
+                    "mode": 7
+                },
+                "7": {
+                    "bandwidth": 50000,
+                    "frequency": 108300000,
+                    "mode": 7
+                },
+                "70": {
+                    "bandwidth": 50000,
+                    "frequency": 111450000,
+                    "mode": 7
+                },
+                "71": {
+                    "bandwidth": 50000,
+                    "frequency": 111500000,
+                    "mode": 7
+                },
+                "72": {
+                    "bandwidth": 50000,
+                    "frequency": 111550000,
+                    "mode": 7
+                },
+                "73": {
+                    "bandwidth": 50000,
+                    "frequency": 111600000,
+                    "mode": 7
+                },
+                "74": {
+                    "bandwidth": 50000,
+                    "frequency": 111650000,
+                    "mode": 7
+                },
+                "75": {
+                    "bandwidth": 50000,
+                    "frequency": 111700000,
+                    "mode": 7
+                },
+                "76": {
+                    "bandwidth": 50000,
+                    "frequency": 111750000,
+                    "mode": 7
+                },
+                "77": {
+                    "bandwidth": 50000,
+                    "frequency": 111800000,
+                    "mode": 7
+                },
+                "78": {
+                    "bandwidth": 50000,
+                    "frequency": 111850000,
+                    "mode": 7
+                },
+                "79": {
+                    "bandwidth": 50000,
+                    "frequency": 111900000,
+                    "mode": 7
+                },
+                "8": {
+                    "bandwidth": 50000,
+                    "frequency": 108350000,
+                    "mode": 7
+                },
+                "80": {
+                    "bandwidth": 50000,
+                    "frequency": 111950000,
+                    "mode": 7
+                },
+                "81": {
+                    "bandwidth": 50000,
+                    "frequency": 112000000,
+                    "mode": 7
+                },
+                "82": {
+                    "bandwidth": 50000,
+                    "frequency": 112050000,
+                    "mode": 7
+                },
+                "83": {
+                    "bandwidth": 50000,
+                    "frequency": 112100000,
+                    "mode": 7
+                },
+                "84": {
+                    "bandwidth": 50000,
+                    "frequency": 112150000,
+                    "mode": 7
+                },
+                "85": {
+                    "bandwidth": 50000,
+                    "frequency": 112200000,
+                    "mode": 7
+                },
+                "86": {
+                    "bandwidth": 50000,
+                    "frequency": 112250000,
+                    "mode": 7
+                },
+                "87": {
+                    "bandwidth": 50000,
+                    "frequency": 112300000,
+                    "mode": 7
+                },
+                "88": {
+                    "bandwidth": 50000,
+                    "frequency": 112350000,
+                    "mode": 7
+                },
+                "89": {
+                    "bandwidth": 50000,
+                    "frequency": 112400000,
+                    "mode": 7
+                },
+                "9": {
+                    "bandwidth": 50000,
+                    "frequency": 108400000,
+                    "mode": 7
+                },
+                "90": {
+                    "bandwidth": 50000,
+                    "frequency": 112450000,
+                    "mode": 7
+                },
+                "91": {
+                    "bandwidth": 50000,
+                    "frequency": 112500000,
+                    "mode": 7
+                },
+                "92": {
+                    "bandwidth": 50000,
+                    "frequency": 112550000,
+                    "mode": 7
+                },
+                "93": {
+                    "bandwidth": 50000,
+                    "frequency": 112600000,
+                    "mode": 7
+                },
+                "94": {
+                    "bandwidth": 50000,
+                    "frequency": 112650000,
+                    "mode": 7
+                },
+                "95": {
+                    "bandwidth": 50000,
+                    "frequency": 112700000,
+                    "mode": 7
+                },
+                "96": {
+                    "bandwidth": 50000,
+                    "frequency": 112750000,
+                    "mode": 7
+                },
+                "97": {
+                    "bandwidth": 50000,
+                    "frequency": 112800000,
+                    "mode": 7
+                },
+                "98": {
+                    "bandwidth": 50000,
+                    "frequency": 112850000,
+                    "mode": 7
+                },
+                "99": {
+                    "bandwidth": 50000,
+                    "frequency": 112900000,
+                    "mode": 7
+                }
+            },
+            "showOnWaterfall": false
         }
     },
-    "selectedList": "Sat - NOAA"
+    "selectedList": "Sat - GPS QZSS"
 }
