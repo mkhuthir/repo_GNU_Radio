@@ -1,36 +1,6 @@
 {
     "bookmarkDisplayMode": 1,
     "lists": {
-        "BC - AM": {
-            "bookmarks": {
-                "Kuwait": {
-                    "bandwidth": 10000,
-                    "frequency": 540000,
-                    "mode": 2
-                },
-                "RAK Radio Asia": {
-                    "bandwidth": 10000,
-                    "frequency": 1476000,
-                    "mode": 2
-                },
-                "RAK Voice of Kerela": {
-                    "bandwidth": 10000,
-                    "frequency": 1152000,
-                    "mode": 2
-                },
-                "SA": {
-                    "bandwidth": 10000,
-                    "frequency": 1440000,
-                    "mode": 2
-                },
-                "UAQ Quran": {
-                    "bandwidth": 10000,
-                    "frequency": 846000,
-                    "mode": 2
-                }
-            },
-            "showOnWaterfall": false
-        },
         "BC - DAB": {
             "bookmarks": {
                 "DAB 10A KSA": {
@@ -505,6 +475,341 @@
                 }
             },
             "showOnWaterfall": false
+        },
+        "BC - MW": {
+            "bookmarks": {
+                "BBC": {
+                    "bandwidth": 10000.0,
+                    "frequency": 1413000.0,
+                    "mode": 2
+                },
+                "Iran": {
+                    "bandwidth": 10000.0,
+                    "frequency": 693000.0,
+                    "mode": 2
+                },
+                "Iran2": {
+                    "bandwidth": 10000.0,
+                    "frequency": 1449000.0,
+                    "mode": 2
+                },
+                "KSA Rafha": {
+                    "bandwidth": 10000.0,
+                    "frequency": 675000.0,
+                    "mode": 2
+                },
+                "Kuwait": {
+                    "bandwidth": 10000.0,
+                    "frequency": 540000.0,
+                    "mode": 2
+                },
+                "Oman": {
+                    "bandwidth": 10000.0,
+                    "frequency": 639000.0,
+                    "mode": 2
+                },
+                "RAK Radio KeralAM": {
+                    "bandwidth": 10000.0,
+                    "frequency": 1476000.0,
+                    "mode": 2
+                },
+                "UAQ Quran": {
+                    "bandwidth": 10000.0,
+                    "frequency": 846000.0,
+                    "mode": 2
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "BC - SW 11MHz": {
+            "bookmarks": {
+                "1": {
+                    "bandwidth": 10000.0,
+                    "frequency": 11610000.0,
+                    "mode": 2
+                },
+                "10": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 12075000.0,
+                    "mode": 2
+                },
+                "11": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 12030000.0,
+                    "mode": 2
+                },
+                "12": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 12065000.0,
+                    "mode": 2
+                },
+                "13": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 12095000.0,
+                    "mode": 2
+                },
+                "14": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 11995000.0,
+                    "mode": 2
+                },
+                "15": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 11924000.0,
+                    "mode": 2
+                },
+                "2": {
+                    "bandwidth": 10000.0,
+                    "frequency": 11655000.0,
+                    "mode": 2
+                },
+                "3": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 11670000.0,
+                    "mode": 2
+                },
+                "4": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 11785000.0,
+                    "mode": 2
+                },
+                "5": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 11560000.0,
+                    "mode": 2
+                },
+                "6": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 11830000.0,
+                    "mode": 2
+                },
+                "7": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 11850000.0,
+                    "mode": 2
+                },
+                "8": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 11870000.0,
+                    "mode": 2
+                },
+                "9": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 11985000.0,
+                    "mode": 2
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "BC - SW 13MHz": {
+            "bookmarks": {
+                "1": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 13590000.0,
+                    "mode": 2
+                },
+                "2": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 13750000.0,
+                    "mode": 2
+                },
+                "3": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 13830000.0,
+                    "mode": 2
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "BC - SW 15MHz": {
+            "bookmarks": {
+                "1": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 15125000.0,
+                    "mode": 2
+                },
+                "2": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 15310000.0,
+                    "mode": 2
+                },
+                "3": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 15460000.0,
+                    "mode": 2
+                },
+                "4": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 15360000.0,
+                    "mode": 2
+                },
+                "5": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 15550000.0,
+                    "mode": 2
+                },
+                "6": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 15260000.0,
+                    "mode": 2
+                },
+                "7": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 15565000.0,
+                    "mode": 2
+                },
+                "8": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 15160000.0,
+                    "mode": 2
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "BC - SW 17MHz": {
+            "bookmarks": {
+                "1": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 17555000.0,
+                    "mode": 2
+                },
+                "2": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 17670000.0,
+                    "mode": 2
+                },
+                "3": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 17715000.0,
+                    "mode": 2
+                },
+                "4": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 17880000.0,
+                    "mode": 2
+                },
+                "5": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 17755000.0,
+                    "mode": 2
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "BC - SW 21MHz": {
+            "bookmarks": {
+                "1": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 21580000.0,
+                    "mode": 2
+                },
+                "2": {
+                    "bandwidth": 10924.1591796875,
+                    "frequency": 21630000.0,
+                    "mode": 2
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "BC - SW 7MHz": {
+            "bookmarks": {
+                "Africa": {
+                    "bandwidth": 10000.0,
+                    "frequency": 7495000.0,
+                    "mode": 2
+                },
+                "China": {
+                    "bandwidth": 10000.0,
+                    "frequency": 7425000.0,
+                    "mode": 2
+                },
+                "China Eng.": {
+                    "bandwidth": 10000.0,
+                    "frequency": 7410000.0,
+                    "mode": 2
+                },
+                "China Music": {
+                    "bandwidth": 10000.0,
+                    "frequency": 7385000.0,
+                    "mode": 2
+                },
+                "China1": {
+                    "bandwidth": 10000.0,
+                    "frequency": 7310000.0,
+                    "mode": 2
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "BC - SW 9Mhz": {
+            "bookmarks": {
+                "1": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9356000.0,
+                    "mode": 2
+                },
+                "10": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9740000.0,
+                    "mode": 2
+                },
+                "11": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9710000.0,
+                    "mode": 2
+                },
+                "12": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9890000.0,
+                    "mode": 2
+                },
+                "13": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9960000.0,
+                    "mode": 2
+                },
+                "2": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9385000.0,
+                    "mode": 2
+                },
+                "3": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9490000.0,
+                    "mode": 2
+                },
+                "4": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9500000.0,
+                    "mode": 2
+                },
+                "5": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9515000.0,
+                    "mode": 2
+                },
+                "6": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9370000.0,
+                    "mode": 2
+                },
+                "7": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9540000.0,
+                    "mode": 2
+                },
+                "8": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9525000.0,
+                    "mode": 2
+                },
+                "9": {
+                    "bandwidth": 10000.0,
+                    "frequency": 9620000.0,
+                    "mode": 2
+                }
+            },
+            "showOnWaterfall": true
         },
         "Data - ACARS": {
             "bookmarks": {},
@@ -8953,5 +9258,5 @@
             "showOnWaterfall": true
         }
     },
-    "selectedList": "Video - RC VTX"
+    "selectedList": "Sat - NOAA"
 }
